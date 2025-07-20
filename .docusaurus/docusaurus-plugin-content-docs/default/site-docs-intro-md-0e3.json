@@ -1,0 +1,36 @@
+{
+  "id": "intro",
+  "title": "Welcome to PasskeyMe",
+  "description": "Get started with PasskeyMe - the simplest way to add passkey authentication to your applications",
+  "source": "@site/docs/intro.md",
+  "sourceDirName": ".",
+  "slug": "/",
+  "permalink": "/docs/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/intro.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "intro",
+    "title": "Welcome to PasskeyMe",
+    "description": "Get started with PasskeyMe - the simplest way to add passkey authentication to your applications",
+    "keywords": [
+      "passkeyme",
+      "passkeys",
+      "webauthn",
+      "authentication",
+      "introduction"
+    ],
+    "slug": "/"
+  },
+  "sidebar": "tutorialSidebar",
+  "next": {
+    "title": "Why Passkeys?",
+    "permalink": "/docs/why-passkeys"
+  }
+}

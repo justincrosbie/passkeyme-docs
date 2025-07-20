@@ -1,0 +1,18 @@
+{
+  "id": "SDKs/sdk-intro",
+  "title": "sdk-intro",
+  "description": "",
+  "source": "@site/docs/5 - SDKs/0 - sdk-intro.md",
+  "sourceDirName": "5 - SDKs",
+  "slug": "/SDKs/sdk-intro",
+  "permalink": "/docs/SDKs/sdk-intro",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/5 - SDKs/0 - sdk-intro.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "sidebarPosition": 0,
+  "frontMatter": {}
+}

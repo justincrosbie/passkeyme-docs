@@ -1,0 +1,31 @@
+{
+  "id": "sdks/overview",
+  "title": "SDK Overview",
+  "description": "Choose the right PasskeyMe SDK for your application",
+  "source": "@site/docs/sdks/overview.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/overview",
+  "permalink": "/docs/sdks/overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/overview.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {
+    "id": "overview",
+    "title": "SDK Overview",
+    "sidebar_label": "Overview",
+    "description": "Choose the right PasskeyMe SDK for your application"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concepts",
+    "permalink": "/docs/getting-started/concepts"
+  },
+  "next": {
+    "title": "JavaScript/TypeScript",
+    "permalink": "/docs/sdks/javascript"
+  }
+}

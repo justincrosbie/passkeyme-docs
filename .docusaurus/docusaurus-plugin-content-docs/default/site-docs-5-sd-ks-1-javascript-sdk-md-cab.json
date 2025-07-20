@@ -1,0 +1,18 @@
+{
+  "id": "SDKs/javascript-sdk",
+  "title": "javascript-sdk",
+  "description": "",
+  "source": "@site/docs/5 - SDKs/1 - javascript-sdk.md",
+  "sourceDirName": "5 - SDKs",
+  "slug": "/SDKs/javascript-sdk",
+  "permalink": "/docs/SDKs/javascript-sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/5 - SDKs/1 - javascript-sdk.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "sidebarPosition": 1,
+  "frontMatter": {}
+}

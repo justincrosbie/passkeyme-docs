@@ -1,0 +1,26 @@
+{
+  "id": "configuration/authentication-methods",
+  "title": "authentication-methods",
+  "description": "",
+  "source": "@site/docs/configuration/authentication-methods.md",
+  "sourceDirName": "configuration",
+  "slug": "/configuration/authentication-methods",
+  "permalink": "/docs/configuration/authentication-methods",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/configuration/authentication-methods.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "react",
+    "permalink": "/docs/sdks/react"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/api/authentication"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "permalink": "/blog/introduction-to-passkeyme",
+  "source": "@site/blog/2024-06-08-introduction-to-passkeyme.md",
+  "title": "Introduction to Passkeyme",
+  "description": "What is Passkeyme?",
+  "date": "2024-06-08T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "introduction",
+      "permalink": "/blog/tags/introduction"
+    },
+    {
+      "inline": true,
+      "label": "passkeyme",
+      "permalink": "/blog/tags/passkeyme"
+    },
+    {
+      "inline": true,
+      "label": "saas",
+      "permalink": "/blog/tags/saas"
+    }
+  ],
+  "readingTime": 0.51,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "introduction-to-passkeyme",
+    "title": "Introduction to Passkeyme",
+    "tags": [
+      "introduction",
+      "passkeyme",
+      "saas"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Why Passkeys Are Important and the Problems They Solve",
+    "permalink": "/blog/why-passkeys-are-important"
+  }
+}

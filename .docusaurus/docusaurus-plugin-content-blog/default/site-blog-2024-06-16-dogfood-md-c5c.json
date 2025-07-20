@@ -1,0 +1,51 @@
+{
+  "permalink": "/blog/dogfood",
+  "source": "@site/blog/2024-06-16-dogfood.md",
+  "title": "Mmmmmmm, Dogfood!!",
+  "description": "Passkeyme.com supports Passkeys!",
+  "date": "2024-06-16T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "introduction",
+      "permalink": "/blog/tags/introduction"
+    },
+    {
+      "inline": true,
+      "label": "passkeyme",
+      "permalink": "/blog/tags/passkeyme"
+    },
+    {
+      "inline": true,
+      "label": "saas",
+      "permalink": "/blog/tags/saas"
+    },
+    {
+      "inline": true,
+      "label": "dogfood",
+      "permalink": "/blog/tags/dogfood"
+    }
+  ],
+  "readingTime": 3.21,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "dogfood",
+    "title": "Mmmmmmm, Dogfood!!",
+    "tags": [
+      "introduction",
+      "passkeyme",
+      "saas",
+      "dogfood"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Passkeyme supports Discoverable Credentials!!",
+    "permalink": "/blog/discoverable"
+  },
+  "nextItem": {
+    "title": "Usage Charts",
+    "permalink": "/blog/usage-charts"
+  }
+}

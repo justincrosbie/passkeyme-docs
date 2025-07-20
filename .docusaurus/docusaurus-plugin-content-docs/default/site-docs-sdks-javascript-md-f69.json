@@ -1,0 +1,31 @@
+{
+  "id": "sdks/javascript",
+  "title": "JavaScript/TypeScript SDK",
+  "description": "Complete guide to the @passkeyme/auth SDK for JavaScript and TypeScript applications",
+  "source": "@site/docs/sdks/javascript.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/javascript",
+  "permalink": "/docs/sdks/javascript",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/javascript.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {
+    "id": "javascript",
+    "title": "JavaScript/TypeScript SDK",
+    "sidebar_label": "JavaScript/TypeScript",
+    "description": "Complete guide to the @passkeyme/auth SDK for JavaScript and TypeScript applications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/overview"
+  },
+  "next": {
+    "title": "react",
+    "permalink": "/docs/sdks/react"
+  }
+}

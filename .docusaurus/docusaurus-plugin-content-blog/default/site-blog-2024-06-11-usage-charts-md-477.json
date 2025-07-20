@@ -1,0 +1,63 @@
+{
+  "permalink": "/blog/usage-charts",
+  "source": "@site/blog/2024-06-11-usage-charts.md",
+  "title": "Usage Charts",
+  "description": "Usage Charts added!",
+  "date": "2024-06-11T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "introduction",
+      "permalink": "/blog/tags/introduction"
+    },
+    {
+      "inline": true,
+      "label": "passkeyme",
+      "permalink": "/blog/tags/passkeyme"
+    },
+    {
+      "inline": true,
+      "label": "saas",
+      "permalink": "/blog/tags/saas"
+    },
+    {
+      "inline": true,
+      "label": "analytics",
+      "permalink": "/blog/tags/analytics"
+    },
+    {
+      "inline": true,
+      "label": "charts",
+      "permalink": "/blog/tags/charts"
+    },
+    {
+      "inline": true,
+      "label": "usage",
+      "permalink": "/blog/tags/usage"
+    }
+  ],
+  "readingTime": 0.35,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "usage-charts",
+    "title": "Usage Charts",
+    "tags": [
+      "introduction",
+      "passkeyme",
+      "saas",
+      "analytics",
+      "charts",
+      "usage"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Mmmmmmm, Dogfood!!",
+    "permalink": "/blog/dogfood"
+  },
+  "nextItem": {
+    "title": "Why Passkeys Are Important and the Problems They Solve",
+    "permalink": "/blog/why-passkeys-are-important"
+  }
+}

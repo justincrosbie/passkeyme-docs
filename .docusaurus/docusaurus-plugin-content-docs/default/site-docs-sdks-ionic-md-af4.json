@@ -1,0 +1,17 @@
+{
+  "id": "sdks/ionic",
+  "title": "ionic",
+  "description": "",
+  "source": "@site/docs/sdks/ionic.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/ionic",
+  "permalink": "/docs/sdks/ionic",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ionic.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {}
+}

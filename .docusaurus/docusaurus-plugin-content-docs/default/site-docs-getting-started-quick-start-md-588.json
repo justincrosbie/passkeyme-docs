@@ -1,0 +1,31 @@
+{
+  "id": "getting-started/quick-start",
+  "title": "Quick Start Guide",
+  "description": "Get up and running with PasskeyMe in minutes",
+  "source": "@site/docs/getting-started/quick-start.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/quick-start",
+  "permalink": "/docs/getting-started/quick-start",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/quick-start.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {
+    "id": "quick-start",
+    "title": "Quick Start Guide",
+    "sidebar_label": "Quick Start",
+    "description": "Get up and running with PasskeyMe in minutes"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Why Passkeys?",
+    "permalink": "/docs/why-passkeys"
+  },
+  "next": {
+    "title": "installation",
+    "permalink": "/docs/getting-started/installation"
+  }
+}

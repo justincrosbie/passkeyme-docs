@@ -1,0 +1,17 @@
+{
+  "id": "getting-started/setup",
+  "title": "setup",
+  "description": "",
+  "source": "@site/docs/getting-started/setup.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/setup",
+  "permalink": "/docs/getting-started/setup",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/setup.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {}
+}

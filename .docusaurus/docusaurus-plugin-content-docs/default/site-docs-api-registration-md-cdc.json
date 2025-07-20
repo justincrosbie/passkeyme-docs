@@ -1,0 +1,17 @@
+{
+  "id": "api/registration",
+  "title": "registration",
+  "description": "",
+  "source": "@site/docs/api/registration.md",
+  "sourceDirName": "api",
+  "slug": "/api/registration",
+  "permalink": "/docs/api/registration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/api/registration.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {}
+}

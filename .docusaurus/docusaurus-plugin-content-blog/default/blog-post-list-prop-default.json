@@ -1,0 +1,41 @@
+{
+  "title": "All posts",
+  "items": [
+    {
+      "title": "Introducing PasskeyMe's New JavaScript and React SDKs - Firebase Auth for the Passkey Era",
+      "permalink": "/blog/new-javascript-react-sdks",
+      "unlisted": false,
+      "date": "2025-06-15T00:00:00.000Z"
+    },
+    {
+      "title": "Passkeyme supports Discoverable Credentials!!",
+      "permalink": "/blog/discoverable",
+      "unlisted": false,
+      "date": "2024-06-19T00:00:00.000Z"
+    },
+    {
+      "title": "Mmmmmmm, Dogfood!!",
+      "permalink": "/blog/dogfood",
+      "unlisted": false,
+      "date": "2024-06-16T00:00:00.000Z"
+    },
+    {
+      "title": "Usage Charts",
+      "permalink": "/blog/usage-charts",
+      "unlisted": false,
+      "date": "2024-06-11T00:00:00.000Z"
+    },
+    {
+      "title": "Why Passkeys Are Important and the Problems They Solve",
+      "permalink": "/blog/why-passkeys-are-important",
+      "unlisted": false,
+      "date": "2024-06-09T00:00:00.000Z"
+    },
+    {
+      "title": "Introduction to Passkeyme",
+      "permalink": "/blog/introduction-to-passkeyme",
+      "unlisted": false,
+      "date": "2024-06-08T00:00:00.000Z"
+    }
+  ]
+}

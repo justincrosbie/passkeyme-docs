@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/new-javascript-react-sdks",
+  "source": "@site/blog/2025-06-15-new-javascript-react-sdks.md",
+  "title": "Introducing PasskeyMe's New JavaScript and React SDKs - Firebase Auth for the Passkey Era",
+  "description": "We're excited to announce the launch of PasskeyMe's completely redesigned JavaScript and React SDKs! These new SDKs bring a Firebase Auth-like developer experience to passkey authentication using hosted authentication pages, making it easier than ever to integrate secure, passwordless authentication into your web applications.",
+  "date": "2025-06-15T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "sdk",
+      "permalink": "/blog/tags/sdk"
+    },
+    {
+      "inline": true,
+      "label": "javascript",
+      "permalink": "/blog/tags/javascript"
+    },
+    {
+      "inline": true,
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "inline": true,
+      "label": "typescript",
+      "permalink": "/blog/tags/typescript"
+    },
+    {
+      "inline": true,
+      "label": "firebase-auth",
+      "permalink": "/blog/tags/firebase-auth"
+    },
+    {
+      "inline": true,
+      "label": "announcement",
+      "permalink": "/blog/tags/announcement"
+    },
+    {
+      "inline": true,
+      "label": "developer-experience",
+      "permalink": "/blog/tags/developer-experience"
+    }
+  ],
+  "readingTime": 7.79,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "new-javascript-react-sdks",
+    "title": "Introducing PasskeyMe's New JavaScript and React SDKs - Firebase Auth for the Passkey Era",
+    "tags": [
+      "sdk",
+      "javascript",
+      "react",
+      "typescript",
+      "firebase-auth",
+      "announcement",
+      "developer-experience"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Passkeyme supports Discoverable Credentials!!",
+    "permalink": "/blog/discoverable"
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "permalink": "/blog/why-passkeys-are-important",
+  "source": "@site/blog/2024-06-09-why-passkeys-are-important.md",
+  "title": "Why Passkeys Are Important and the Problems They Solve",
+  "description": "Why Passkeys Are Important and the Problems They Solve",
+  "date": "2024-06-09T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "passkeys",
+      "permalink": "/blog/tags/passkeys"
+    },
+    {
+      "inline": true,
+      "label": "security",
+      "permalink": "/blog/tags/security"
+    },
+    {
+      "inline": true,
+      "label": "authentication",
+      "permalink": "/blog/tags/authentication"
+    }
+  ],
+  "readingTime": 2.72,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "why-passkeys-are-important",
+    "title": "Why Passkeys Are Important and the Problems They Solve",
+    "tags": [
+      "passkeys",
+      "security",
+      "authentication"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Usage Charts",
+    "permalink": "/blog/usage-charts"
+  },
+  "nextItem": {
+    "title": "Introduction to Passkeyme",
+    "permalink": "/blog/introduction-to-passkeyme"
+  }
+}

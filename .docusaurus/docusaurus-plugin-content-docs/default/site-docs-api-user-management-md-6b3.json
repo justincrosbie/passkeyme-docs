@@ -1,0 +1,17 @@
+{
+  "id": "api/user-management",
+  "title": "user-management",
+  "description": "",
+  "source": "@site/docs/api/user-management.md",
+  "sourceDirName": "api",
+  "slug": "/api/user-management",
+  "permalink": "/docs/api/user-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/api/user-management.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {}
+}

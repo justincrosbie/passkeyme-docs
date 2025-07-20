@@ -1,0 +1,26 @@
+{
+  "id": "sdks/react",
+  "title": "react",
+  "description": "",
+  "source": "@site/docs/sdks/react.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/react",
+  "permalink": "/docs/sdks/react",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/react.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript/TypeScript",
+    "permalink": "/docs/sdks/javascript"
+  },
+  "next": {
+    "title": "authentication-methods",
+    "permalink": "/docs/configuration/authentication-methods"
+  }
+}

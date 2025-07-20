@@ -1,0 +1,18 @@
+{
+  "id": "SDKs/react-sdk",
+  "title": "react-sdk",
+  "description": "",
+  "source": "@site/docs/5 - SDKs/5 - react-sdk.md",
+  "sourceDirName": "5 - SDKs",
+  "slug": "/SDKs/react-sdk",
+  "permalink": "/docs/SDKs/react-sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/5 - SDKs/5 - react-sdk.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "sidebarPosition": 5,
+  "frontMatter": {}
+}

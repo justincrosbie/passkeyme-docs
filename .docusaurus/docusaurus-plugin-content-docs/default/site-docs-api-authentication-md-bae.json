@@ -1,0 +1,31 @@
+{
+  "id": "api/authentication",
+  "title": "Authentication API",
+  "description": "Direct HTTP API for PasskeyMe authentication services",
+  "source": "@site/docs/api/authentication.md",
+  "sourceDirName": "api",
+  "slug": "/api/authentication",
+  "permalink": "/docs/api/authentication",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/api/authentication.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {
+    "id": "authentication",
+    "title": "Authentication API",
+    "sidebar_label": "Authentication",
+    "description": "Direct HTTP API for PasskeyMe authentication services"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "authentication-methods",
+    "permalink": "/docs/configuration/authentication-methods"
+  },
+  "next": {
+    "title": "Common Issues",
+    "permalink": "/docs/troubleshooting/common-issues"
+  }
+}

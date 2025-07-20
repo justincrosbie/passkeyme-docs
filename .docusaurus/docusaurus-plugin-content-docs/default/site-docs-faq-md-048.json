@@ -1,0 +1,21 @@
+{
+  "id": "faq",
+  "title": "Frequently Asked Questions",
+  "description": "Welcome to the FAQ page! Here you will find answers to the most commonly asked questions about Passkeyme.",
+  "source": "@site/docs/faq.md",
+  "sourceDirName": ".",
+  "slug": "/faq",
+  "permalink": "/docs/faq",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/faq.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {
+    "id": "faq",
+    "title": "Frequently Asked Questions",
+    "sidebar_label": "FAQ"
+  }
+}

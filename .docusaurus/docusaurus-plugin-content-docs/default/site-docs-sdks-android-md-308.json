@@ -1,0 +1,17 @@
+{
+  "id": "sdks/android",
+  "title": "android",
+  "description": "",
+  "source": "@site/docs/sdks/android.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/android",
+  "permalink": "/docs/sdks/android",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/android.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1753001158000,
+  "frontMatter": {}
+}

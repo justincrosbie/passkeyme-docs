@@ -1,0 +1,63 @@
+{
+  "permalink": "/blog/discoverable",
+  "source": "@site/blog/2024-06-19-discoverable.md",
+  "title": "Passkeyme supports Discoverable Credentials!!",
+  "description": "Passkeyme now supports Discoverable Credentials! This new feature takes user authentication to the next level, providing a more seamless and secure experience for your users. 🚀",
+  "date": "2024-06-19T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "introduction",
+      "permalink": "/blog/tags/introduction"
+    },
+    {
+      "inline": true,
+      "label": "passkeyme",
+      "permalink": "/blog/tags/passkeyme"
+    },
+    {
+      "inline": true,
+      "label": "saas",
+      "permalink": "/blog/tags/saas"
+    },
+    {
+      "inline": true,
+      "label": "resident key",
+      "permalink": "/blog/tags/resident-key"
+    },
+    {
+      "inline": true,
+      "label": "synchronised",
+      "permalink": "/blog/tags/synchronised"
+    },
+    {
+      "inline": true,
+      "label": "discoverable",
+      "permalink": "/blog/tags/discoverable"
+    }
+  ],
+  "readingTime": 2.54,
+  "hasTruncateMarker": false,
+  "authors": [],
+  "frontMatter": {
+    "slug": "discoverable",
+    "title": "Passkeyme supports Discoverable Credentials!!",
+    "tags": [
+      "introduction",
+      "passkeyme",
+      "saas",
+      "resident key",
+      "synchronised",
+      "discoverable"
+    ]
+  },
+  "unlisted": false,
+  "prevItem": {
+    "title": "Introducing PasskeyMe's New JavaScript and React SDKs - Firebase Auth for the Passkey Era",
+    "permalink": "/blog/new-javascript-react-sdks"
+  },
+  "nextItem": {
+    "title": "Mmmmmmm, Dogfood!!",
+    "permalink": "/blog/dogfood"
+  }
+}
