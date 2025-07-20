@@ -41,9 +41,9 @@ Passkeys are stored on the cloud service of the user's device - for Apple, its t
 ### How do I integrate Passkeyme into my application?
 
 To integrate Passkeyme into your application, you need to use our SDKs and APIs. Detailed documentation for each SDK is available:
-- [JavaScript SDK](../sdks/javascript)
-- [iOS SDK](../sdks/ios)
-- [Android SDK](../sdks/android)
+- [JavaScript SDK](./sdks/javascript)
+- [iOS SDK](./sdks/ios)
+- [Android SDK](./sdks/android)
 
 ### What is the registration flow for Passkeyme?
 
