@@ -11,30 +11,59 @@ Understanding these fundamental concepts will help you make the most of PasskeyM
 
 ## Authentication Architecture
 
-### Hosted Authentication Pages
+### Inline Components vs Hosted Pages
 
-PasskeyMe uses **hosted authentication pages** as the primary authentication method. This approach provides:
+PasskeyMe offers **two primary integration approaches** to fit different application needs:
 
-- **Centralized branding** across all your applications
-- **Enhanced security** with server-side OAuth handling
-- **Zero maintenance** for authentication UI
+#### Inline Components (Recommended for React)
+- **`PasskeymeAuthPanel`** React component for embedded authentication
+- **Complete control** over user experience and styling
+- **Event-driven** authentication with `onSuccess`, `onError` callbacks
+- **Customizable theming** and layout options
+- **No redirects** - authentication happens within your app
+
+#### Hosted Authentication Pages
+- **Redirect-based** authentication for non-React frameworks
+- **Zero UI maintenance** - we handle the interface
 - **Automatic updates** for new features and security patches
+- **Cross-application** consistent branding
+
+### Choosing Your Approach
+
+| Requirement | Inline Components | Hosted Pages |
+|-------------|------------------|--------------|
+| **React Application** | ✅ Recommended | ⚠️ Alternative |
+| **Custom Styling** | ✅ Full control | ⚠️ Limited theming |
+| **No Redirects** | ✅ Embedded auth | ❌ Redirect required |
+| **Rapid Integration** | ⚠️ Some setup | ✅ Minimal code |
+| **Non-React Framework** | ❌ Not available | ✅ JavaScript SDK |
 
 ```mermaid
 graph TB
-    A[Your Application] --> B[PasskeyMe Hosted Auth]
-    B --> C{Authentication Method}
-    C --> D[Passkeys]
-    C --> E[OAuth Providers]
-    C --> F[Username/Password]
-    D --> G[Return with JWT]
-    E --> G
-    F --> G
-    G --> A
+    A[Your Application] --> B{Integration Type}
+    B --> C[Inline Components<br/>PasskeymeAuthPanel]
+    B --> D[Hosted Pages<br/>Redirect Flow]
+    C --> E{Authentication Method}
+    D --> E
+    E --> F[Passkeys]
+    E --> G[OAuth Providers]
+    E --> H[Username/Password]
+    F --> I[Authentication Events]
+    G --> I
+    H --> I
+    I --> A
 ```
 
 ### Authentication Flow
 
+#### Inline Components Flow
+1. **Component render**: `<PasskeymeAuthPanel />` renders in your app
+2. **User interaction**: User selects authentication method
+3. **Authentication**: User completes authentication within component
+4. **Event callback**: `onSuccess(user)` called with authenticated user
+5. **Session**: Your app handles authenticated user state
+
+#### Hosted Pages Flow  
 1. **Initiation**: User clicks login in your app
 2. **Redirect**: User is redirected to PasskeyMe hosted page
 3. **Authentication**: User completes authentication using their preferred method

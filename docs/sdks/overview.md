@@ -7,43 +7,93 @@ description: Choose the right PasskeyMe SDK for your application
 
 # 🛠️ SDK Overview
 
-PasskeyMe provides modern, framework-specific SDKs that make authentication integration simple and secure. All SDKs are built around **hosted authentication pages** for the best developer and user experience.
+PasskeyMe provides modern, framework-specific SDKs with **inline authentication components** for React and hosted authentication pages for other frameworks. Choose the approach that best fits your application.
 
-## 🎯 Hosted Authentication Approach
+## 🎯 Two Integration Approaches
 
-Our SDKs redirect users to PasskeyMe's hosted authentication pages, similar to how OAuth providers work. This approach provides:
+### Inline Components (React)
+Embed authentication directly in your React application with the `PasskeymeAuthPanel` component:
+- **🎨 Complete UI control** - Full customization of styling and layout
+- **⚡ No redirects** - Authentication happens within your app
+- **� Event-driven** - Handle success/error with callbacks
+- **� Responsive** - Adapts to your application's design
 
-- **🎨 Centralized branding** - Your logo and styling across all apps
-- **🔒 Enhanced security** - OAuth secrets never exposed to clients
+### Hosted Authentication Pages (All Frameworks)
+Redirect users to PasskeyMe's hosted authentication pages:
 - **🚀 Zero maintenance** - We handle UI updates and security patches
-- **📱 Mobile optimized** - Perfect experience on all devices
+- **� Enhanced security** - OAuth secrets never exposed to clients
 - **🌍 Multi-language support** - Localized authentication pages
+- **📱 Mobile optimized** - Perfect experience on all devices
 
 ```mermaid
-graph LR
-    A[Your App] --> B[PasskeyMe Hosted Auth]
-    B --> C[User Authenticates]
-    C --> D[Redirect with JWT]
-    D --> A
+graph TB
+    A[Your Application] --> B{Framework Type}
+    B --> C[React Application]
+    B --> D[Other Framework]
+    C --> E[PasskeymeAuthPanel<br/>Inline Component]
+    D --> F[Hosted Auth Pages<br/>Redirect Flow]
+    E --> G[User Authenticates]
+    F --> G
+    G --> H[Authentication Events]
+    H --> A
 ```
 
 ## 📚 Available SDKs
 
+### ⚛️ React SDK (Recommended for React)
+
+**`@passkeyme/react-auth`** - Inline authentication components
+
+```bash
+npm install @passkeyme/react-auth
+```
+
+**Perfect for:**
+- React applications (Create React App, Vite)
+- Next.js (App Router and Pages Router)  
+- React-based frameworks
+- Applications requiring custom auth UI
+
+**Key features:**
+- `PasskeymeAuthPanel` component for inline authentication
+- Customizable theming and styling
+- Event-driven authentication (onSuccess, onError)
+- TypeScript support with full type definitions
+- No redirects required
+
+**Quick example:**
+```tsx
+import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
+
+function LoginPage() {
+  return (
+    <PasskeymeAuthPanel
+      appId="your-app-id"
+      onSuccess={(user) => handleLogin(user)}
+      theme={{ container: { backgroundColor: '#ffffff' } }}
+      layout="vertical"
+    />
+  );
+}
+```
+
+[→ React SDK Documentation](/docs/sdks/react)
+
 ### 🟨 JavaScript/TypeScript SDK
 
-**`@passkeyme/auth`** - Core SDK for all JavaScript applications
-
+**`@passkeyme/auth`** - Core SDK for non-React applications
 ```bash
 npm install @passkeyme/auth
 ```
 
 **Perfect for:**
-- Vanilla JavaScript/TypeScript projects
 - Vue.js, Angular, Svelte applications
-- Next.js, Vite, Webpack projects
-- Any modern web framework
+- Vanilla JavaScript/TypeScript projects  
+- Any non-React web framework
+- Server-side applications
 
 **Key features:**
+- Hosted authentication pages (redirect-based)
 - Framework-agnostic design
 - TypeScript support with full type definitions
 - Automatic token management and refresh
@@ -63,44 +113,6 @@ auth.redirectToLogin();
 ```
 
 [→ JavaScript SDK Documentation](/docs/sdks/javascript)
-
-### ⚛️ React SDK
-
-**`@passkeyme/react-auth`** - React hooks and components
-
-```bash
-npm install @passkeyme/react-auth @passkeyme/auth
-```
-
-**Perfect for:**
-- React applications (Create React App, Vite)
-- Next.js (App Router and Pages Router)
-- React Native web applications
-- Any React-based framework
-
-**Key features:**
-- `usePasskeyme` hook for authentication state
-- Provider component for app-wide auth context
-- React Suspense support
-- SSR/SSG compatibility
-- TypeScript support
-
-**Quick example:**
-```tsx
-import { usePasskeyme } from '@passkeyme/react-auth';
-
-function LoginButton() {
-  const { redirectToLogin, isAuthenticated, user } = usePasskeyme();
-  
-  return isAuthenticated ? (
-    <div>Welcome, {user.email}!</div>
-  ) : (
-    <button onClick={redirectToLogin}>Sign In</button>
-  );
-}
-```
-
-[→ React SDK Documentation](/docs/sdks/react)
 
 ### 📱 Mobile SDKs (Coming Soon)
 
@@ -131,31 +143,36 @@ All SDKs follow the same secure authentication pattern:
 
 ## 🚀 Choose Your SDK
 
-### For JavaScript/TypeScript Projects
+### For React Applications (Recommended)
+
+```tsx
+// React with inline authentication component
+import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
+
+function App() {
+  return (
+    <PasskeymeAuthPanel
+      appId="your-app-id"
+      onSuccess={(user) => handleLogin(user)}
+    />
+  );
+}
+```
+
+### For Other Frameworks
 
 ```typescript
-// All frameworks (Vue, Angular, Svelte, etc.)
+// All other frameworks (Vue, Angular, Svelte, etc.)
 import { PasskeymeAuth } from '@passkeyme/auth';
 
 const auth = new PasskeymeAuth({
   appId: 'your-app-id',
   redirectUri: window.location.origin + '/auth/callback'
 });
+
+// Redirect to hosted auth
+auth.redirectToLogin();
 ```
-
-### For React Projects
-
-```tsx
-// React-specific hooks and components
-import { PasskeymeProvider, usePasskeyme } from '@passkeyme/react-auth';
-
-function App() {
-  return (
-    <PasskeymeProvider config={{ appId: 'your-app-id' }}>
-      <YourApp />
-    </PasskeymeProvider>
-  );
-}
 ```
 
 ### For Mobile Projects

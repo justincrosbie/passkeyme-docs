@@ -1,7 +1,7 @@
 {
   "id": "sdks/ios",
-  "title": "ios",
-  "description": "",
+  "title": "iOS SDK",
+  "description": "The Passkeyme iOS SDK is currently under development.",
   "source": "@site/docs/sdks/ios.md",
   "sourceDirName": "sdks",
   "slug": "/sdks/ios",
@@ -12,6 +12,10 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
-  "lastUpdatedAt": 1753001158000,
-  "frontMatter": {}
+  "lastUpdatedAt": 1753005644000,
+  "frontMatter": {
+    "id": "ios",
+    "title": "iOS SDK",
+    "sidebar_label": "iOS"
+  }
 }

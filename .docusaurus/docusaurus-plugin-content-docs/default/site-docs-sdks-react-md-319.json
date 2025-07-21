@@ -1,7 +1,7 @@
 {
   "id": "sdks/react",
-  "title": "react",
-  "description": "",
+  "title": "React SDK",
+  "description": "Add authentication to React applications with PasskeymeAuthPanel component",
   "source": "@site/docs/sdks/react.md",
   "sourceDirName": "sdks",
   "slug": "/sdks/react",
@@ -13,7 +13,12 @@
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
   "lastUpdatedAt": 1753001158000,
-  "frontMatter": {},
+  "frontMatter": {
+    "id": "react",
+    "title": "React SDK",
+    "sidebar_label": "React SDK",
+    "description": "Add authentication to React applications with PasskeymeAuthPanel component"
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "JavaScript/TypeScript",

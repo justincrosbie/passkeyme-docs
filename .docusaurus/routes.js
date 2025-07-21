@@ -154,15 +154,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '358'),
+    component: ComponentCreator('/docs', 'd46'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', 'ff0'),
+        component: ComponentCreator('/docs', '3b8'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '422'),
+            component: ComponentCreator('/docs', '3ca'),
             routes: [
               {
                 path: '/docs/',
@@ -199,7 +199,7 @@ export default [
               },
               {
                 path: '/docs/faq',
-                component: ComponentCreator('/docs/faq', '22e'),
+                component: ComponentCreator('/docs/faq', 'a89'),
                 exact: true
               },
               {
@@ -232,7 +232,7 @@ export default [
               },
               {
                 path: '/docs/sdks/android',
-                component: ComponentCreator('/docs/sdks/android', '414'),
+                component: ComponentCreator('/docs/sdks/android', '727'),
                 exact: true
               },
               {
@@ -242,7 +242,7 @@ export default [
               },
               {
                 path: '/docs/sdks/ios',
-                component: ComponentCreator('/docs/sdks/ios', '094'),
+                component: ComponentCreator('/docs/sdks/ios', '74f'),
                 exact: true
               },
               {

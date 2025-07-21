@@ -1,7 +1,7 @@
 {
   "id": "sdks/android",
-  "title": "android",
-  "description": "",
+  "title": "Android SDK",
+  "description": "The Passkeyme Android SDK is currently under development.",
   "source": "@site/docs/sdks/android.md",
   "sourceDirName": "sdks",
   "slug": "/sdks/android",
@@ -12,6 +12,10 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
-  "lastUpdatedAt": 1753001158000,
-  "frontMatter": {}
+  "lastUpdatedAt": 1753005644000,
+  "frontMatter": {
+    "id": "android",
+    "title": "Android SDK",
+    "sidebar_label": "Android"
+  }
 }

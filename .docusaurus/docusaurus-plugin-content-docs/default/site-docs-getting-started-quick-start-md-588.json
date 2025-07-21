@@ -1,7 +1,7 @@
 {
   "id": "getting-started/quick-start",
-  "title": "Quick Start Guide",
-  "description": "Get up and running with PasskeyMe in minutes",
+  "title": "🚀 Quick Start Guide",
+  "description": "Get PasskeyMe integrated into your React application in under 10 minutes with our inline authentication components.",
   "source": "@site/docs/getting-started/quick-start.md",
   "sourceDirName": "getting-started",
   "slug": "/getting-started/quick-start",
@@ -13,12 +13,7 @@
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
   "lastUpdatedAt": 1753001158000,
-  "frontMatter": {
-    "id": "quick-start",
-    "title": "Quick Start Guide",
-    "sidebar_label": "Quick Start",
-    "description": "Get up and running with PasskeyMe in minutes"
-  },
+  "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Why Passkeys?",
