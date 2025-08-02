@@ -11,8 +11,8 @@
   "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/choosing-approach.md",
   "tags": [],
   "version": "current",
-  "lastUpdatedBy": null,
-  "lastUpdatedAt": null,
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1754110758000,
   "frontMatter": {
     "id": "choosing-approach",
     "title": "Choosing Your Authentication Approach",

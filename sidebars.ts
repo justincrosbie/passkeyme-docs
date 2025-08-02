@@ -19,6 +19,7 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'intro',
+        'why-passkeyme',
         'why-passkeys',
       ],
     },
@@ -34,6 +35,7 @@ const sidebars: SidebarsConfig = {
         'getting-started/framework-comparison',
         'getting-started/installation',
         'getting-started/concepts',
+        'getting-started/architecture',
       ],
     },
 
@@ -90,6 +92,13 @@ const sidebars: SidebarsConfig = {
       items: [
         'troubleshooting/common-issues',
       ],
+    },
+
+    // 📖 Reference
+    {
+      type: 'doc',
+      id: 'glossary',
+      label: '📖 Glossary',
     },
   ],
 };

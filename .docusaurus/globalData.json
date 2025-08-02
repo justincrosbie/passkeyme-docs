@@ -48,6 +48,11 @@
               "path": "/docs/faq"
             },
             {
+              "id": "getting-started/architecture",
+              "path": "/docs/getting-started/architecture",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "getting-started/choosing-approach",
               "path": "/docs/getting-started/choosing-approach",
               "sidebar": "tutorialSidebar"
@@ -75,6 +80,11 @@
             {
               "id": "getting-started/setup",
               "path": "/docs/getting-started/setup"
+            },
+            {
+              "id": "glossary",
+              "path": "/docs/glossary",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "intro",
@@ -156,6 +166,11 @@
             {
               "id": "troubleshooting/common-issues",
               "path": "/docs/troubleshooting/common-issues",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "why-passkeyme",
+              "path": "/docs/why-passkeyme",
               "sidebar": "tutorialSidebar"
             },
             {

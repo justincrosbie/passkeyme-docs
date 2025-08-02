@@ -25,7 +25,7 @@
     "permalink": "/docs/getting-started/installation"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/sdks/overview"
+    "title": "Architecture Overview",
+    "permalink": "/docs/getting-started/architecture"
   }
 }

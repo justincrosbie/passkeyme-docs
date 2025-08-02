@@ -409,24 +409,24 @@
     },
     "content": "393be207"
   },
-  "/docs-adc": {
+  "/docs-9a1": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-09e": {
+  "/docs-347": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-aa2": {
+  "/docs-7c8": {
     "__comp": "a94703ab"
   },
   "/docs/-f5b": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/api/api-overview-c79": {
+  "/docs/api/api-overview-92e": {
     "__comp": "17896441",
     "content": "65df3d35"
   },
@@ -434,7 +434,7 @@
     "__comp": "17896441",
     "content": "baeff1df"
   },
-  "/docs/api/authentication-flows-fbd": {
+  "/docs/api/authentication-flows-fbb": {
     "__comp": "17896441",
     "content": "f7b811e8"
   },
@@ -442,7 +442,7 @@
     "__comp": "17896441",
     "content": "cdcc2dfb"
   },
-  "/docs/api/token-management-79b": {
+  "/docs/api/token-management-4f6": {
     "__comp": "17896441",
     "content": "ea38dda6"
   },
@@ -458,7 +458,11 @@
     "__comp": "17896441",
     "content": "0480b142"
   },
-  "/docs/getting-started/choosing-approach-cfb": {
+  "/docs/getting-started/architecture-665": {
+    "__comp": "17896441",
+    "content": "24b82002"
+  },
+  "/docs/getting-started/choosing-approach-960": {
     "__comp": "17896441",
     "content": "523b8551"
   },
@@ -466,7 +470,7 @@
     "__comp": "17896441",
     "content": "7b3ed863"
   },
-  "/docs/getting-started/framework-comparison-308": {
+  "/docs/getting-started/framework-comparison-89b": {
     "__comp": "17896441",
     "content": "7725e450"
   },
@@ -482,6 +486,10 @@
     "__comp": "17896441",
     "content": "530ea7a0"
   },
+  "/docs/glossary-827": {
+    "__comp": "17896441",
+    "content": "e747ec83"
+  },
   "/docs/SDKs/1.5 - sdk-installation-guide-ea9": {
     "__comp": "17896441",
     "content": "0d4cedf0"
@@ -490,7 +498,7 @@
     "__comp": "17896441",
     "content": "3081ab66"
   },
-  "/docs/sdks/android-sdk-e97": {
+  "/docs/sdks/android-sdk-e39": {
     "__comp": "17896441",
     "content": "4185027c"
   },
@@ -498,7 +506,7 @@
     "__comp": "17896441",
     "content": "af454257"
   },
-  "/docs/sdks/ionic-plugin-667": {
+  "/docs/sdks/ionic-plugin-415": {
     "__comp": "17896441",
     "content": "ffc10c91"
   },
@@ -506,11 +514,11 @@
     "__comp": "17896441",
     "content": "c2fa7264"
   },
-  "/docs/sdks/ios-sdk-353": {
+  "/docs/sdks/ios-sdk-419": {
     "__comp": "17896441",
     "content": "7c203d1e"
   },
-  "/docs/sdks/javascript-c2e": {
+  "/docs/sdks/javascript-441": {
     "__comp": "17896441",
     "content": "f6961e8e"
   },
@@ -518,7 +526,7 @@
     "__comp": "17896441",
     "content": "cab26347"
   },
-  "/docs/sdks/low-level-overview-bb3": {
+  "/docs/sdks/low-level-overview-67d": {
     "__comp": "17896441",
     "content": "1637006a"
   },
@@ -542,13 +550,17 @@
     "__comp": "17896441",
     "content": "a603f25d"
   },
-  "/docs/sdks/web-sdk-382": {
+  "/docs/sdks/web-sdk-1be": {
     "__comp": "17896441",
     "content": "f7211458"
   },
   "/docs/troubleshooting/common-issues-dd4": {
     "__comp": "17896441",
     "content": "5133d60e"
+  },
+  "/docs/why-passkeyme-2ff": {
+    "__comp": "17896441",
+    "content": "d104505b"
   },
   "/docs/why-passkeys-233": {
     "__comp": "17896441",

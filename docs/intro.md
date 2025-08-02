@@ -78,7 +78,8 @@ function App() {
 ## Choose Your Path
 
 ### 🚀 **New to PasskeyMe?**
-Start with our quick start guide to build your first integration:
+Start with understanding why PasskeyMe is the best choice for modern authentication:
+- [Why Choose PasskeyMe?](/docs/why-passkeyme) - **See our advantages**
 - [Quick Start Guide](/docs/getting-started/quick-start)
 - [Installation & Setup](/docs/getting-started/installation)
 - [Core Concepts](/docs/getting-started/concepts)

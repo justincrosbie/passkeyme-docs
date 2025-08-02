@@ -1,0 +1,32 @@
+{
+  "id": "getting-started/architecture",
+  "title": "Architecture Overview",
+  "description": "Detailed PasskeyMe architecture diagrams and integration patterns",
+  "source": "@site/docs/getting-started/architecture.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/architecture",
+  "permalink": "/docs/getting-started/architecture",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/architecture.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "sidebar_position": 8,
+    "id": "architecture",
+    "title": "Architecture Overview",
+    "description": "Detailed PasskeyMe architecture diagrams and integration patterns"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Core Concepts",
+    "permalink": "/docs/getting-started/concepts"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/overview"
+  }
+}

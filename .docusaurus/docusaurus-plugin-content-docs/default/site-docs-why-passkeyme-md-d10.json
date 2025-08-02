@@ -1,0 +1,32 @@
+{
+  "id": "why-passkeyme",
+  "title": "Why PasskeyMe?",
+  "description": "Discover why PasskeyMe is the easiest, most secure, and most affordable way to implement passkeys and modern authentication",
+  "source": "@site/docs/why-passkeyme.md",
+  "sourceDirName": ".",
+  "slug": "/why-passkeyme",
+  "permalink": "/docs/why-passkeyme",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/why-passkeyme.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "why-passkeyme",
+    "title": "Why PasskeyMe?",
+    "description": "Discover why PasskeyMe is the easiest, most secure, and most affordable way to implement passkeys and modern authentication"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to PasskeyMe",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Why Passkeys?",
+    "permalink": "/docs/why-passkeys"
+  }
+}

@@ -23,5 +23,9 @@
   "previous": {
     "title": "authentication-methods",
     "permalink": "/docs/configuration/authentication-methods"
+  },
+  "next": {
+    "title": "📖 Glossary",
+    "permalink": "/docs/glossary"
   }
 }

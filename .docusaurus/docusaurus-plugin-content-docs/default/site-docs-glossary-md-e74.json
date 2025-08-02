@@ -1,0 +1,28 @@
+{
+  "id": "glossary",
+  "title": "Glossary",
+  "description": "Comprehensive glossary of PasskeyMe terms and concepts",
+  "source": "@site/docs/glossary.md",
+  "sourceDirName": ".",
+  "slug": "/glossary",
+  "permalink": "/docs/glossary",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/glossary.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "sidebarPosition": 99,
+  "frontMatter": {
+    "sidebar_position": 99,
+    "id": "glossary",
+    "title": "Glossary",
+    "description": "Comprehensive glossary of PasskeyMe terms and concepts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Common Issues",
+    "permalink": "/docs/troubleshooting/common-issues"
+  }
+}

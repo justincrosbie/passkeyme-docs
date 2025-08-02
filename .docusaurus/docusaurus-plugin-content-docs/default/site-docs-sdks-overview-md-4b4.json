@@ -21,8 +21,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Core Concepts",
-    "permalink": "/docs/getting-started/concepts"
+    "title": "Architecture Overview",
+    "permalink": "/docs/getting-started/architecture"
   },
   "next": {
     "title": "React SDK",

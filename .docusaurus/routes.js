@@ -159,15 +159,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'adc'),
+    component: ComponentCreator('/docs', '9a1'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '09e'),
+        component: ComponentCreator('/docs', '347'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'aa2'),
+            component: ComponentCreator('/docs', '7c8'),
             routes: [
               {
                 path: '/docs/',
@@ -177,7 +177,7 @@ export default [
               },
               {
                 path: '/docs/api/api-overview',
-                component: ComponentCreator('/docs/api/api-overview', 'c79'),
+                component: ComponentCreator('/docs/api/api-overview', '92e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -189,7 +189,7 @@ export default [
               },
               {
                 path: '/docs/api/authentication-flows',
-                component: ComponentCreator('/docs/api/authentication-flows', 'fbd'),
+                component: ComponentCreator('/docs/api/authentication-flows', 'fbb'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -200,7 +200,7 @@ export default [
               },
               {
                 path: '/docs/api/token-management',
-                component: ComponentCreator('/docs/api/token-management', '79b'),
+                component: ComponentCreator('/docs/api/token-management', '4f6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -221,8 +221,14 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/getting-started/architecture',
+                component: ComponentCreator('/docs/getting-started/architecture', '665'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/getting-started/choosing-approach',
-                component: ComponentCreator('/docs/getting-started/choosing-approach', 'cfb'),
+                component: ComponentCreator('/docs/getting-started/choosing-approach', '960'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -234,7 +240,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/framework-comparison',
-                component: ComponentCreator('/docs/getting-started/framework-comparison', '308'),
+                component: ComponentCreator('/docs/getting-started/framework-comparison', '89b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -256,6 +262,12 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/glossary',
+                component: ComponentCreator('/docs/glossary', '827'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/SDKs/1.5 - sdk-installation-guide',
                 component: ComponentCreator('/docs/SDKs/1.5 - sdk-installation-guide', 'ea9'),
                 exact: true
@@ -267,7 +279,7 @@ export default [
               },
               {
                 path: '/docs/sdks/android-sdk',
-                component: ComponentCreator('/docs/sdks/android-sdk', 'e97'),
+                component: ComponentCreator('/docs/sdks/android-sdk', 'e39'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -278,7 +290,7 @@ export default [
               },
               {
                 path: '/docs/sdks/ionic-plugin',
-                component: ComponentCreator('/docs/sdks/ionic-plugin', '667'),
+                component: ComponentCreator('/docs/sdks/ionic-plugin', '415'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -289,13 +301,13 @@ export default [
               },
               {
                 path: '/docs/sdks/ios-sdk',
-                component: ComponentCreator('/docs/sdks/ios-sdk', '353'),
+                component: ComponentCreator('/docs/sdks/ios-sdk', '419'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript',
-                component: ComponentCreator('/docs/sdks/javascript', 'c2e'),
+                component: ComponentCreator('/docs/sdks/javascript', '441'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -306,7 +318,7 @@ export default [
               },
               {
                 path: '/docs/sdks/low-level-overview',
-                component: ComponentCreator('/docs/sdks/low-level-overview', 'bb3'),
+                component: ComponentCreator('/docs/sdks/low-level-overview', '67d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -339,13 +351,19 @@ export default [
               },
               {
                 path: '/docs/sdks/web-sdk',
-                component: ComponentCreator('/docs/sdks/web-sdk', '382'),
+                component: ComponentCreator('/docs/sdks/web-sdk', '1be'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/troubleshooting/common-issues',
                 component: ComponentCreator('/docs/troubleshooting/common-issues', 'dd4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/why-passkeyme',
+                component: ComponentCreator('/docs/why-passkeyme', '2ff'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
