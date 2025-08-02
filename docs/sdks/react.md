@@ -229,7 +229,9 @@ const handleAuthSuccess = (user) => {
     email: user.email,
     name: user.name,
     picture: user.picture,
-    authMethods: user.authMethods
+    provider: user.provider,
+    createdAt: user.createdAt,
+    lastLoginAt: user.lastLoginAt
   });
   
   // Store authentication state

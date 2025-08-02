@@ -143,20 +143,20 @@ graph TB
 
 ```typescript
 interface User {
-  id: string;           // Unique user identifier
-  email: string;        // Primary email address
-  emailVerified: boolean; // Email verification status
-  name?: string;        // Display name
-  picture?: string;     // Profile picture URL
-  createdAt: string;    // Account creation timestamp
-  lastLoginAt: string;  // Last login timestamp
-  
-  // Authentication methods used
-  authMethods: {
-    passkey: boolean;
-    oauth: string[];    // ['google', 'github']
-    password: boolean;
-  };
+  /** Unique user identifier */
+  id: string;
+  /** User's email address */
+  email?: string;
+  /** User's display name */
+  name?: string;
+  /** User's profile picture URL */
+  picture?: string;
+  /** Authentication provider used (google, github, passkey, password) */
+  provider?: string;
+  /** When the user was created */
+  createdAt?: string;
+  /** When the user last logged in */
+  lastLoginAt?: string;
 }
 ```
 

@@ -125,7 +125,7 @@ async function getCurrentUser(token) {
     id: user.id,
     email: user.email,
     name: user.name,
-    avatar: user.avatar,
+    picture: user.avatar,
     emailVerified: user.email_verified,
     hasPasskey: user.has_passkey,
     createdAt: user.created_at,

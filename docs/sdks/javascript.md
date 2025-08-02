@@ -275,8 +275,10 @@ const user = auth.getCurrentUser();
 if (user) {
   console.log('Email:', user.email);
   console.log('Name:', user.name);
-  console.log('Verified:', user.emailVerified);
-  console.log('Auth methods:', user.authMethods);
+  console.log('Picture:', user.picture);
+  console.log('Provider:', user.provider);
+  console.log('Created:', user.createdAt);
+  console.log('Last login:', user.lastLoginAt);
 }
 
 // Wait for auth state to load
@@ -923,17 +925,12 @@ class PasskeymeAuth {
 ```typescript
 interface User {
   id: string;
-  email: string;
-  emailVerified: boolean;
+  email?: string;
   name?: string;
   picture?: string;
-  createdAt: string;
-  lastLoginAt: string;
-  authMethods: {
-    passkey: boolean;
-    oauth: string[];
-    password: boolean;
-  };
+  provider?: string;
+  createdAt?: string;
+  lastLoginAt?: string;
 }
 
 interface AuthState {
