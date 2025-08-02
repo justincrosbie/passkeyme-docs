@@ -1,11 +1,11 @@
 {
-  "id": "api/overview",
-  "title": "overview",
-  "description": "",
+  "id": "api/api-overview",
+  "title": "API Documentation Overview",
+  "description": "PasskeyMe REST API integration guide and when to use direct API vs SDKs",
   "source": "@site/docs/api/overview.md",
   "sourceDirName": "api",
-  "slug": "/api/overview",
-  "permalink": "/docs/api/overview",
+  "slug": "/api/api-overview",
+  "permalink": "/docs/api/api-overview",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/api/overview.md",
@@ -13,5 +13,20 @@
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
   "lastUpdatedAt": 1753001158000,
-  "frontMatter": {}
+  "sidebarPosition": 1,
+  "frontMatter": {
+    "sidebar_position": 1,
+    "id": "api-overview",
+    "title": "API Documentation Overview",
+    "description": "PasskeyMe REST API integration guide and when to use direct API vs SDKs"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Ionic Plugin",
+    "permalink": "/docs/sdks/ionic-plugin"
+  },
+  "next": {
+    "title": "Authentication Flows via API",
+    "permalink": "/docs/api/authentication-flows"
+  }
 }

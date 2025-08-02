@@ -21,11 +21,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/docs/sdks/overview"
-  },
-  "next": {
     "title": "React SDK",
     "permalink": "/docs/sdks/react"
+  },
+  "next": {
+    "title": "Low-Level SDKs",
+    "permalink": "/docs/sdks/low-level-overview"
   }
 }

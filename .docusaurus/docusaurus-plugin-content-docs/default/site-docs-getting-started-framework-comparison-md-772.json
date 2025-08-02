@@ -1,0 +1,31 @@
+{
+  "id": "getting-started/framework-comparison",
+  "title": "Framework Comparison Matrix",
+  "description": "Comprehensive comparison of PasskeyMe SDKs across different frameworks and platforms",
+  "source": "@site/docs/getting-started/framework-comparison.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/framework-comparison",
+  "permalink": "/docs/getting-started/framework-comparison",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/framework-comparison.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "framework-comparison",
+    "title": "Framework Comparison Matrix",
+    "sidebar_label": "Framework Comparison",
+    "description": "Comprehensive comparison of PasskeyMe SDKs across different frameworks and platforms"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Choosing Your Approach",
+    "permalink": "/docs/getting-started/choosing-approach"
+  },
+  "next": {
+    "title": "installation",
+    "permalink": "/docs/getting-started/installation"
+  }
+}

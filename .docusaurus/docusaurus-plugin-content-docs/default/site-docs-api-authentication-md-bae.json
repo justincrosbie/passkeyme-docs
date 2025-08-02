@@ -21,11 +21,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "authentication-methods",
-    "permalink": "/docs/configuration/authentication-methods"
+    "title": "Token Management & Security",
+    "permalink": "/docs/api/token-management"
   },
   "next": {
-    "title": "Common Issues",
-    "permalink": "/docs/troubleshooting/common-issues"
+    "title": "authentication-methods",
+    "permalink": "/docs/configuration/authentication-methods"
   }
 }

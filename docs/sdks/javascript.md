@@ -7,7 +7,15 @@ description: Complete guide to the @passkeyme/auth SDK for JavaScript and TypeSc
 
 # 📜 JavaScript/TypeScript SDK
 
-The `@passkeyme/auth` SDK provides comprehensive authentication for web applications using PasskeyMe's hosted authentication pages. Perfect for vanilla JavaScript, TypeScript, Vue.js, Angular, Svelte, and any modern web framework.
+The `@passkeyme/auth` SDK provides comprehensive authentication for web applications using PasskeyMe's hosted authentication pages. **This SDK is the recommended solution for Angular, Vue.js, Svelte, vanilla JavaScript, and other frameworks while we develop dedicated framework SDKs.**
+
+:::info Framework Strategy
+- **React developers**: Use the [React SDK](/docs/sdks/react) for inline components and better integration
+- **Other frameworks**: Use this JavaScript SDK with hosted authentication pages
+- **Coming soon**: Dedicated SDKs for Angular, Vue.js, and other popular frameworks
+:::
+
+Perfect for vanilla JavaScript, TypeScript, Vue.js, Angular, Svelte, and any modern web framework that doesn't yet have a dedicated PasskeyMe SDK.
 
 ## 🚀 Quick Start
 
@@ -73,6 +81,38 @@ const auth = new PasskeymeAuth({
 ```
 
 ## 🔐 Authentication Methods
+
+### Smart Login (Recommended)
+
+The `smartLogin` function provides intelligent passkey authentication with automatic fallbacks:
+
+```typescript
+// Smart login attempts passkey authentication first, falls back to hosted auth
+const result = await auth.smartLogin(username, apiKey);
+
+if (result.method === 'passkey') {
+  console.log('Passkey authentication successful:', result.user);
+} else {
+  console.log('Redirected to hosted authentication page');
+}
+```
+
+**Smart Login Features:**
+- **Discoverable Credentials**: Automatically attempts passwordless login if supported
+- **Username Persistence**: Remembers last successful username for faster future logins  
+- **Intelligent Fallback**: Redirects to hosted auth if passkey authentication fails
+- **Device Detection**: Only attempts passkey auth on supported devices
+
+```typescript
+// Basic usage - handles everything automatically
+await auth.smartLogin();
+
+// With specific username
+await auth.smartLogin('user@example.com');
+
+// With custom API key for passkey authentication
+await auth.smartLogin('user@example.com', 'your-passkey-api-key');
+```
 
 ### General Login (All Methods)
 
@@ -382,6 +422,209 @@ auth.addEventListener((event) => {
 
 ## 🔧 Advanced Usage
 
+### Building Custom Authentication Components
+
+For frameworks without dedicated PasskeyMe SDKs, you can build custom authentication components using the JavaScript SDK:
+
+#### Vue.js Custom Component
+
+```vue
+<template>
+  <div class="auth-component">
+    <button 
+      @click="handleSmartLogin" 
+      :disabled="loading"
+      class="smart-login-btn"
+    >
+      {{ loading ? 'Authenticating...' : '🔐 Sign In' }}
+    </button>
+    
+    <div v-if="error" class="error-message">
+      {{ error }}
+    </div>
+  </div>
+</template>
+
+<script>
+import { PasskeymeAuth } from '@passkeyme/auth';
+
+export default {
+  data() {
+    return {
+      auth: null,
+      loading: false,
+      error: null
+    }
+  },
+  
+  async mounted() {
+    this.auth = new PasskeymeAuth({
+      appId: process.env.VUE_APP_PASSKEYME_APP_ID,
+      redirectUri: window.location.origin + '/auth/callback'
+    });
+    
+    await this.auth.init();
+  },
+  
+  methods: {
+    async handleSmartLogin() {
+      this.loading = true;
+      this.error = null;
+      
+      try {
+        const result = await this.auth.smartLogin();
+        
+        if (result.method === 'passkey') {
+          this.$emit('login-success', result.user);
+        }
+        // If method is 'redirect', user was redirected to hosted auth
+        
+      } catch (error) {
+        this.error = error.message;
+      } finally {
+        this.loading = false;
+      }
+    }
+  }
+}
+</script>
+```
+
+#### Angular Service Integration
+
+```typescript
+// auth.service.ts
+import { Injectable } from '@angular/core';
+import { BehaviorSubject, Observable } from 'rxjs';
+import { PasskeymeAuth } from '@passkeyme/auth';
+
+@Injectable({
+  providedIn: 'root'
+})
+export class AuthService {
+  private auth = new PasskeymeAuth({
+    appId: environment.passkeymeAppId,
+    redirectUri: `${window.location.origin}/auth/callback`
+  });
+
+  private userSubject = new BehaviorSubject(null);
+  private loadingSubject = new BehaviorSubject(true);
+
+  user$: Observable<any> = this.userSubject.asObservable();
+  loading$: Observable<boolean> = this.loadingSubject.asObservable();
+
+  async init() {
+    await this.auth.init();
+    this.userSubject.next(this.auth.getCurrentUser());
+    this.loadingSubject.next(false);
+    
+    this.auth.addEventListener((event) => {
+      if (event.type === 'login') {
+        this.userSubject.next(event.user);
+      } else if (event.type === 'logout') {
+        this.userSubject.next(null);
+      }
+    });
+  }
+
+  async smartLogin(username?: string): Promise<any> {
+    return this.auth.smartLogin(username);
+  }
+
+  async logout() {
+    await this.auth.logout();
+  }
+
+  async getAccessToken(): Promise<string> {
+    return this.auth.getAccessToken();
+  }
+}
+```
+
+#### Svelte Custom Store
+
+```typescript
+// stores/auth.ts
+import { writable } from 'svelte/store';
+import { PasskeymeAuth } from '@passkeyme/auth';
+
+const auth = new PasskeymeAuth({
+  appId: import.meta.env.VITE_PASSKEYME_APP_ID,
+  redirectUri: `${window.location.origin}/auth/callback`
+});
+
+export const authState = writable({
+  user: null,
+  isAuthenticated: false,
+  loading: true,
+  error: null
+});
+
+export const authService = {
+  async init() {
+    await auth.init();
+    const user = auth.getCurrentUser();
+    authState.set({
+      user,
+      isAuthenticated: !!user,
+      loading: false,
+      error: null
+    });
+    
+    auth.addEventListener((event) => {
+      authState.update(state => {
+        if (event.type === 'login') {
+          return { ...state, user: event.user, isAuthenticated: true, error: null };
+        } else if (event.type === 'logout') {
+          return { ...state, user: null, isAuthenticated: false, error: null };
+        } else if (event.type === 'error') {
+          return { ...state, error: event.error, loading: false };
+        }
+        return state;
+      });
+    });
+  },
+  
+  async smartLogin(username?: string) {
+    authState.update(state => ({ ...state, loading: true, error: null }));
+    
+    try {
+      const result = await auth.smartLogin(username);
+      return result;
+    } catch (error) {
+      authState.update(state => ({ ...state, error: error.message, loading: false }));
+      throw error;
+    }
+  },
+  
+  logout: () => auth.logout(),
+  getAccessToken: () => auth.getAccessToken()
+};
+```
+
+### When to Use Hosted Pages
+
+Hosted authentication pages are the recommended approach for the JavaScript SDK:
+
+**Ideal Use Cases:**
+- **Quick Integration**: Get authentication working in minutes
+- **Multiple Auth Methods**: Users can choose between OAuth, passkeys, and passwords
+- **Consistent UX**: Professional, branded authentication experience
+- **Framework Agnostic**: Works with any web framework
+- **Security**: PasskeyMe handles all security best practices
+
+**Implementation Strategy:**
+```typescript
+// Primary authentication method
+await auth.smartLogin(); // Tries passkey first, falls back to hosted auth
+
+// Direct to hosted auth (skip passkey attempt)
+auth.redirectToLogin();
+
+// Direct to specific OAuth provider
+auth.redirectToOAuth('google');
+```
+
 ### Custom Request Interceptors
 
 ```typescript
@@ -486,8 +729,10 @@ export function useAuth() {
     user: readonly(user),
     isAuthenticated: readonly(isAuthenticated),
     loading: readonly(loading),
+    smartLogin: async (username?: string) => auth.smartLogin(username),
     login: () => auth.redirectToLogin(),
-    logout: () => auth.logout()
+    logout: () => auth.logout(),
+    getAccessToken: () => auth.getAccessToken()
   };
 }
 ```
@@ -526,6 +771,10 @@ export class AuthService {
         this.userSubject.next(null);
       }
     });
+  }
+
+  async smartLogin(username?: string) {
+    return this.auth.smartLogin(username);
   }
 
   login() {
@@ -581,6 +830,7 @@ export const authService = {
     });
   },
   
+  smartLogin: (username?: string) => auth.smartLogin(username),
   login: () => auth.redirectToLogin(),
   logout: () => auth.logout(),
   getAccessToken: () => auth.getAccessToken()
@@ -643,6 +893,7 @@ class PasskeymeAuth {
   redirectToLogin(options?: LoginOptions): void
   redirectToOAuth(provider: string, options?: OAuthOptions): void
   handleAuthCallback(): Promise<User>
+  smartLogin(username?: string, apiKey?: string): Promise<{ method: "passkey" | "redirect"; user?: User }>
   
   // State management
   getCurrentUser(): User | null
@@ -704,11 +955,20 @@ interface LogoutOptions {
   clearAllTokens?: boolean;
   revokeTokens?: boolean;
 }
+
+interface SmartLoginResult {
+  method: 'passkey' | 'redirect';
+  user?: User;
+}
 ```
 
 ## Next Steps
 
-- **[React SDK](/docs/sdks/react)** - React-specific integration
-- **[API Reference](/docs/api/authentication)** - Direct API usage
+- **[React SDK](/docs/sdks/react)** - **Recommended for React apps** with inline components
+- **[API Reference](/docs/api/api-overview)** - Direct API usage for custom integrations
 - **[Configuration](/docs/configuration/authentication-methods)** - Configure auth methods
 - **[Troubleshooting](/docs/troubleshooting/common-issues)** - Solve common problems
+
+:::tip Framework Migration
+When dedicated SDKs become available for your framework, migrating from the JavaScript SDK will be straightforward with our migration guides.
+:::

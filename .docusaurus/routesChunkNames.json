@@ -395,6 +395,13 @@
     "sidebar": "814f3328",
     "content": "3f278687"
   },
+  "/framework-selector-4f7": {
+    "__comp": "e7727906",
+    "__context": {
+      "plugin": "a7456010"
+    },
+    "config": "5e9f5e1a"
+  },
   "/markdown-page-3d7": {
     "__comp": "1f391b9e",
     "__context": {
@@ -402,34 +409,42 @@
     },
     "content": "393be207"
   },
-  "/docs-d46": {
+  "/docs-adc": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-3b8": {
+  "/docs-09e": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-3ca": {
+  "/docs-aa2": {
     "__comp": "a94703ab"
   },
-  "/docs/-c51": {
+  "/docs/-f5b": {
     "__comp": "17896441",
     "content": "0e384e19"
+  },
+  "/docs/api/api-overview-c79": {
+    "__comp": "17896441",
+    "content": "65df3d35"
   },
   "/docs/api/authentication-eb1": {
     "__comp": "17896441",
     "content": "baeff1df"
   },
-  "/docs/api/overview-24d": {
+  "/docs/api/authentication-flows-fbd": {
     "__comp": "17896441",
-    "content": "65df3d35"
+    "content": "f7b811e8"
   },
   "/docs/api/registration-4a9": {
     "__comp": "17896441",
     "content": "cdcc2dfb"
+  },
+  "/docs/api/token-management-79b": {
+    "__comp": "17896441",
+    "content": "ea38dda6"
   },
   "/docs/api/user-management-097": {
     "__comp": "17896441",
@@ -443,15 +458,23 @@
     "__comp": "17896441",
     "content": "0480b142"
   },
-  "/docs/getting-started/concepts-4f1": {
+  "/docs/getting-started/choosing-approach-cfb": {
+    "__comp": "17896441",
+    "content": "523b8551"
+  },
+  "/docs/getting-started/concepts-058": {
     "__comp": "17896441",
     "content": "7b3ed863"
+  },
+  "/docs/getting-started/framework-comparison-308": {
+    "__comp": "17896441",
+    "content": "7725e450"
   },
   "/docs/getting-started/installation-ef0": {
     "__comp": "17896441",
     "content": "54f44165"
   },
-  "/docs/getting-started/quick-start-8ae": {
+  "/docs/getting-started/quick-start-f80": {
     "__comp": "17896441",
     "content": "588bd741"
   },
@@ -467,13 +490,25 @@
     "__comp": "17896441",
     "content": "3081ab66"
   },
+  "/docs/sdks/android-sdk-e97": {
+    "__comp": "17896441",
+    "content": "4185027c"
+  },
   "/docs/sdks/ionic-b24": {
     "__comp": "17896441",
     "content": "af454257"
   },
+  "/docs/sdks/ionic-plugin-667": {
+    "__comp": "17896441",
+    "content": "ffc10c91"
+  },
   "/docs/sdks/ios-74f": {
     "__comp": "17896441",
     "content": "c2fa7264"
+  },
+  "/docs/sdks/ios-sdk-353": {
+    "__comp": "17896441",
+    "content": "7c203d1e"
   },
   "/docs/sdks/javascript-c2e": {
     "__comp": "17896441",
@@ -483,11 +518,15 @@
     "__comp": "17896441",
     "content": "cab26347"
   },
-  "/docs/sdks/overview-5b3": {
+  "/docs/sdks/low-level-overview-bb3": {
+    "__comp": "17896441",
+    "content": "1637006a"
+  },
+  "/docs/sdks/overview-9fe": {
     "__comp": "17896441",
     "content": "4b4b3c9c"
   },
-  "/docs/sdks/react-9d4": {
+  "/docs/sdks/react-68e": {
     "__comp": "17896441",
     "content": "31988b19"
   },
@@ -502,6 +541,10 @@
   "/docs/SDKs/sdk-intro-916": {
     "__comp": "17896441",
     "content": "a603f25d"
+  },
+  "/docs/sdks/web-sdk-382": {
+    "__comp": "17896441",
+    "content": "f7211458"
   },
   "/docs/troubleshooting/common-issues-dd4": {
     "__comp": "17896441",

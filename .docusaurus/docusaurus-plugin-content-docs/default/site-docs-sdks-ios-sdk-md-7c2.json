@@ -1,0 +1,31 @@
+{
+  "id": "sdks/ios-sdk",
+  "title": "iOS SDK",
+  "description": "Native iOS SDK for passkey authentication in Swift and Objective-C apps",
+  "source": "@site/docs/sdks/ios-sdk.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/ios-sdk",
+  "permalink": "/docs/sdks/ios-sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ios-sdk.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "ios-sdk",
+    "title": "iOS SDK",
+    "sidebar_label": "iOS SDK",
+    "description": "Native iOS SDK for passkey authentication in Swift and Objective-C apps"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web SDK",
+    "permalink": "/docs/sdks/web-sdk"
+  },
+  "next": {
+    "title": "Android SDK",
+    "permalink": "/docs/sdks/android-sdk"
+  }
+}

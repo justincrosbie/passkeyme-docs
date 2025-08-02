@@ -16,11 +16,11 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React SDK",
-    "permalink": "/docs/sdks/react"
-  },
-  "next": {
     "title": "Authentication",
     "permalink": "/docs/api/authentication"
+  },
+  "next": {
+    "title": "Common Issues",
+    "permalink": "/docs/troubleshooting/common-issues"
   }
 }

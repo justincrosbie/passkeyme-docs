@@ -7,6 +7,8 @@ import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
  * - Progressive disclosure from welcome to advanced topics
  * - Clear categorization of related content
  * - Easy navigation with visual emojis
+ * - Framework-specific guidance prominent
+ * - Decision-making tools for developers
  */
 const sidebars: SidebarsConfig = {
   tutorialSidebar: [
@@ -21,35 +23,42 @@ const sidebars: SidebarsConfig = {
       ],
     },
 
-    // � Getting Started
+    // 🚀 Getting Started
     {
       type: 'category',
       label: '🚀 Getting Started',
       collapsed: false,
       items: [
         'getting-started/quick-start',
+        'getting-started/choosing-approach',
+        'getting-started/framework-comparison',
         'getting-started/installation',
         'getting-started/concepts',
       ],
     },
 
-    // 🛠️ SDKs & Integration
+    // 🛠️ High-Level SDKs (Framework-Specific)
     {
       type: 'category',
-      label: '🛠️ SDKs & Integration',
+      label: '🛠️ High-Level SDKs',
+      collapsed: false,
       items: [
         'sdks/overview',
-        'sdks/javascript',
         'sdks/react',
+        'sdks/javascript',
       ],
     },
 
-    // 🔧 Configuration
+    // 🔧 Low-Level SDKs (Platform-Specific)
     {
       type: 'category',
-      label: '🔧 Configuration',
+      label: '🔧 Low-Level SDKs',
       items: [
-        'configuration/authentication-methods',
+        'sdks/low-level-overview',
+        'sdks/web-sdk',
+        'sdks/ios-sdk',
+        'sdks/android-sdk',
+        'sdks/ionic-plugin',
       ],
     },
 
@@ -58,7 +67,19 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '🌐 API Reference',
       items: [
+        'api/api-overview',
+        'api/authentication-flows',
+        'api/token-management',
         'api/authentication',
+      ],
+    },
+
+    // 🔧 Configuration
+    {
+      type: 'category',
+      label: '⚙️ Configuration',
+      items: [
+        'configuration/authentication-methods',
       ],
     },
 

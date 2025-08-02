@@ -1,0 +1,31 @@
+{
+  "id": "sdks/web-sdk",
+  "title": "Web SDK",
+  "description": "Low-level browser SDK for custom passkey authentication flows",
+  "source": "@site/docs/sdks/web-sdk.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/web-sdk",
+  "permalink": "/docs/sdks/web-sdk",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/web-sdk.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "web-sdk",
+    "title": "Web SDK",
+    "sidebar_label": "Web SDK",
+    "description": "Low-level browser SDK for custom passkey authentication flows"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Low-Level SDKs",
+    "permalink": "/docs/sdks/low-level-overview"
+  },
+  "next": {
+    "title": "iOS SDK",
+    "permalink": "/docs/sdks/ios-sdk"
+  }
+}

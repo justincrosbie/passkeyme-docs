@@ -21,7 +21,7 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Authentication",
-    "permalink": "/docs/api/authentication"
+    "title": "authentication-methods",
+    "permalink": "/docs/configuration/authentication-methods"
   }
 }

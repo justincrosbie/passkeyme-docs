@@ -1,0 +1,419 @@
+/* Framework Selector Styles */
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 2rem;
+}
+
+.header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.header h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.subtitle {
+  font-size: 1.2rem;
+  color: var(--ifm-color-secondary-darkest);
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+}
+
+/* Quick Decision Section */
+.quickDecision {
+  margin-bottom: 4rem;
+}
+
+.decisionCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 2rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  border: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.decisionCard h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+  color: var(--ifm-color-primary);
+}
+
+.decisionFlow {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+}
+
+.decisionStep {
+  text-align: center;
+  padding: 1.5rem;
+  background: var(--ifm-background-color);
+  border-radius: 8px;
+  border: 1px solid var(--ifm-color-emphasis-300);
+}
+
+.decisionStep strong {
+  display: block;
+  margin-bottom: 1rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+/* Section Headers */
+.sectionHeader {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.sectionHeader h2 {
+  margin-bottom: 0.5rem;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.sectionHeader p {
+  color: var(--ifm-color-secondary-darkest);
+  font-size: 1.1rem;
+}
+
+/* Filters */
+.filters {
+  display: flex;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.filterButton {
+  padding: 0.5rem 1rem;
+  border: 1px solid var(--ifm-color-emphasis-300);
+  background: var(--ifm-background-color);
+  border-radius: 6px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  font-size: 0.9rem;
+}
+
+.filterButton:hover {
+  border-color: var(--ifm-color-primary);
+  background: var(--ifm-color-primary-lightest);
+}
+
+.filterButton.active {
+  background: var(--ifm-color-primary);
+  color: white;
+  border-color: var(--ifm-color-primary);
+}
+
+/* Framework Grid */
+.frameworkGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 3rem;
+}
+
+.frameworkCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 12px;
+  padding: 1.5rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.3s ease;
+  position: relative;
+  overflow: hidden;
+}
+
+.frameworkCard:hover {
+  transform: translateY(-4px);
+  box-shadow: var(--ifm-global-shadow-md);
+  border-color: var(--ifm-color-primary-light);
+}
+
+.frameworkCard.comingSoon {
+  opacity: 0.8;
+  position: relative;
+}
+
+.cardHeader {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.frameworkLogo {
+  font-size: 2.5rem;
+  width: 60px;
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: var(--ifm-color-emphasis-100);
+  border-radius: 12px;
+}
+
+.frameworkName {
+  margin: 0;
+  font-size: 1.4rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.statusBadge {
+  font-size: 0.8rem;
+  padding: 0.25rem 0.5rem;
+  border-radius: 12px;
+  font-weight: 500;
+  margin-top: 0.25rem;
+  display: inline-block;
+}
+
+.statusAvailable {
+  background: var(--ifm-color-success-lightest);
+  color: var(--ifm-color-success-darkest);
+  border: 1px solid var(--ifm-color-success-light);
+}
+
+.statusComingSoon {
+  background: var(--ifm-color-warning-lightest);
+  color: var(--ifm-color-warning-darkest);
+  border: 1px solid var(--ifm-color-warning-light);
+}
+
+.statusBeta {
+  background: var(--ifm-color-info-lightest);
+  color: var(--ifm-color-info-darkest);
+  border: 1px solid var(--ifm-color-info-light);
+}
+
+.frameworkDescription {
+  color: var(--ifm-color-secondary-darkest);
+  margin-bottom: 1rem;
+  line-height: 1.5;
+}
+
+.features {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.feature {
+  background: var(--ifm-color-primary-lightest);
+  color: var(--ifm-color-primary-darkest);
+  padding: 0.25rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  font-weight: 500;
+  border: 1px solid var(--ifm-color-primary-light);
+}
+
+.cardFooter {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1.5rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--ifm-color-emphasis-200);
+}
+
+.setupTime {
+  font-size: 0.9rem;
+  color: var(--ifm-color-secondary-darkest);
+  font-weight: 500;
+}
+
+.popularity {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-size: 0.8rem;
+  color: var(--ifm-color-secondary-darkest);
+}
+
+.popularityBar {
+  width: 60px;
+  height: 6px;
+  background: var(--ifm-color-emphasis-200);
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.popularityFill {
+  height: 100%;
+  background: linear-gradient(90deg, #ffd89b 0%, #19547b 100%);
+  border-radius: 3px;
+  transition: width 0.3s ease;
+}
+
+.cardActions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.cardActions .button {
+  flex: 1;
+}
+
+/* Platform SDKs */
+.platformSection {
+  margin-bottom: 3rem;
+}
+
+.platformGrid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 1rem;
+}
+
+.platformCard {
+  background: var(--ifm-card-background-color);
+  border-radius: 8px;
+  padding: 1.5rem;
+  box-shadow: var(--ifm-global-shadow-lw);
+  border: 1px solid var(--ifm-color-emphasis-200);
+  transition: all 0.2s ease;
+}
+
+.platformCard:hover {
+  transform: translateY(-2px);
+  box-shadow: var(--ifm-global-shadow-md);
+}
+
+.platformHeader {
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.platformLogo {
+  font-size: 1.5rem;
+}
+
+.platformName {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: var(--ifm-color-emphasis-800);
+}
+
+.platformDescription {
+  color: var(--ifm-color-secondary-darkest);
+  margin-bottom: 1rem;
+  font-size: 0.9rem;
+  line-height: 1.4;
+}
+
+.platformLanguage {
+  font-size: 0.8rem;
+  color: var(--ifm-color-secondary-dark);
+  font-weight: 500;
+  background: var(--ifm-color-emphasis-100);
+  padding: 0.25rem 0.5rem;
+  border-radius: 4px;
+  display: inline-block;
+}
+
+/* Help Section */
+.helpSection {
+  margin-top: 4rem;
+}
+
+.helpCard {
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  color: white;
+  border-radius: 12px;
+  padding: 2.5rem;
+  text-align: center;
+}
+
+.helpCard h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.helpCard p {
+  font-size: 1.1rem;
+  margin-bottom: 2rem;
+  opacity: 0.9;
+}
+
+.helpActions {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
+
+.helpActions .button {
+  background: white;
+  color: var(--ifm-color-primary);
+  border: none;
+}
+
+.helpActions .button--secondary {
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.helpActions .button--outline {
+  background: transparent;
+  color: white;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .container {
+    padding: 1rem;
+  }
+  
+  .header h1 {
+    font-size: 2rem;
+  }
+  
+  .frameworkGrid {
+    grid-template-columns: 1fr;
+  }
+  
+  .decisionFlow {
+    grid-template-columns: 1fr;
+  }
+  
+  .helpActions {
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .helpActions .button {
+    width: 200px;
+  }
+}
+
+@media (max-width: 480px) {
+  .cardActions {
+    flex-direction: column;
+  }
+  
+  .cardFooter {
+    flex-direction: column;
+    gap: 0.5rem;
+    align-items: flex-start;
+  }
+  
+  .filters {
+    flex-direction: column;
+    align-items: center;
+  }
+}

@@ -148,25 +148,36 @@ export default [
     exact: true
   },
   {
+    path: '/framework-selector',
+    component: ComponentCreator('/framework-selector', '4f7'),
+    exact: true
+  },
+  {
     path: '/markdown-page',
     component: ComponentCreator('/markdown-page', '3d7'),
     exact: true
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'd46'),
+    component: ComponentCreator('/docs', 'adc'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '3b8'),
+        component: ComponentCreator('/docs', '09e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '3ca'),
+            component: ComponentCreator('/docs', 'aa2'),
             routes: [
               {
                 path: '/docs/',
-                component: ComponentCreator('/docs/', 'c51'),
+                component: ComponentCreator('/docs/', 'f5b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/api/api-overview',
+                component: ComponentCreator('/docs/api/api-overview', 'c79'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -177,14 +188,21 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/api/overview',
-                component: ComponentCreator('/docs/api/overview', '24d'),
-                exact: true
+                path: '/docs/api/authentication-flows',
+                component: ComponentCreator('/docs/api/authentication-flows', 'fbd'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/registration',
                 component: ComponentCreator('/docs/api/registration', '4a9'),
                 exact: true
+              },
+              {
+                path: '/docs/api/token-management',
+                component: ComponentCreator('/docs/api/token-management', '79b'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/user-management',
@@ -203,8 +221,20 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/getting-started/choosing-approach',
+                component: ComponentCreator('/docs/getting-started/choosing-approach', 'cfb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/getting-started/concepts',
-                component: ComponentCreator('/docs/getting-started/concepts', '4f1'),
+                component: ComponentCreator('/docs/getting-started/concepts', '058'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/getting-started/framework-comparison',
+                component: ComponentCreator('/docs/getting-started/framework-comparison', '308'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -216,7 +246,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/quick-start',
-                component: ComponentCreator('/docs/getting-started/quick-start', '8ae'),
+                component: ComponentCreator('/docs/getting-started/quick-start', 'f80'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -236,14 +266,32 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/sdks/android-sdk',
+                component: ComponentCreator('/docs/sdks/android-sdk', 'e97'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/sdks/ionic',
                 component: ComponentCreator('/docs/sdks/ionic', 'b24'),
                 exact: true
               },
               {
+                path: '/docs/sdks/ionic-plugin',
+                component: ComponentCreator('/docs/sdks/ionic-plugin', '667'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/sdks/ios',
                 component: ComponentCreator('/docs/sdks/ios', '74f'),
                 exact: true
+              },
+              {
+                path: '/docs/sdks/ios-sdk',
+                component: ComponentCreator('/docs/sdks/ios-sdk', '353'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript',
@@ -257,14 +305,20 @@ export default [
                 exact: true
               },
               {
+                path: '/docs/sdks/low-level-overview',
+                component: ComponentCreator('/docs/sdks/low-level-overview', 'bb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/sdks/overview',
-                component: ComponentCreator('/docs/sdks/overview', '5b3'),
+                component: ComponentCreator('/docs/sdks/overview', '9fe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/react',
-                component: ComponentCreator('/docs/sdks/react', '9d4'),
+                component: ComponentCreator('/docs/sdks/react', '68e'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -282,6 +336,12 @@ export default [
                 path: '/docs/SDKs/sdk-intro',
                 component: ComponentCreator('/docs/SDKs/sdk-intro', '916'),
                 exact: true
+              },
+              {
+                path: '/docs/sdks/web-sdk',
+                component: ComponentCreator('/docs/sdks/web-sdk', '382'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/troubleshooting/common-issues',

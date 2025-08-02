@@ -1,0 +1,31 @@
+{
+  "id": "getting-started/choosing-approach",
+  "title": "Choosing Your Authentication Approach",
+  "description": "Decision guide for selecting the right PasskeyMe integration method for your project",
+  "source": "@site/docs/getting-started/choosing-approach.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/choosing-approach",
+  "permalink": "/docs/getting-started/choosing-approach",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/choosing-approach.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "choosing-approach",
+    "title": "Choosing Your Authentication Approach",
+    "sidebar_label": "Choosing Your Approach",
+    "description": "Decision guide for selecting the right PasskeyMe integration method for your project"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "🚀 Quick Start Guide",
+    "permalink": "/docs/getting-started/quick-start"
+  },
+  "next": {
+    "title": "Framework Comparison",
+    "permalink": "/docs/getting-started/framework-comparison"
+  }
+}

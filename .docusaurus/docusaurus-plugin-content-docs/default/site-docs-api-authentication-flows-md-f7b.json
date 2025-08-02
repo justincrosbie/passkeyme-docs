@@ -1,0 +1,32 @@
+{
+  "id": "api/authentication-flows",
+  "title": "Authentication Flows via API",
+  "description": "Complete authentication flows using PasskeyMe REST API directly",
+  "source": "@site/docs/api/authentication-flows.md",
+  "sourceDirName": "api",
+  "slug": "/api/authentication-flows",
+  "permalink": "/docs/api/authentication-flows",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/api/authentication-flows.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "authentication-flows",
+    "title": "Authentication Flows via API",
+    "description": "Complete authentication flows using PasskeyMe REST API directly"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Documentation Overview",
+    "permalink": "/docs/api/api-overview"
+  },
+  "next": {
+    "title": "Token Management & Security",
+    "permalink": "/docs/api/token-management"
+  }
+}

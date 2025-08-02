@@ -1,0 +1,31 @@
+{
+  "id": "sdks/ionic-plugin",
+  "title": "Ionic Plugin",
+  "description": "Capacitor plugin for passkey authentication in Ionic and hybrid mobile apps",
+  "source": "@site/docs/sdks/ionic-plugin.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/ionic-plugin",
+  "permalink": "/docs/sdks/ionic-plugin",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ionic-plugin.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "ionic-plugin",
+    "title": "Ionic Plugin",
+    "sidebar_label": "Ionic Plugin",
+    "description": "Capacitor plugin for passkey authentication in Ionic and hybrid mobile apps"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Android SDK",
+    "permalink": "/docs/sdks/android-sdk"
+  },
+  "next": {
+    "title": "API Documentation Overview",
+    "permalink": "/docs/api/api-overview"
+  }
+}

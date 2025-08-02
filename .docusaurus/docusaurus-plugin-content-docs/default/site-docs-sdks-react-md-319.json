@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
-  "lastUpdatedAt": 1753001158000,
+  "lastUpdatedAt": 1753101676000,
   "frontMatter": {
     "id": "react",
     "title": "React SDK",
@@ -21,11 +21,11 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "JavaScript/TypeScript",
-    "permalink": "/docs/sdks/javascript"
+    "title": "Overview",
+    "permalink": "/docs/sdks/overview"
   },
   "next": {
-    "title": "authentication-methods",
-    "permalink": "/docs/configuration/authentication-methods"
+    "title": "JavaScript/TypeScript",
+    "permalink": "/docs/sdks/javascript"
   }
 }

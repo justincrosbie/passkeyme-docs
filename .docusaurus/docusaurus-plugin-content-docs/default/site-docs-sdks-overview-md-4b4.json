@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
-  "lastUpdatedAt": 1753001158000,
+  "lastUpdatedAt": 1753101676000,
   "frontMatter": {
     "id": "overview",
     "title": "SDK Overview",
@@ -25,7 +25,7 @@
     "permalink": "/docs/getting-started/concepts"
   },
   "next": {
-    "title": "JavaScript/TypeScript",
-    "permalink": "/docs/sdks/javascript"
+    "title": "React SDK",
+    "permalink": "/docs/sdks/react"
   }
 }

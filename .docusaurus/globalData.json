@@ -11,17 +11,28 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "api/api-overview",
+              "path": "/docs/api/api-overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "api/authentication",
               "path": "/docs/api/authentication",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "api/overview",
-              "path": "/docs/api/overview"
+              "id": "api/authentication-flows",
+              "path": "/docs/api/authentication-flows",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/registration",
               "path": "/docs/api/registration"
+            },
+            {
+              "id": "api/token-management",
+              "path": "/docs/api/token-management",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "api/user-management",
@@ -37,8 +48,18 @@
               "path": "/docs/faq"
             },
             {
+              "id": "getting-started/choosing-approach",
+              "path": "/docs/getting-started/choosing-approach",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "getting-started/concepts",
               "path": "/docs/getting-started/concepts",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/framework-comparison",
+              "path": "/docs/getting-started/framework-comparison",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -69,12 +90,27 @@
               "path": "/docs/sdks/android"
             },
             {
+              "id": "sdks/android-sdk",
+              "path": "/docs/sdks/android-sdk",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "sdks/ionic",
               "path": "/docs/sdks/ionic"
             },
             {
+              "id": "sdks/ionic-plugin",
+              "path": "/docs/sdks/ionic-plugin",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "sdks/ios",
               "path": "/docs/sdks/ios"
+            },
+            {
+              "id": "sdks/ios-sdk",
+              "path": "/docs/sdks/ios-sdk",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdks/javascript",
@@ -84,6 +120,11 @@
             {
               "id": "SDKs/javascript-sdk",
               "path": "/docs/SDKs/javascript-sdk"
+            },
+            {
+              "id": "sdks/low-level-overview",
+              "path": "/docs/sdks/low-level-overview",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdks/overview",
@@ -106,6 +147,11 @@
             {
               "id": "SDKs/sdk-intro",
               "path": "/docs/SDKs/sdk-intro"
+            },
+            {
+              "id": "sdks/web-sdk",
+              "path": "/docs/sdks/web-sdk",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "troubleshooting/common-issues",

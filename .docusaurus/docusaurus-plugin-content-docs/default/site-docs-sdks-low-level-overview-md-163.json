@@ -1,0 +1,31 @@
+{
+  "id": "sdks/low-level-overview",
+  "title": "Low-Level SDKs Overview",
+  "description": "Platform-specific SDKs for passkey ceremonies only - Web, iOS, Android, and Ionic",
+  "source": "@site/docs/sdks/low-level-overview.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/low-level-overview",
+  "permalink": "/docs/sdks/low-level-overview",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/low-level-overview.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "low-level-overview",
+    "title": "Low-Level SDKs Overview",
+    "sidebar_label": "Low-Level SDKs",
+    "description": "Platform-specific SDKs for passkey ceremonies only - Web, iOS, Android, and Ionic"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript/TypeScript",
+    "permalink": "/docs/sdks/javascript"
+  },
+  "next": {
+    "title": "Web SDK",
+    "permalink": "/docs/sdks/web-sdk"
+  }
+}

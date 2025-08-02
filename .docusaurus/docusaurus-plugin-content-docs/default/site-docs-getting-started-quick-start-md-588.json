@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
-  "lastUpdatedAt": 1753001158000,
+  "lastUpdatedAt": 1753101676000,
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -20,7 +20,7 @@
     "permalink": "/docs/why-passkeys"
   },
   "next": {
-    "title": "installation",
-    "permalink": "/docs/getting-started/installation"
+    "title": "Choosing Your Approach",
+    "permalink": "/docs/getting-started/choosing-approach"
   }
 }

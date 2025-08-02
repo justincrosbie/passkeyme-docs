@@ -1,0 +1,32 @@
+{
+  "id": "api/token-management",
+  "title": "Token Management & Security",
+  "description": "JWT token handling, security best practices, and lifecycle management",
+  "source": "@site/docs/api/token-management.md",
+  "sourceDirName": "api",
+  "slug": "/api/token-management",
+  "permalink": "/docs/api/token-management",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/api/token-management.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "sidebar_position": 3,
+    "id": "token-management",
+    "title": "Token Management & Security",
+    "description": "JWT token handling, security best practices, and lifecycle management"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Authentication Flows via API",
+    "permalink": "/docs/api/authentication-flows"
+  },
+  "next": {
+    "title": "Authentication",
+    "permalink": "/docs/api/authentication"
+  }
+}
