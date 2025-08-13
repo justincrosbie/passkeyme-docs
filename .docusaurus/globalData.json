@@ -132,8 +132,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "sdks/javascript-complex",
+              "path": "/docs/sdks/javascript-complex"
+            },
+            {
               "id": "SDKs/javascript-sdk",
               "path": "/docs/SDKs/javascript-sdk"
+            },
+            {
+              "id": "sdks/javascript-simple",
+              "path": "/docs/sdks/javascript-simple"
+            },
+            {
+              "id": "sdks/javascript/advanced-usage",
+              "path": "/docs/sdks/javascript/advanced-usage",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/javascript/handle-auth-callback",
+              "path": "/docs/sdks/javascript/handle-auth-callback",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/javascript/redirect-to-login",
+              "path": "/docs/sdks/javascript/redirect-to-login",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/javascript/smart-login",
+              "path": "/docs/sdks/javascript/smart-login",
+              "sidebar": "tutorialSidebar"
             },
             {
               "id": "sdks/low-level-overview",

@@ -1,0 +1,31 @@
+{
+  "id": "sdks/javascript/smart-login",
+  "title": "smartLogin Method",
+  "description": "Intelligent passkey authentication with automatic fallbacks",
+  "source": "@site/docs/sdks/javascript/smart-login.md",
+  "sourceDirName": "sdks/javascript",
+  "slug": "/sdks/javascript/smart-login",
+  "permalink": "/docs/sdks/javascript/smart-login",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/javascript/smart-login.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "id": "smart-login",
+    "title": "smartLogin Method",
+    "sidebar_label": "smartLogin",
+    "description": "Intelligent passkey authentication with automatic fallbacks"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "JavaScript/TypeScript",
+    "permalink": "/docs/sdks/javascript"
+  },
+  "next": {
+    "title": "redirectToLogin",
+    "permalink": "/docs/sdks/javascript/redirect-to-login"
+  }
+}

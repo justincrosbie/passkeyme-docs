@@ -151,9 +151,9 @@ Use the usePasskeyme hook to protect your routes:
 import { usePasskeyme } from '@passkeyme/react-auth';
 
 function ProtectedRoute({ children }: { children: React.ReactNode }) {
-  const { isAuthenticated, loading, user } = usePasskeyme();
+  const { isAuthenticated, authLoading, user } = usePasskeyme(); // Fixed: authLoading instead of loading
 
-  if (loading) {
+  if (authLoading) {
     return <div>Loading...</div>;
   }
 

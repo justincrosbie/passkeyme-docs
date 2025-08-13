@@ -27,18 +27,22 @@ The `PasskeymeAuthPanel` component provides a complete authentication experience
 import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
 
 function App() {
-  const handleAuthSuccess = (user) => {
-    console.log('User authenticated:', user);
+  const handleAuthSuccess = (user, method) => {
+    console.log(`User authenticated via ${method}:`, user);
     // Store user state, redirect, etc.
+  };
+
+  const handleError = (error) => {
+    console.error('Auth error:', error);
   };
 
   return (
     <div className="app">
       <h1>Welcome to My App</h1>
       <PasskeymeAuthPanel
-        appId="your-app-id"
+        providers={['google', 'github']}
         onSuccess={handleAuthSuccess}
-        onError={(error) => console.error('Auth error:', error)}
+        onError={handleError}
         theme={{ container: { backgroundColor: '#ffffff' } }}
         layout="vertical"
       />
@@ -55,14 +59,16 @@ The primary component for adding authentication to your React app.
 
 | Prop | Type | Required | Description |
 |------|------|----------|-------------|
-| `appId` | `string` | ✅ | Your PasskeyMe application ID |
-| `onSuccess` | `(user: User) => void` | ✅ | Called when authentication succeeds |
+| `providers` | `string[]` | | Enabled OAuth providers (e.g., ['google', 'github']) |
+| `onSuccess` | `(user: User, method: string) => void` | ✅ | Called when authentication succeeds |
 | `onError` | `(error: Error) => void` | | Called when authentication fails |
-| `theme` | `'light' \| 'dark' \| 'auto'` | | Visual theme (default: 'auto') |
-| `layout` | `'card' \| 'inline' \| 'modal'` | | Component layout style (default: 'card') |
-| `providers` | `string[]` | | Enabled OAuth providers |
-| `showPasswordAuth` | `boolean` | | Enable password authentication (default: true) |
-| `customStyles` | `object` | | Custom CSS-in-JS styles |
+| `theme` | `PasskeymeAuthPanelTheme` | | Custom theme object |
+| `layout` | `'vertical' \| 'horizontal' \| 'grid'` | | Component layout style (default: 'vertical') |
+| `enablePasskeys` | `boolean` | | Enable passkey authentication (default: true) |
+| `title` | `string` | | Panel title |
+| `subtitle` | `string` | | Panel subtitle |
+| `passkeyButtonText` | `string` | | Passkey button text |
+| `dividerText` | `string` | | Divider text between auth methods |
 | `className` | `string` | | Additional CSS class names |
 
 ### Basic Usage
@@ -73,9 +79,10 @@ import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
 function LoginPage() {
   return (
     <PasskeymeAuthPanel
-      appId="your-app-id"
-      onSuccess={(user) => {
+      providers={['google', 'github']}
+      onSuccess={(user, method) => {
         // Handle successful authentication
+        console.log(`Authenticated via ${method}:`, user);
         localStorage.setItem('user', JSON.stringify(user));
         window.location.href = '/dashboard';
       }}
@@ -299,8 +306,8 @@ function AuthenticatedApp() {
   if (!user) {
     return (
       <PasskeymeAuthPanel
-        appId="your-app-id"
-        onSuccess={(user) => {
+        providers={['google', 'github']}
+        onSuccess={(user, method) => {
           setUser(user);
           localStorage.setItem('user', JSON.stringify(user));
         }}
@@ -378,7 +385,7 @@ const LoginForm: React.FC<Props> = ({ onComplete }) => {
 
   return (
     <PasskeymeAuthPanel
-      appId="your-app-id"
+      providers={['google', 'github']}
       onSuccess={handleSuccess}
       onError={handleError}
       theme={{
@@ -412,7 +419,7 @@ import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
 ## Best Practices
 
 ### User Experience
-- Use `theme="auto"` to respect user's system preferences
+- Use custom theme objects to match your app's design
 - Provide clear error messages with `onError` handler
 - Show loading states during authentication
 

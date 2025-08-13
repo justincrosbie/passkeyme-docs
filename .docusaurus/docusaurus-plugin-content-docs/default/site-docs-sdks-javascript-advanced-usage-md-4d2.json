@@ -1,0 +1,31 @@
+{
+  "id": "sdks/javascript/advanced-usage",
+  "title": "Advanced Usage",
+  "description": "Advanced patterns and complex authentication scenarios",
+  "source": "@site/docs/sdks/javascript/advanced-usage.md",
+  "sourceDirName": "sdks/javascript",
+  "slug": "/sdks/javascript/advanced-usage",
+  "permalink": "/docs/sdks/javascript/advanced-usage",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/javascript/advanced-usage.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "id": "advanced-usage",
+    "title": "Advanced Usage",
+    "sidebar_label": "Advanced Usage",
+    "description": "Advanced patterns and complex authentication scenarios"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "handleAuthCallback",
+    "permalink": "/docs/sdks/javascript/handle-auth-callback"
+  },
+  "next": {
+    "title": "Low-Level SDKs",
+    "permalink": "/docs/sdks/low-level-overview"
+  }
+}

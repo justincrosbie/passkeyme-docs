@@ -21,9 +21,9 @@ import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
 function LoginPage() {
   return (
     <PasskeymeAuthPanel
-      appId="your-app-id"
-      onSuccess={(user) => console.log('Authenticated:', user)}
-      theme="auto"
+      providers={['google', 'github']}
+      onSuccess={(user, method) => console.log('Authenticated:', user)}
+      theme={{}}
     />
   );
 }
@@ -95,9 +95,9 @@ Complete authentication components for React applications.
 
 ```jsx
 <PasskeymeAuthPanel 
-  appId="your-app-id"
-  onSuccess={(user) => handleLogin(user)}
-  theme="auto"
+  providers={['google', 'github']}
+  onSuccess={(user, method) => handleLogin(user, method)}
+  theme={{}}
 />
 ```
 **Perfect for:** React apps, custom UI, seamless user experience
@@ -127,8 +127,8 @@ Get up and running in under 5 minutes with our new React SDK:
 
 1. **Sign up** at [console.passkeyme.com](https://console.passkeyme.com)
 2. **Install React SDK** - `npm install @passkeyme/react-auth`
-3. **Add component** - `<PasskeymeAuthPanel />`
-4. **Handle events** - `onSuccess={(user) => handleLogin(user)}`
+3. **Add component** - `<PasskeymeAuthPanel providers={['google', 'github']} />`
+4. **Handle events** - `onSuccess={(user, method) => handleLogin(user, method)}`
 
 ```typescript
 import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
@@ -136,9 +136,9 @@ import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
 function App() {
   return (
     <PasskeymeAuthPanel
-      appId="your-app-id"
-      onSuccess={(user) => handleLogin(user)}
-      theme="auto"
+      providers={['google', 'github']}
+      onSuccess={(user, method) => handleLogin(user, method)}
+      theme={{}}
     />
   );
 }

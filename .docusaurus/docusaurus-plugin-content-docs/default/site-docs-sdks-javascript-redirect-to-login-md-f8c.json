@@ -1,0 +1,31 @@
+{
+  "id": "sdks/javascript/redirect-to-login",
+  "title": "redirectToLogin Method",
+  "description": "Direct redirect to PasskeyMe hosted authentication pages",
+  "source": "@site/docs/sdks/javascript/redirect-to-login.md",
+  "sourceDirName": "sdks/javascript",
+  "slug": "/sdks/javascript/redirect-to-login",
+  "permalink": "/docs/sdks/javascript/redirect-to-login",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/javascript/redirect-to-login.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {
+    "id": "redirect-to-login",
+    "title": "redirectToLogin Method",
+    "sidebar_label": "redirectToLogin",
+    "description": "Direct redirect to PasskeyMe hosted authentication pages"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "smartLogin",
+    "permalink": "/docs/sdks/javascript/smart-login"
+  },
+  "next": {
+    "title": "handleAuthCallback",
+    "permalink": "/docs/sdks/javascript/handle-auth-callback"
+  }
+}

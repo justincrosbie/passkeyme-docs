@@ -1,600 +1,667 @@
 {
-  "/blog-240": {
-    "__comp": "a6aa9e1f",
+  "/__docusaurus/debug-5ff": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
     "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      },
-      {
-        "content": "c2e83cf2"
-      },
-      {
-        "content": "4a586bfe"
-      },
-      {
-        "content": "07e384b8"
-      },
-      {
-        "content": "d736a4de"
-      },
-      {
-        "content": "b46a7c25"
-      }
-    ],
-    "__props": "c15d9823"
-  },
-  "/blog/archive-182": {
-    "__comp": "9e4087bc",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "__props": "f81c1134"
-  },
-  "/blog/discoverable-da4": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "959b3943"
-  },
-  "/blog/dogfood-7c0": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "c5c39b07"
-  },
-  "/blog/introduction-to-passkeyme-266": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "a63ba071"
-  },
-  "/blog/new-javascript-react-sdks-3f5": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "e8cbf3a2"
-  },
-  "/blog/tags-287": {
-    "__comp": "01a85c17",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "__props": "3a2db09e"
-  },
-  "/blog/tags/analytics-671": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "07e384b8"
-      }
-    ],
-    "__props": "66e9ef90"
-  },
-  "/blog/tags/announcement-ed8": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "9d86e7fa"
-  },
-  "/blog/tags/authentication-f1a": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d736a4de"
-      }
-    ],
-    "__props": "782e1f96"
-  },
-  "/blog/tags/charts-a4a": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "07e384b8"
-      }
-    ],
-    "__props": "656494c8"
-  },
-  "/blog/tags/developer-experience-f22": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "4a730300"
-  },
-  "/blog/tags/discoverable-b6e": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "c2e83cf2"
-      }
-    ],
-    "__props": "e43ebfdb"
-  },
-  "/blog/tags/dogfood-642": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "4a586bfe"
-      }
-    ],
-    "__props": "31d9b029"
-  },
-  "/blog/tags/firebase-auth-790": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "66f81dba"
-  },
-  "/blog/tags/introduction-09b": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "c2e83cf2"
-      },
-      {
-        "content": "4a586bfe"
-      },
-      {
-        "content": "07e384b8"
-      },
-      {
-        "content": "b46a7c25"
-      }
-    ],
-    "__props": "65ea2434"
-  },
-  "/blog/tags/javascript-a23": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "17b93f41"
-  },
-  "/blog/tags/passkeyme-ce1": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "c2e83cf2"
-      },
-      {
-        "content": "4a586bfe"
-      },
-      {
-        "content": "07e384b8"
-      },
-      {
-        "content": "b46a7c25"
-      }
-    ],
-    "__props": "f02eefa2"
-  },
-  "/blog/tags/passkeys-dd2": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d736a4de"
-      }
-    ],
-    "__props": "7021dc05"
-  },
-  "/blog/tags/react-d8f": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "8a4fae67"
-  },
-  "/blog/tags/resident-key-fe1": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "c2e83cf2"
-      }
-    ],
-    "__props": "4bca880e"
-  },
-  "/blog/tags/saas-21f": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "c2e83cf2"
-      },
-      {
-        "content": "4a586bfe"
-      },
-      {
-        "content": "07e384b8"
-      },
-      {
-        "content": "b46a7c25"
-      }
-    ],
-    "__props": "bae26e18"
-  },
-  "/blog/tags/sdk-bb1": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "8179312c"
-  },
-  "/blog/tags/security-1e2": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d736a4de"
-      }
-    ],
-    "__props": "87c901a1"
-  },
-  "/blog/tags/synchronised-11f": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "c2e83cf2"
-      }
-    ],
-    "__props": "2f03ecb2"
-  },
-  "/blog/tags/typescript-a3a": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "d29dbffb"
-      }
-    ],
-    "__props": "832fe255"
-  },
-  "/blog/tags/usage-fcd": {
-    "__comp": "6875c492",
-    "__context": {
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "items": [
-      {
-        "content": "07e384b8"
-      }
-    ],
-    "__props": "4f583b1b"
-  },
-  "/blog/usage-charts-8a6": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "47704415"
-  },
-  "/blog/why-passkeys-are-important-f0b": {
-    "__comp": "ccc49370",
-    "__context": {
-      "data": {
-        "blogMetadata": "acecf23e"
-      },
-      "plugin": "36994c47"
-    },
-    "sidebar": "814f3328",
-    "content": "3f278687"
-  },
-  "/framework-selector-4f7": {
-    "__comp": "e7727906",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "config": "5e9f5e1a"
-  },
-  "/markdown-page-3d7": {
-    "__comp": "1f391b9e",
-    "__context": {
-      "plugin": "a7456010"
-    },
-    "content": "393be207"
-  },
-  "/docs-8f3": {
-    "__comp": "5e95c892",
-    "__context": {
-      "plugin": "aba21aa0"
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
     }
   },
-  "/docs-a38": {
-    "__comp": "a7bd4aaa",
-    "__props": "0058b4c6"
+  "/__docusaurus/debug/config-5ba": {
+    "__comp": "__comp---theme-debug-config-23-a-2ff",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs-58e": {
-    "__comp": "a94703ab"
+  "/__docusaurus/debug/content-a2b": {
+    "__comp": "__comp---theme-debug-contentba-8-ce7",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    },
+    "__props": "__props---docusaurus-debug-content-3-c-0-be2"
   },
-  "/docs/-b8d": {
-    "__comp": "17896441",
-    "content": "0e384e19"
+  "/__docusaurus/debug/globalData-c3c": {
+    "__comp": "__comp---theme-debug-global-dataede-0fa",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs/api/api-overview-886": {
-    "__comp": "17896441",
-    "content": "65df3d35"
+  "/__docusaurus/debug/metadata-156": {
+    "__comp": "__comp---theme-debug-site-metadata-68-e-3d4",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs/api/authentication-c45": {
-    "__comp": "17896441",
-    "content": "baeff1df"
+  "/__docusaurus/debug/registry-88c": {
+    "__comp": "__comp---theme-debug-registry-679-501",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs/api/authentication-flows-d67": {
-    "__comp": "17896441",
-    "content": "f7b811e8"
+  "/__docusaurus/debug/routes-000": {
+    "__comp": "__comp---theme-debug-routes-946-699",
+    "__context": {
+      "plugin": "plugin---docusaurus-debugb-38-ad3"
+    }
   },
-  "/docs/api/registration-4a9": {
-    "__comp": "17896441",
-    "content": "cdcc2dfb"
+  "/blog-240": {
+    "__comp": "__comp---theme-blog-list-pagea-6-a-7ba",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      },
+      {
+        "content": "content---blogc-2-e-de2"
+      },
+      {
+        "content": "content---blog-4-a-5-9be"
+      },
+      {
+        "content": "content---blog-07-e-f1b"
+      },
+      {
+        "content": "content---blogd-73-6fe"
+      },
+      {
+        "content": "content---blogb-46-2ea"
+      }
+    ],
+    "__props": "__props---blogc-15-573"
   },
-  "/docs/api/token-management-b1b": {
-    "__comp": "17896441",
-    "content": "ea38dda6"
+  "/blog/archive-182": {
+    "__comp": "__comp---theme-blog-archive-page-9-e-4-1d8",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "__props": "__props---blog-archivef-81-229"
   },
-  "/docs/api/user-management-097": {
-    "__comp": "17896441",
-    "content": "6b36cec0"
+  "/blog/discoverable-da4": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-discoverableace-cf0"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-discoverable-959-7b8"
   },
-  "/docs/configuration/authentication-methods-2ef": {
-    "__comp": "17896441",
-    "content": "345bbb01"
+  "/blog/dogfood-7c0": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-discoverableace-cf0"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-dogfoodc-5-c-4c8"
   },
-  "/docs/faq-a89": {
-    "__comp": "17896441",
-    "content": "0480b142"
+  "/blog/introduction-to-passkeyme-266": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-discoverableace-cf0"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-introduction-to-passkeymea-63-5af"
   },
-  "/docs/getting-started/architecture-04b": {
-    "__comp": "17896441",
-    "content": "24b82002"
+  "/blog/new-javascript-react-sdks-3f5": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-discoverableace-cf0"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-new-javascript-react-sdkse-8-c-c5e"
   },
-  "/docs/getting-started/choosing-approach-960": {
-    "__comp": "17896441",
-    "content": "523b8551"
+  "/blog/tags-287": {
+    "__comp": "__comp---theme-blog-tags-list-page-01-a-d0b",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "__props": "__props---blog-tags-3-a-2-fa2"
   },
-  "/docs/getting-started/concepts-1dd": {
-    "__comp": "17896441",
-    "content": "7b3ed863"
+  "/blog/tags/analytics-671": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-07-e-f1b"
+      }
+    ],
+    "__props": "__props---blog-tags-analytics-66-e-da2"
   },
-  "/docs/getting-started/framework-comparison-89b": {
-    "__comp": "17896441",
-    "content": "7725e450"
+  "/blog/tags/announcement-ed8": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-announcement-9-d-8-052"
   },
-  "/docs/getting-started/hosted-auth-4f4": {
-    "__comp": "17896441",
-    "content": "266f8514"
+  "/blog/tags/authentication-f1a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-73-6fe"
+      }
+    ],
+    "__props": "__props---blog-tags-authentication-782-a02"
   },
-  "/docs/getting-started/installation-ef0": {
-    "__comp": "17896441",
-    "content": "54f44165"
+  "/blog/tags/charts-a4a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-07-e-f1b"
+      }
+    ],
+    "__props": "__props---blog-tags-charts-656-425"
   },
-  "/docs/getting-started/quick-start-fda": {
-    "__comp": "17896441",
-    "content": "588bd741"
+  "/blog/tags/developer-experience-f22": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-developer-experience-4-a-7-371"
   },
-  "/docs/getting-started/setup-734": {
-    "__comp": "17896441",
-    "content": "530ea7a0"
+  "/blog/tags/discoverable-b6e": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-2-e-de2"
+      }
+    ],
+    "__props": "__props---blog-tags-discoverablee-43-93e"
   },
-  "/docs/glossary-356": {
-    "__comp": "17896441",
-    "content": "e747ec83"
+  "/blog/tags/dogfood-642": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-4-a-5-9be"
+      }
+    ],
+    "__props": "__props---blog-tags-dogfood-31-d-6fd"
   },
-  "/docs/SDKs/1.5 - sdk-installation-guide-ea9": {
-    "__comp": "17896441",
-    "content": "0d4cedf0"
+  "/blog/tags/firebase-auth-790": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-firebase-auth-66-f-144"
   },
-  "/docs/sdks/android-727": {
-    "__comp": "17896441",
-    "content": "3081ab66"
+  "/blog/tags/introduction-09b": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-2-e-de2"
+      },
+      {
+        "content": "content---blog-4-a-5-9be"
+      },
+      {
+        "content": "content---blog-07-e-f1b"
+      },
+      {
+        "content": "content---blogb-46-2ea"
+      }
+    ],
+    "__props": "__props---blog-tags-introduction-65-e-a98"
   },
-  "/docs/sdks/android-sdk-e39": {
-    "__comp": "17896441",
-    "content": "4185027c"
+  "/blog/tags/javascript-a23": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-javascript-17-b-644"
   },
-  "/docs/sdks/ionic-b24": {
-    "__comp": "17896441",
-    "content": "af454257"
+  "/blog/tags/passkeyme-ce1": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-2-e-de2"
+      },
+      {
+        "content": "content---blog-4-a-5-9be"
+      },
+      {
+        "content": "content---blog-07-e-f1b"
+      },
+      {
+        "content": "content---blogb-46-2ea"
+      }
+    ],
+    "__props": "__props---blog-tags-passkeymef-02-5ac"
   },
-  "/docs/sdks/ionic-plugin-415": {
-    "__comp": "17896441",
-    "content": "ffc10c91"
+  "/blog/tags/passkeys-dd2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-73-6fe"
+      }
+    ],
+    "__props": "__props---blog-tags-passkeys-702-d6a"
   },
-  "/docs/sdks/ios-74f": {
-    "__comp": "17896441",
-    "content": "c2fa7264"
+  "/blog/tags/react-d8f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-react-8-a-4-89d"
   },
-  "/docs/sdks/ios-sdk-419": {
-    "__comp": "17896441",
-    "content": "7c203d1e"
+  "/blog/tags/resident-key-fe1": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-2-e-de2"
+      }
+    ],
+    "__props": "__props---blog-tags-resident-key-4-bc-9b8"
   },
-  "/docs/sdks/javascript-4a0": {
-    "__comp": "17896441",
-    "content": "f6961e8e"
+  "/blog/tags/saas-21f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-2-e-de2"
+      },
+      {
+        "content": "content---blog-4-a-5-9be"
+      },
+      {
+        "content": "content---blog-07-e-f1b"
+      },
+      {
+        "content": "content---blogb-46-2ea"
+      }
+    ],
+    "__props": "__props---blog-tags-saasbae-0ac"
   },
-  "/docs/SDKs/javascript-sdk-fa2": {
-    "__comp": "17896441",
-    "content": "cab26347"
+  "/blog/tags/sdk-bb1": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-sdk-817-047"
   },
-  "/docs/sdks/low-level-overview-67d": {
-    "__comp": "17896441",
-    "content": "1637006a"
+  "/blog/tags/security-1e2": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-73-6fe"
+      }
+    ],
+    "__props": "__props---blog-tags-security-87-c-22a"
   },
-  "/docs/sdks/overview-9fe": {
-    "__comp": "17896441",
-    "content": "4b4b3c9c"
+  "/blog/tags/synchronised-11f": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogc-2-e-de2"
+      }
+    ],
+    "__props": "__props---blog-tags-synchronised-2-f-0-936"
   },
-  "/docs/sdks/react-698": {
-    "__comp": "17896441",
-    "content": "31988b19"
+  "/blog/tags/typescript-a3a": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blogd-29-997"
+      }
+    ],
+    "__props": "__props---blog-tags-typescript-832-7dd"
   },
-  "/docs/SDKs/react-sdk-2c8": {
-    "__comp": "17896441",
-    "content": "5a068892"
+  "/blog/tags/usage-fcd": {
+    "__comp": "__comp---theme-blog-tags-posts-page-687-b6c",
+    "__context": {
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "items": [
+      {
+        "content": "content---blog-07-e-f1b"
+      }
+    ],
+    "__props": "__props---blog-tags-usage-4-f-5-d61"
   },
-  "/docs/SDKs/react-sdk-fixed-b17": {
-    "__comp": "17896441",
-    "content": "d965ef0f"
+  "/blog/usage-charts-8a6": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-discoverableace-cf0"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-usage-charts-477-83f"
   },
-  "/docs/sdks/react/auth-panel-5ae": {
-    "__comp": "17896441",
-    "content": "23644fc1"
+  "/blog/why-passkeys-are-important-f0b": {
+    "__comp": "__comp---theme-blog-post-pageccc-cab",
+    "__context": {
+      "data": {
+        "blogMetadata": "blogMetadata---blog-discoverableace-cf0"
+      },
+      "plugin": "plugin---blog-369-22e"
+    },
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-why-passkeys-are-important-3-f-2-b7b"
   },
-  "/docs/sdks/react/oauth-button-e38": {
-    "__comp": "17896441",
-    "content": "ed4a5f8e"
+  "/framework-selector-4f7": {
+    "__comp": "__comp---site-src-pages-framework-selector-tsxe-77-b06",
+    "__context": {
+      "plugin": "plugin---framework-selectora-74-28b"
+    },
+    "config": "config---framework-selector-5-e-9-496"
   },
-  "/docs/sdks/react/passkey-button-e53": {
-    "__comp": "17896441",
-    "content": "3302b50c"
+  "/markdown-page-3d7": {
+    "__comp": "__comp---theme-mdx-page-1-f-3-b90",
+    "__context": {
+      "plugin": "plugin---framework-selectora-74-28b"
+    },
+    "content": "content---markdown-page-393-028"
   },
-  "/docs/sdks/react/use-passkeyme-45d": {
-    "__comp": "17896441",
-    "content": "5abc8f7b"
+  "/docs-ae9": {
+    "__comp": "__comp---theme-docs-root-5-e-9-0b6",
+    "__context": {
+      "plugin": "plugin---docsaba-d7c"
+    }
   },
-  "/docs/SDKs/sdk-intro-916": {
-    "__comp": "17896441",
-    "content": "a603f25d"
+  "/docs-26e": {
+    "__comp": "__comp---theme-doc-version-roota-7-b-5de",
+    "__props": "__props---docs-005-788"
   },
-  "/docs/sdks/web-sdk-1be": {
-    "__comp": "17896441",
-    "content": "f7211458"
+  "/docs-8dd": {
+    "__comp": "__comp---theme-doc-roota-94-67a"
   },
-  "/docs/troubleshooting/common-issues-dd4": {
-    "__comp": "17896441",
-    "content": "5133d60e"
+  "/docs/-acb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-0-e-3-18c"
   },
-  "/docs/whats-new-82f": {
-    "__comp": "17896441",
-    "content": "f9fecb86"
+  "/docs/api/api-overview-10a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-api-overview-65-d-e17"
   },
-  "/docs/why-passkeyme-775": {
-    "__comp": "17896441",
-    "content": "d104505b"
+  "/docs/api/authentication-833": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-authenticationbae-2fb"
   },
-  "/docs/why-passkeys-233": {
-    "__comp": "17896441",
-    "content": "9c993b4f"
+  "/docs/api/authentication-flows-04a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-authentication-flowsf-7-b-1b0"
+  },
+  "/docs/api/registration-5b9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-registrationcdc-5f4"
+  },
+  "/docs/api/token-management-8e8": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-token-managementea-3-3aa"
+  },
+  "/docs/api/user-management-200": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-api-user-management-6-b-3-446"
+  },
+  "/docs/configuration/authentication-methods-0f5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-configuration-authentication-methods-345-b3f"
+  },
+  "/docs/faq-7c9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-faq-048-db5"
+  },
+  "/docs/getting-started/architecture-f1c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-architecture-24-b-e45"
+  },
+  "/docs/getting-started/choosing-approach-2cf": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-choosing-approach-523-2f1"
+  },
+  "/docs/getting-started/concepts-0d7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-concepts-7-b-3-efe"
+  },
+  "/docs/getting-started/framework-comparison-4c3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-framework-comparison-772-3c3"
+  },
+  "/docs/getting-started/hosted-auth-9a2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-hosted-auth-266-67e"
+  },
+  "/docs/getting-started/installation-7cb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-installation-54-f-18d"
+  },
+  "/docs/getting-started/quick-start-713": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-quick-start-588-94b"
+  },
+  "/docs/getting-started/setup-6b0": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-setup-530-9f3"
+  },
+  "/docs/glossary-b39": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-glossarye-74-cec"
+  },
+  "/docs/SDKs/1.5 - sdk-installation-guide-f60": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sd-ks-1-5-sdk-installation-guide-0-d-4-b96"
+  },
+  "/docs/sdks/android-c6a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-android-308-38e"
+  },
+  "/docs/sdks/android-sdk-8fd": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-android-sdk-418-508"
+  },
+  "/docs/sdks/ionic-85c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-ionicaf-4-186"
+  },
+  "/docs/sdks/ionic-plugin-2fc": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-ionic-pluginffc-4b3"
+  },
+  "/docs/sdks/ios-399": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-iosc-2-f-ab6"
+  },
+  "/docs/sdks/ios-sdk-f44": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-ios-sdk-7-c-2-9ab"
+  },
+  "/docs/sdks/javascript-ee5": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascriptf-69-5ab"
+  },
+  "/docs/sdks/javascript-complex-105": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascript-complex-236-edc"
+  },
+  "/docs/SDKs/javascript-sdk-88f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sd-ks-javascript-sdkcab-e44"
+  },
+  "/docs/sdks/javascript-simple-987": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascript-simple-1-b-9-228"
+  },
+  "/docs/sdks/javascript/advanced-usage-97f": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascript-advanced-usage-4-d-2-a62"
+  },
+  "/docs/sdks/javascript/handle-auth-callback-ffa": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascript-handle-auth-callback-885-e59"
+  },
+  "/docs/sdks/javascript/redirect-to-login-f1e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascript-redirect-to-loginf-8-c-7b6"
+  },
+  "/docs/sdks/javascript/smart-login-e4e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-javascript-smart-login-5-c-8-7c4"
+  },
+  "/docs/sdks/low-level-overview-359": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-low-level-overview-163-34a"
+  },
+  "/docs/sdks/overview-50c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-overview-4-b-4-978"
+  },
+  "/docs/sdks/react-bc7": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-react-319-34c"
+  },
+  "/docs/SDKs/react-sdk-c2a": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sd-ks-react-sdk-5-a-0-05d"
+  },
+  "/docs/SDKs/react-sdk-fixed-915": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sd-ks-react-sdk-fixedd-96-d19"
+  },
+  "/docs/sdks/react/auth-panel-8f1": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-react-auth-panel-236-bc4"
+  },
+  "/docs/sdks/react/oauth-button-68e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-react-oauth-buttoned-4-f8e"
+  },
+  "/docs/sdks/react/passkey-button-758": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-react-passkey-button-330-2d6"
+  },
+  "/docs/sdks/react/use-passkeyme-94e": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-react-use-passkeyme-5-ab-660"
+  },
+  "/docs/SDKs/sdk-intro-6c2": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sd-ks-sdk-introa-60-069"
+  },
+  "/docs/sdks/web-sdk-041": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-sdks-web-sdkf-72-448"
+  },
+  "/docs/troubleshooting/common-issues-bf9": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-troubleshooting-common-issues-513-ef6"
+  },
+  "/docs/whats-new-b8c": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-whats-newf-9-f-4cb"
+  },
+  "/docs/why-passkeyme-9a3": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-why-passkeymed-10-a22"
+  },
+  "/docs/why-passkeys-1fb": {
+    "__comp": "__comp---theme-doc-item-178-a40",
+    "content": "content---docs-why-passkeys-9-c-9-a33"
   },
   "/-e5f": {
-    "__comp": "1df93b7f",
+    "__comp": "__comp---site-src-pages-index-tsx-1-df-d3e",
     "__context": {
-      "plugin": "a7456010"
+      "plugin": "plugin---framework-selectora-74-28b"
     },
-    "config": "5e9f5e1a"
+    "config": "config---framework-selector-5-e-9-496"
   }
 }

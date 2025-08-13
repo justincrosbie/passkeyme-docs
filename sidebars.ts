@@ -68,9 +68,21 @@ const sidebars: SidebarsConfig = {
           ],
         },
         {
-          type: 'doc', 
-          id: 'sdks/javascript',
-          label: '🌐 JavaScript SDK ✨ NEW'
+          type: 'category',
+          label: '🌐 JavaScript SDK',
+          items: [
+            'sdks/javascript',
+            {
+              type: 'category',
+              label: 'Authentication Methods',
+              items: [
+                'sdks/javascript/smart-login',
+                'sdks/javascript/redirect-to-login',
+                'sdks/javascript/handle-auth-callback',
+                'sdks/javascript/advanced-usage',
+              ],
+            },
+          ],
         },
       ],
     },

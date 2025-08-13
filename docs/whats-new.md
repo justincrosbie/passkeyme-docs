@@ -23,9 +23,9 @@ Complete authentication panel with built-in UI for both passkeys and OAuth provi
 import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
 
 <PasskeymeAuthPanel
-  appId="your-app-id"
-  onSuccess={(user) => console.log('Authenticated:', user)}
-  theme="auto"
+  providers={['google', 'github']}
+  onSuccess={(user, method) => console.log('Authenticated:', user)}
+  theme={{}}
 />
 ```
 
@@ -37,7 +37,6 @@ import { PasskeymeOAuthButton } from '@passkeyme/react-auth';
 
 <PasskeymeOAuthButton
   provider="google"
-  appId="your-app-id"
   onSuccess={(user) => setUser(user)}
 />
 ```
@@ -49,14 +48,15 @@ Streamlined passkey authentication button.
 import { PasskeymeButton } from '@passkeyme/react-auth';
 
 <PasskeymeButton
-  appId="your-app-id"
   onSuccess={(user) => handleLogin(user)}
-/>
+>
+  🔐 Login with Passkey
+</PasskeymeButton>
 ```
 
 ### **Key React SDK Features:**
 - 🎯 **TypeScript First** - Full type safety out of the box
-- 🎨 **Themeable** - Light, dark, and auto themes with custom styling
+- 🎨 **Themeable** - Object-based theming with full customization
 - 🔄 **State Management** - Built-in loading, error, and success states
 - 📱 **Responsive** - Mobile-optimized components
 - 🛠️ **Developer Experience** - Hot reloading, clear error messages, debug mode

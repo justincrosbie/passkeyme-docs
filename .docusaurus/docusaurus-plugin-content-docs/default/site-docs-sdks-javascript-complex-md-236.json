@@ -1,0 +1,17 @@
+{
+  "id": "sdks/javascript-complex",
+  "title": "javascript-complex",
+  "description": "",
+  "source": "@site/docs/sdks/javascript-complex.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/javascript-complex",
+  "permalink": "/docs/sdks/javascript-complex",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/javascript-complex.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Author",
+  "lastUpdatedAt": 1539502055000,
+  "frontMatter": {}
+}
