@@ -159,37 +159,36 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'e04'),
+    component: ComponentCreator('/docs', 'b6e'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '54a'),
+        component: ComponentCreator('/docs', '592'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8f4'),
+            component: ComponentCreator('/docs', '488'),
             routes: [
               {
                 path: '/docs/',
-                component: ComponentCreator('/docs/', 'db9'),
+                component: ComponentCreator('/docs/', 'b8d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/api-overview',
-                component: ComponentCreator('/docs/api/api-overview', '92e'),
+                component: ComponentCreator('/docs/api/api-overview', '886'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/authentication',
-                component: ComponentCreator('/docs/api/authentication', 'eb1'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/docs/api/authentication', 'c45'),
+                exact: true
               },
               {
                 path: '/docs/api/authentication-flows',
-                component: ComponentCreator('/docs/api/authentication-flows', '699'),
+                component: ComponentCreator('/docs/api/authentication-flows', 'd67'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -200,7 +199,7 @@ export default [
               },
               {
                 path: '/docs/api/token-management',
-                component: ComponentCreator('/docs/api/token-management', '4f6'),
+                component: ComponentCreator('/docs/api/token-management', 'b1b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -245,6 +244,12 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
+                path: '/docs/getting-started/hosted-auth',
+                component: ComponentCreator('/docs/getting-started/hosted-auth', '4f4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
                 path: '/docs/getting-started/installation',
                 component: ComponentCreator('/docs/getting-started/installation', 'ef0'),
                 exact: true,
@@ -252,7 +257,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/quick-start',
-                component: ComponentCreator('/docs/getting-started/quick-start', 'f80'),
+                component: ComponentCreator('/docs/getting-started/quick-start', 'fda'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -307,7 +312,7 @@ export default [
               },
               {
                 path: '/docs/sdks/javascript',
-                component: ComponentCreator('/docs/sdks/javascript', '824'),
+                component: ComponentCreator('/docs/sdks/javascript', '4a0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -358,6 +363,12 @@ export default [
               {
                 path: '/docs/troubleshooting/common-issues',
                 component: ComponentCreator('/docs/troubleshooting/common-issues', 'dd4'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/whats-new',
+                component: ComponentCreator('/docs/whats-new', '82f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

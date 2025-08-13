@@ -21,8 +21,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Choosing Your Approach",
-    "permalink": "/docs/getting-started/choosing-approach"
+    "title": "Hosted Auth Pages",
+    "permalink": "/docs/getting-started/hosted-auth"
   },
   "next": {
     "title": "installation",

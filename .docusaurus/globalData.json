@@ -17,8 +17,7 @@
             },
             {
               "id": "api/authentication",
-              "path": "/docs/api/authentication",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/api/authentication"
             },
             {
               "id": "api/authentication-flows",
@@ -65,6 +64,11 @@
             {
               "id": "getting-started/framework-comparison",
               "path": "/docs/getting-started/framework-comparison",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "getting-started/hosted-auth",
+              "path": "/docs/getting-started/hosted-auth",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -166,6 +170,11 @@
             {
               "id": "troubleshooting/common-issues",
               "path": "/docs/troubleshooting/common-issues",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "whats-new",
+              "path": "/docs/whats-new",
               "sidebar": "tutorialSidebar"
             },
             {

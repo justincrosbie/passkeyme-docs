@@ -1,0 +1,39 @@
+{
+  "id": "getting-started/hosted-auth",
+  "title": "Hosted Auth Pages",
+  "description": "Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security",
+  "source": "@site/docs/getting-started/hosted-auth.md",
+  "sourceDirName": "getting-started",
+  "slug": "/getting-started/hosted-auth",
+  "permalink": "/docs/getting-started/hosted-auth",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/getting-started/hosted-auth.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1755052409000,
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "sidebar_position": 4,
+    "id": "hosted-auth",
+    "title": "Hosted Auth Pages",
+    "description": "Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "authentication pages",
+      "oauth",
+      "passkeys"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Choosing Your Approach",
+    "permalink": "/docs/getting-started/choosing-approach"
+  },
+  "next": {
+    "title": "Framework Comparison",
+    "permalink": "/docs/getting-started/framework-comparison"
+  }
+}

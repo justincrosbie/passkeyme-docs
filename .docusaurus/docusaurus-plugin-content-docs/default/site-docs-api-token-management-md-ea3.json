@@ -12,7 +12,7 @@
   "tags": [],
   "version": "current",
   "lastUpdatedBy": "Justin Crosbie",
-  "lastUpdatedAt": 1754110758000,
+  "lastUpdatedAt": 1755052409000,
   "sidebarPosition": 3,
   "frontMatter": {
     "sidebar_position": 3,
@@ -26,7 +26,7 @@
     "permalink": "/docs/api/authentication-flows"
   },
   "next": {
-    "title": "Authentication",
-    "permalink": "/docs/api/authentication"
+    "title": "authentication-methods",
+    "permalink": "/docs/configuration/authentication-methods"
   }
 }

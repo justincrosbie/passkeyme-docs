@@ -1,0 +1,40 @@
+{
+  "id": "whats-new",
+  "title": "What's New",
+  "description": "Latest features, updates, and improvements to PasskeyMe",
+  "source": "@site/docs/whats-new.md",
+  "sourceDirName": ".",
+  "slug": "/whats-new",
+  "permalink": "/docs/whats-new",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/whats-new.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": "Justin Crosbie",
+  "lastUpdatedAt": 1755052409000,
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2,
+    "id": "whats-new",
+    "title": "What's New",
+    "description": "Latest features, updates, and improvements to PasskeyMe",
+    "keywords": [
+      "passkeyme",
+      "updates",
+      "features",
+      "react sdk",
+      "javascript sdk",
+      "hosted auth"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Welcome to PasskeyMe",
+    "permalink": "/docs/"
+  },
+  "next": {
+    "title": "Why PasskeyMe?",
+    "permalink": "/docs/why-passkeyme"
+  }
+}

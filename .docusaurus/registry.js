@@ -11,6 +11,7 @@ export default {
   "1df93b7f": [() => import(/* webpackChunkName: "1df93b7f" */ "@site/src/pages/index.tsx"), "@site/src/pages/index.tsx", require.resolveWeak("@site/src/pages/index.tsx")],
   "1f391b9e": [() => import(/* webpackChunkName: "1f391b9e" */ "@theme/MDXPage"), "@theme/MDXPage", require.resolveWeak("@theme/MDXPage")],
   "24b82002": [() => import(/* webpackChunkName: "24b82002" */ "@site/docs/getting-started/architecture.md"), "@site/docs/getting-started/architecture.md", require.resolveWeak("@site/docs/getting-started/architecture.md")],
+  "266f8514": [() => import(/* webpackChunkName: "266f8514" */ "@site/docs/getting-started/hosted-auth.md"), "@site/docs/getting-started/hosted-auth.md", require.resolveWeak("@site/docs/getting-started/hosted-auth.md")],
   "2f03ecb2": [() => import(/* webpackChunkName: "2f03ecb2" */ "@generated/docusaurus-plugin-content-blog/default/p/blog-tags-synchronised-386.json"), "@generated/docusaurus-plugin-content-blog/default/p/blog-tags-synchronised-386.json", require.resolveWeak("@generated/docusaurus-plugin-content-blog/default/p/blog-tags-synchronised-386.json")],
   "3081ab66": [() => import(/* webpackChunkName: "3081ab66" */ "@site/docs/sdks/android.md"), "@site/docs/sdks/android.md", require.resolveWeak("@site/docs/sdks/android.md")],
   "31988b19": [() => import(/* webpackChunkName: "31988b19" */ "@site/docs/sdks/react.md"), "@site/docs/sdks/react.md", require.resolveWeak("@site/docs/sdks/react.md")],
@@ -89,4 +90,5 @@ export default {
   "f7211458": [() => import(/* webpackChunkName: "f7211458" */ "@site/docs/sdks/web-sdk.md"), "@site/docs/sdks/web-sdk.md", require.resolveWeak("@site/docs/sdks/web-sdk.md")],
   "f7b811e8": [() => import(/* webpackChunkName: "f7b811e8" */ "@site/docs/api/authentication-flows.md"), "@site/docs/api/authentication-flows.md", require.resolveWeak("@site/docs/api/authentication-flows.md")],
   "f81c1134": [() => import(/* webpackChunkName: "f81c1134" */ "@generated/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json"), "@generated/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json", require.resolveWeak("@generated/docusaurus-plugin-content-blog/default/p/blog-archive-f05.json")],
+  "f9fecb86": [() => import(/* webpackChunkName: "f9fecb86" */ "@site/docs/whats-new.md"), "@site/docs/whats-new.md", require.resolveWeak("@site/docs/whats-new.md")],
   "ffc10c91": [() => import(/* webpackChunkName: "ffc10c91" */ "@site/docs/sdks/ionic-plugin.md"), "@site/docs/sdks/ionic-plugin.md", require.resolveWeak("@site/docs/sdks/ionic-plugin.md")],};

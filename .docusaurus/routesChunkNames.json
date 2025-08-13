@@ -409,32 +409,32 @@
     },
     "content": "393be207"
   },
-  "/docs-e04": {
+  "/docs-b6e": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-54a": {
+  "/docs-592": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-8f4": {
+  "/docs-488": {
     "__comp": "a94703ab"
   },
-  "/docs/-db9": {
+  "/docs/-b8d": {
     "__comp": "17896441",
     "content": "0e384e19"
   },
-  "/docs/api/api-overview-92e": {
+  "/docs/api/api-overview-886": {
     "__comp": "17896441",
     "content": "65df3d35"
   },
-  "/docs/api/authentication-eb1": {
+  "/docs/api/authentication-c45": {
     "__comp": "17896441",
     "content": "baeff1df"
   },
-  "/docs/api/authentication-flows-699": {
+  "/docs/api/authentication-flows-d67": {
     "__comp": "17896441",
     "content": "f7b811e8"
   },
@@ -442,7 +442,7 @@
     "__comp": "17896441",
     "content": "cdcc2dfb"
   },
-  "/docs/api/token-management-4f6": {
+  "/docs/api/token-management-b1b": {
     "__comp": "17896441",
     "content": "ea38dda6"
   },
@@ -474,11 +474,15 @@
     "__comp": "17896441",
     "content": "7725e450"
   },
+  "/docs/getting-started/hosted-auth-4f4": {
+    "__comp": "17896441",
+    "content": "266f8514"
+  },
   "/docs/getting-started/installation-ef0": {
     "__comp": "17896441",
     "content": "54f44165"
   },
-  "/docs/getting-started/quick-start-f80": {
+  "/docs/getting-started/quick-start-fda": {
     "__comp": "17896441",
     "content": "588bd741"
   },
@@ -518,7 +522,7 @@
     "__comp": "17896441",
     "content": "7c203d1e"
   },
-  "/docs/sdks/javascript-824": {
+  "/docs/sdks/javascript-4a0": {
     "__comp": "17896441",
     "content": "f6961e8e"
   },
@@ -557,6 +561,10 @@
   "/docs/troubleshooting/common-issues-dd4": {
     "__comp": "17896441",
     "content": "5133d60e"
+  },
+  "/docs/whats-new-82f": {
+    "__comp": "17896441",
+    "content": "f9fecb86"
   },
   "/docs/why-passkeyme-775": {
     "__comp": "17896441",

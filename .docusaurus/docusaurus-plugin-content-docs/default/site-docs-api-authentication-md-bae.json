@@ -18,14 +18,5 @@
     "title": "Authentication API",
     "sidebar_label": "Authentication",
     "description": "Direct HTTP API for PasskeyMe authentication services"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Token Management & Security",
-    "permalink": "/docs/api/token-management"
-  },
-  "next": {
-    "title": "authentication-methods",
-    "permalink": "/docs/configuration/authentication-methods"
   }
 }

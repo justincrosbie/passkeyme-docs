@@ -22,8 +22,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Welcome to PasskeyMe",
-    "permalink": "/docs/"
+    "title": "What's New",
+    "permalink": "/docs/whats-new"
   },
   "next": {
     "title": "Why Passkeys?",

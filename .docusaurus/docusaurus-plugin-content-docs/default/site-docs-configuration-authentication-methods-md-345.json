@@ -16,8 +16,8 @@
   "frontMatter": {},
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Authentication",
-    "permalink": "/docs/api/authentication"
+    "title": "Token Management & Security",
+    "permalink": "/docs/api/token-management"
   },
   "next": {
     "title": "Common Issues",
