@@ -1,0 +1,31 @@
+{
+  "id": "sdks/react/auth-panel",
+  "title": "PasskeymeAuthPanel",
+  "description": "Complete all-in-one inline authentication component for React applications",
+  "source": "@site/docs/sdks/react/auth-panel.md",
+  "sourceDirName": "sdks/react",
+  "slug": "/sdks/react/auth-panel",
+  "permalink": "/docs/sdks/react/auth-panel",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/react/auth-panel.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "auth-panel",
+    "title": "PasskeymeAuthPanel",
+    "sidebar_label": "PasskeymeAuthPanel",
+    "description": "Complete all-in-one inline authentication component for React applications"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "React SDK",
+    "permalink": "/docs/sdks/react"
+  },
+  "next": {
+    "title": "PasskeymeOAuthButton",
+    "permalink": "/docs/sdks/react/oauth-button"
+  }
+}

@@ -49,9 +49,23 @@ const sidebars: SidebarsConfig = {
       items: [
         'sdks/overview',
         {
-          type: 'doc',
-          id: 'sdks/react',
-          label: '⚛️ React SDK ✨ NEW'
+          type: 'category',
+          label: '⚛️ React SDK ✨ NEW',
+          collapsed: false,
+          items: [
+            'sdks/react',
+            {
+              type: 'category',
+              label: '📦 Components',
+              collapsed: true,
+              items: [
+                'sdks/react/auth-panel',
+                'sdks/react/oauth-button',
+                'sdks/react/passkey-button',
+                'sdks/react/use-passkeyme',
+              ],
+            },
+          ],
         },
         {
           type: 'doc', 

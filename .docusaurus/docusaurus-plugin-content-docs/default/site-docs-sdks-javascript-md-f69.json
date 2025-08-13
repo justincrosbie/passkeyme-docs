@@ -21,8 +21,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "React SDK",
-    "permalink": "/docs/sdks/react"
+    "title": "usePasskeyme Hook",
+    "permalink": "/docs/sdks/react/use-passkeyme"
   },
   "next": {
     "title": "Low-Level SDKs",

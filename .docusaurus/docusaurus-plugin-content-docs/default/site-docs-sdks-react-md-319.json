@@ -25,7 +25,7 @@
     "permalink": "/docs/sdks/overview"
   },
   "next": {
-    "title": "JavaScript/TypeScript",
-    "permalink": "/docs/sdks/javascript"
+    "title": "PasskeymeAuthPanel",
+    "permalink": "/docs/sdks/react/auth-panel"
   }
 }

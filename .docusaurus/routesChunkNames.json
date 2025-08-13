@@ -409,17 +409,17 @@
     },
     "content": "393be207"
   },
-  "/docs-b6e": {
+  "/docs-8f3": {
     "__comp": "5e95c892",
     "__context": {
       "plugin": "aba21aa0"
     }
   },
-  "/docs-592": {
+  "/docs-a38": {
     "__comp": "a7bd4aaa",
     "__props": "0058b4c6"
   },
-  "/docs-488": {
+  "/docs-58e": {
     "__comp": "a94703ab"
   },
   "/docs/-b8d": {
@@ -549,6 +549,22 @@
   "/docs/SDKs/react-sdk-fixed-b17": {
     "__comp": "17896441",
     "content": "d965ef0f"
+  },
+  "/docs/sdks/react/auth-panel-5ae": {
+    "__comp": "17896441",
+    "content": "23644fc1"
+  },
+  "/docs/sdks/react/oauth-button-e38": {
+    "__comp": "17896441",
+    "content": "ed4a5f8e"
+  },
+  "/docs/sdks/react/passkey-button-e53": {
+    "__comp": "17896441",
+    "content": "3302b50c"
+  },
+  "/docs/sdks/react/use-passkeyme-45d": {
+    "__comp": "17896441",
+    "content": "5abc8f7b"
   },
   "/docs/SDKs/sdk-intro-916": {
     "__comp": "17896441",

@@ -1,0 +1,31 @@
+{
+  "id": "sdks/react/use-passkeyme",
+  "title": "usePasskeyme Hook",
+  "description": "Programmatic authentication control without UI components",
+  "source": "@site/docs/sdks/react/use-passkeyme.md",
+  "sourceDirName": "sdks/react",
+  "slug": "/sdks/react/use-passkeyme",
+  "permalink": "/docs/sdks/react/use-passkeyme",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/react/use-passkeyme.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "use-passkeyme",
+    "title": "usePasskeyme Hook",
+    "sidebar_label": "usePasskeyme Hook",
+    "description": "Programmatic authentication control without UI components"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PasskeymeButton",
+    "permalink": "/docs/sdks/react/passkey-button"
+  },
+  "next": {
+    "title": "JavaScript/TypeScript",
+    "permalink": "/docs/sdks/javascript"
+  }
+}

@@ -159,15 +159,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'b6e'),
+    component: ComponentCreator('/docs', '8f3'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '592'),
+        component: ComponentCreator('/docs', 'a38'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '488'),
+            component: ComponentCreator('/docs', '58e'),
             routes: [
               {
                 path: '/docs/',
@@ -348,6 +348,30 @@ export default [
                 path: '/docs/SDKs/react-sdk-fixed',
                 component: ComponentCreator('/docs/SDKs/react-sdk-fixed', 'b17'),
                 exact: true
+              },
+              {
+                path: '/docs/sdks/react/auth-panel',
+                component: ComponentCreator('/docs/sdks/react/auth-panel', '5ae'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/react/oauth-button',
+                component: ComponentCreator('/docs/sdks/react/oauth-button', 'e38'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/react/passkey-button',
+                component: ComponentCreator('/docs/sdks/react/passkey-button', 'e53'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/react/use-passkeyme',
+                component: ComponentCreator('/docs/sdks/react/use-passkeyme', '45d'),
+                exact: true,
+                sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/SDKs/sdk-intro',

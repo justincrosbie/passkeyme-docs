@@ -1,0 +1,31 @@
+{
+  "id": "sdks/react/oauth-button",
+  "title": "PasskeymeOAuthButton",
+  "description": "Individual OAuth provider buttons for custom authentication layouts",
+  "source": "@site/docs/sdks/react/oauth-button.md",
+  "sourceDirName": "sdks/react",
+  "slug": "/sdks/react/oauth-button",
+  "permalink": "/docs/sdks/react/oauth-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/react/oauth-button.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "oauth-button",
+    "title": "PasskeymeOAuthButton",
+    "sidebar_label": "PasskeymeOAuthButton",
+    "description": "Individual OAuth provider buttons for custom authentication layouts"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PasskeymeAuthPanel",
+    "permalink": "/docs/sdks/react/auth-panel"
+  },
+  "next": {
+    "title": "PasskeymeButton",
+    "permalink": "/docs/sdks/react/passkey-button"
+  }
+}

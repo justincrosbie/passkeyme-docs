@@ -159,6 +159,26 @@
               "path": "/docs/SDKs/react-sdk-fixed"
             },
             {
+              "id": "sdks/react/auth-panel",
+              "path": "/docs/sdks/react/auth-panel",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/react/oauth-button",
+              "path": "/docs/sdks/react/oauth-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/react/passkey-button",
+              "path": "/docs/sdks/react/passkey-button",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/react/use-passkeyme",
+              "path": "/docs/sdks/react/use-passkeyme",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "SDKs/sdk-intro",
               "path": "/docs/SDKs/sdk-intro"
             },

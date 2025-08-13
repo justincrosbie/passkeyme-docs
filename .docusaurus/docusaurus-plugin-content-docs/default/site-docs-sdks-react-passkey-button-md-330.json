@@ -1,0 +1,31 @@
+{
+  "id": "sdks/react/passkey-button",
+  "title": "PasskeymeButton",
+  "description": "Hosted auth page integration with React components",
+  "source": "@site/docs/sdks/react/passkey-button.md",
+  "sourceDirName": "sdks/react",
+  "slug": "/sdks/react/passkey-button",
+  "permalink": "/docs/sdks/react/passkey-button",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/react/passkey-button.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "passkey-button",
+    "title": "PasskeymeButton",
+    "sidebar_label": "PasskeymeButton",
+    "description": "Hosted auth page integration with React components"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "PasskeymeOAuthButton",
+    "permalink": "/docs/sdks/react/oauth-button"
+  },
+  "next": {
+    "title": "usePasskeyme Hook",
+    "permalink": "/docs/sdks/react/use-passkeyme"
+  }
+}
