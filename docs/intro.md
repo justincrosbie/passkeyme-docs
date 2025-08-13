@@ -11,6 +11,42 @@ slug: /
 
 **PasskeyMe** is the easiest way to add modern authentication to your applications. We provide **React components for inline authentication**, JavaScript SDKs for any framework, and hosted authentication pages as an alternative - all with a developer experience similar to Firebase Auth.
 
+## 🆕 **New React SDK - Just Released!** 
+
+Our brand new React SDK provides the simplest way to add authentication to React applications:
+
+```jsx
+import { PasskeymeAuthPanel } from '@passkeyme/react-auth';
+
+function LoginPage() {
+  return (
+    <PasskeymeAuthPanel
+      appId="your-app-id"
+      onSuccess={(user) => console.log('Authenticated:', user)}
+      theme="auto"
+    />
+  );
+}
+```
+
+**→ [Get Started with React SDK](./getting-started/quick-start)**
+
+---
+
+## 📢 **What's New?**
+
+We're constantly improving PasskeyMe with new features and enhancements:
+
+- 🆕 **React SDK with TypeScript** - Complete authentication components
+- 🆕 **JavaScript SDK** - Framework-agnostic authentication
+- 🔧 **Enhanced Hosted Auth** - Better customization and mobile support
+- 🎨 **Advanced Theming** - Light, dark, and custom themes
+- 📱 **Mobile Optimization** - Improved mobile authentication experience
+
+**→ [See All New Features](./whats-new)**
+
+---
+
 ## What is PasskeyMe?
 
 PasskeyMe offers **inline React components** that handle the complete authentication flow directly within your application. Use our `PasskeymeAuthPanel` component for a complete auth experience, or choose hosted authentication pages for simpler integration.
@@ -50,11 +86,46 @@ graph LR
 - Firebase Auth-like simplicity
 - Copy-paste ready examples
 
+## 🚀 **Three Ways to Integrate**
+
+Choose the approach that fits your needs:
+
+### 🎨 **React Components** ⭐ *New!*
+Complete authentication components for React applications.
+
+```jsx
+<PasskeymeAuthPanel 
+  appId="your-app-id"
+  onSuccess={(user) => handleLogin(user)}
+  theme="auto"
+/>
+```
+**Perfect for:** React apps, custom UI, seamless user experience
+
+### 🌐 **JavaScript SDK** ⭐ *New!*
+Framework-agnostic SDK for Vue, Angular, Svelte, and vanilla JavaScript.
+
+```javascript
+const auth = new PasskeymeAuth({ appId: 'your-app-id' });
+const user = await auth.signIn();
+```
+**Perfect for:** Non-React frameworks, custom authentication flows
+
+### 🚀 **Hosted Auth Pages**
+Zero-maintenance hosted authentication pages.
+
+```javascript
+window.location.href = 'https://auth.passkeyme.com/auth?app_id=your-app-id';
+```
+**Perfect for:** MVPs, simple apps, rapid development
+
 ## Quick Start
 
-Get up and running in under 5 minutes:
+Get up and running in under 5 minutes with our new React SDK:
 
-1. **Sign up** at [dashboard.passkeyme.com](https://dashboard.passkeyme.com)
+### **React Applications** ⭐ *Recommended*
+
+1. **Sign up** at [console.passkeyme.com](https://console.passkeyme.com)
 2. **Install React SDK** - `npm install @passkeyme/react-auth`
 3. **Add component** - `<PasskeymeAuthPanel />`
 4. **Handle events** - `onSuccess={(user) => handleLogin(user)}`
@@ -67,10 +138,29 @@ function App() {
     <PasskeymeAuthPanel
       appId="your-app-id"
       onSuccess={(user) => handleLogin(user)}
-      theme={{ container: { backgroundColor: '#ffffff' } }}
+      theme="auto"
     />
   );
 }
+```
+
+### **Other Frameworks**
+
+```bash
+npm install @passkeyme/auth
+```
+
+```javascript
+const auth = new PasskeymeAuth({ appId: 'your-app-id' });
+const user = await auth.signIn();
+```
+
+### **Hosted Auth (No Code)**
+
+Just redirect to our hosted pages - no installation needed!
+
+```javascript
+window.location.href = 'https://auth.passkeyme.com/auth?app_id=your-app-id';
 ```
 
 [→ Complete Quick Start Guide](/docs/getting-started/quick-start)

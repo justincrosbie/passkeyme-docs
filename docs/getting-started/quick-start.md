@@ -79,7 +79,7 @@ function App() {
   return (
     <PasskeymeProvider config={{
       appId: 'your-app-id', // From dashboard
-      baseUrl: 'https://passkeyme.com', // Optional: use custom domain
+      baseUrl: 'https://api.passkeyme.com', // Optional: use custom domain
       redirectUri: window.location.origin // Your app's URL
     }}>
       <YourApp />
@@ -316,7 +316,7 @@ You now have:
 - **[React SDK Reference](/docs/sdks/react)** - Explore all React SDK features
 - **[Theming Guide](/docs/sdks/react#theming-and-customization)** - Advanced customization options
 - **[Demo App](https://github.com/Passkeyme/passkeyme-react-demo)** - See complete implementation
-- **[API Reference](https://passkeyme.com/apidocs/index.html)** - Direct API integration
+- **[API Reference](https://docs.passkeyme.com/api)** - Direct API integration
 
 ---
 

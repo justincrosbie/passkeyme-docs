@@ -49,7 +49,7 @@ interface PasskeymeConfig {
   appId: string;
   
   /** Base URL of your PasskeyMe server */
-  baseUrl?: string; // Default: 'https://auth.passkeyme.com'
+  baseUrl?: string; // Default: 'https://api.passkeyme.com'
   
   /** Redirect URI after authentication */
   redirectUri?: string; // Default: current origin + '/auth/callback'

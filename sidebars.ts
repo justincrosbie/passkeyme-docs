@@ -19,6 +19,7 @@ const sidebars: SidebarsConfig = {
       collapsed: false,
       items: [
         'intro',
+        'whats-new',
         'why-passkeyme',
         'why-passkeys',
       ],
@@ -32,6 +33,7 @@ const sidebars: SidebarsConfig = {
       items: [
         'getting-started/quick-start',
         'getting-started/choosing-approach',
+        'getting-started/hosted-auth',
         'getting-started/framework-comparison',
         'getting-started/installation',
         'getting-started/concepts',
@@ -42,12 +44,20 @@ const sidebars: SidebarsConfig = {
     // 🛠️ High-Level SDKs (Framework-Specific)
     {
       type: 'category',
-      label: '🛠️ High-Level SDKs',
+      label: '🛠️ High-Level SDKs ✨ NEW',
       collapsed: false,
       items: [
         'sdks/overview',
-        'sdks/react',
-        'sdks/javascript',
+        {
+          type: 'doc',
+          id: 'sdks/react',
+          label: '⚛️ React SDK ✨ NEW'
+        },
+        {
+          type: 'doc', 
+          id: 'sdks/javascript',
+          label: '🌐 JavaScript SDK ✨ NEW'
+        },
       ],
     },
 
@@ -69,10 +79,9 @@ const sidebars: SidebarsConfig = {
       type: 'category',
       label: '🌐 API Reference',
       items: [
-        'api/api-overview',
+        'api/overview',
         'api/authentication-flows',
         'api/token-management',
-        'api/authentication',
       ],
     },
 

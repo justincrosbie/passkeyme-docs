@@ -62,7 +62,7 @@ async function verifyPasskeymeToken(token, appId) {
   try {
     // Option 1: Verify with PasskeyMe API (recommended)
     const response = await fetch(
-      `https://auth.passkeyme.com/api/auth/verify-token?token=${token}&app_id=${appId}`
+      `https://api.passkeyme.com/auth/verify-token?token=${token}&app_id=${appId}`
     );
     
     const result = await response.json();
@@ -503,6 +503,6 @@ if (process.env.NODE_ENV === 'development') {
 
 - **[API Overview](./overview.md)** - When to use API vs SDKs
 - **[Authentication Flows](./authentication-flows.md)** - Complete flow implementations
-- **[API Reference](https://passkeyme.com/apidocs/index.html)** - Complete endpoint documentation
+- **[API Reference](https://docs.passkeyme.com/api)** - Complete endpoint documentation
 - **[React SDK](../sdks/react.md)** - Pre-built token management
 - **[Security Model](../getting-started/concepts.md#security-model)** - Comprehensive security practices

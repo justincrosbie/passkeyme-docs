@@ -18,7 +18,7 @@ First, retrieve your application's OAuth configuration:
 ```javascript
 async function getAppConfig(appId) {
   const response = await fetch(
-    `https://auth.passkeyme.com/api/config?app_id=${appId}`
+    `https://api.passkeyme.com/config?app_id=${appId}`
   );
   
   const config = await response.json();
@@ -96,7 +96,7 @@ Verify received tokens:
 ```javascript
 async function verifyToken(token, appId) {
   const response = await fetch(
-    `https://auth.passkeyme.com/api/auth/verify-token?token=${token}&app_id=${appId}`
+    `https://api.passkeyme.com/auth/verify-token?token=${token}&app_id=${appId}`
   );
   
   const result = await response.json();
@@ -116,7 +116,7 @@ Retrieve authenticated user details:
 ```javascript
 async function getCurrentUser(token) {
   const response = await fetch(
-    `https://auth.passkeyme.com/api/user?token=${token}`
+    `https://api.passkeyme.com/user?token=${token}`
   );
   
   const user = await response.json();
@@ -163,7 +163,7 @@ async function checkPasskeyAvailability() {
 async function registerPasskey(token) {
   // Get registration challenge from PasskeyMe API
   const challengeResponse = await fetch(
-    `https://auth.passkeyme.com/api/passkey/register/challenge?token=${token}`
+    `https://api.passkeyme.com/passkey/register/challenge?token=${token}`
   );
   
   const challenge = await challengeResponse.json();
@@ -175,7 +175,7 @@ async function registerPasskey(token) {
   
   // Send credential back to PasskeyMe
   const registrationResponse = await fetch(
-    `https://auth.passkeyme.com/api/passkey/register/complete`,
+    `https://api.passkeyme.com/passkey/register/complete`,
     {
       method: 'POST',
       headers: {
@@ -206,7 +206,7 @@ async function registerPasskey(token) {
 async function authenticateWithPasskey(appId) {
   // Get authentication challenge
   const challengeResponse = await fetch(
-    `https://auth.passkeyme.com/api/passkey/auth/challenge?app_id=${appId}`
+    `https://api.passkeyme.com/passkey/auth/challenge?app_id=${appId}`
   );
   
   const challenge = await challengeResponse.json();
@@ -218,7 +218,7 @@ async function authenticateWithPasskey(appId) {
   
   // Send assertion to PasskeyMe for verification
   const authResponse = await fetch(
-    `https://auth.passkeyme.com/api/passkey/auth/complete`,
+    `https://api.passkeyme.com/passkey/auth/complete`,
     {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
@@ -347,7 +347,7 @@ class TokenManager {
     
     try {
       const result = await apiCall(
-        `https://auth.passkeyme.com/api/auth/verify-token?token=${this.token}&app_id=${this.appId}`
+        `https://api.passkeyme.com/auth/verify-token?token=${this.token}&app_id=${this.appId}`
       );
       return result;
     } catch (error) {
@@ -377,7 +377,7 @@ class PasskeymeAuth {
     this.appId = appId;
     this.redirectUri = redirectUri;
     this.tokenManager = new TokenManager(appId);
-    this.baseUrl = 'https://auth.passkeyme.com';
+    this.baseUrl = 'https://api.passkeyme.com';
   }
   
   // OAuth Authentication
@@ -455,6 +455,6 @@ const user = await auth.getCurrentUser();
 
 - **[API Overview](./overview.md)** - When to use API vs SDKs
 - **[Token Management](./token-management.md)** - Security and lifecycle management
-- **[API Reference](https://passkeyme.com/apidocs/index.html)** - Complete endpoint documentation
+- **[API Reference](https://docs.passkeyme.com/api)** - Complete endpoint documentation
 - **[SDK Integration](../sdks/overview.md)** - Use pre-built SDKs instead
 - **[Security Model](../getting-started/concepts.md#security-model)** - Security best practices

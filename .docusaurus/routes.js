@@ -159,19 +159,19 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '9a1'),
+    component: ComponentCreator('/docs', 'e04'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '347'),
+        component: ComponentCreator('/docs', '54a'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '7c8'),
+            component: ComponentCreator('/docs', '8f4'),
             routes: [
               {
                 path: '/docs/',
-                component: ComponentCreator('/docs/', 'f5b'),
+                component: ComponentCreator('/docs/', 'db9'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -189,7 +189,7 @@ export default [
               },
               {
                 path: '/docs/api/authentication-flows',
-                component: ComponentCreator('/docs/api/authentication-flows', 'fbb'),
+                component: ComponentCreator('/docs/api/authentication-flows', '699'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -222,7 +222,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/architecture',
-                component: ComponentCreator('/docs/getting-started/architecture', '665'),
+                component: ComponentCreator('/docs/getting-started/architecture', '04b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -234,7 +234,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/concepts',
-                component: ComponentCreator('/docs/getting-started/concepts', '058'),
+                component: ComponentCreator('/docs/getting-started/concepts', '1dd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -263,7 +263,7 @@ export default [
               },
               {
                 path: '/docs/glossary',
-                component: ComponentCreator('/docs/glossary', '827'),
+                component: ComponentCreator('/docs/glossary', '356'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -307,7 +307,7 @@ export default [
               },
               {
                 path: '/docs/sdks/javascript',
-                component: ComponentCreator('/docs/sdks/javascript', '441'),
+                component: ComponentCreator('/docs/sdks/javascript', '824'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -330,7 +330,7 @@ export default [
               },
               {
                 path: '/docs/sdks/react',
-                component: ComponentCreator('/docs/sdks/react', '68e'),
+                component: ComponentCreator('/docs/sdks/react', '698'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -363,7 +363,7 @@ export default [
               },
               {
                 path: '/docs/why-passkeyme',
-                component: ComponentCreator('/docs/why-passkeyme', '2ff'),
+                component: ComponentCreator('/docs/why-passkeyme', '775'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

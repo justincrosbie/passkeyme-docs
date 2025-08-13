@@ -11,7 +11,7 @@ PasskeyMe provides a comprehensive REST API alongside our framework-specific SDK
 
 ## 🔗 Complete API Reference
 
-**📖 [Full Swagger API Documentation](https://passkeyme.com/apidocs/index.html)**
+**📖 [Full Swagger API Documentation](https://docs.passkeyme.com/api)**
 
 Our complete API documentation is available as an interactive Swagger interface where you can:
 - Browse all available endpoints
@@ -69,8 +69,8 @@ Retrieve authenticated user information using a valid JWT token.
 ### Frontend Integration (Vanilla JavaScript)
 
 ```javascript
-class PasskeymeApiClient {
-  constructor(appId, baseUrl = 'https://auth.passkeyme.com') {
+class PasskeymeApi {
+  constructor(appId, baseUrl = 'https://api.passkeyme.com') {
     this.appId = appId;
     this.baseUrl = baseUrl;
   }
@@ -122,7 +122,7 @@ const verifyPasskeymeToken = async (req, res, next) => {
   try {
     // Verify with PasskeyMe API
     const response = await fetch(
-      `https://auth.passkeyme.com/api/auth/verify-token?token=${token}&app_id=${process.env.PASSKEYME_APP_ID}`
+      `https://api.passkeyme.com/auth/verify-token?token=${token}&app_id=${process.env.PASSKEYME_APP_ID}`
     );
     
     const result = await response.json();
@@ -157,7 +157,7 @@ from flask import Flask, request, jsonify
 app = Flask(__name__)
 
 class PasskeymeClient:
-    def __init__(self, app_id, base_url="https://auth.passkeyme.com"):
+    def __init__(self, app_id, base_url="https://api.passkeyme.com"):
         self.app_id = app_id
         self.base_url = base_url
     
@@ -244,7 +244,7 @@ PasskeyMe returns standard JWT tokens with the following claims:
 
 ## 🚀 Next Steps
 
-1. **[Explore the Full API](https://passkeyme.com/apidocs/index.html)** - Browse all endpoints
+1. **[Explore the Full API](https://docs.passkeyme.com/api)** - Browse all endpoints
 2. **[Authentication Flows](./authentication-flows.md)** - Complete flow implementations
 3. **[Token Management](./token-management.md)** - Security and lifecycle management
 4. **[Try our React SDK](../sdks/react.md)** - For React applications
