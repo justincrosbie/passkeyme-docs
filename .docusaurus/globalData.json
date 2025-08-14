@@ -124,12 +124,32 @@
               "path": "/docs/SDKs/1.5 - sdk-installation-guide"
             },
             {
-              "id": "sdks/android",
-              "path": "/docs/sdks/android"
+              "id": "sdks/android-sdk",
+              "path": "/docs/sdks/android-sdk"
             },
             {
-              "id": "sdks/android-sdk",
-              "path": "/docs/sdks/android-sdk",
+              "id": "sdks/android/android",
+              "path": "/docs/sdks/android/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/android/api-reference",
+              "path": "/docs/sdks/android/api-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/android/configuration",
+              "path": "/docs/sdks/android/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/android/integration",
+              "path": "/docs/sdks/android/integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/android/security",
+              "path": "/docs/sdks/android/security",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -142,12 +162,36 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "sdks/ios",
-              "path": "/docs/sdks/ios"
+              "id": "sdks/ios-legacy",
+              "path": "/docs/sdks/ios-legacy"
             },
             {
               "id": "sdks/ios-sdk",
-              "path": "/docs/sdks/ios-sdk",
+              "path": "/docs/sdks/ios-sdk"
+            },
+            {
+              "id": "sdks/ios/api-reference",
+              "path": "/docs/sdks/ios/api-reference",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/ios/configuration",
+              "path": "/docs/sdks/ios/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/ios/integration",
+              "path": "/docs/sdks/ios/integration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/ios/ios",
+              "path": "/docs/sdks/ios/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "sdks/ios/security",
+              "path": "/docs/sdks/ios/security",
               "sidebar": "tutorialSidebar"
             },
             {

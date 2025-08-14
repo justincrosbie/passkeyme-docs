@@ -1,19 +1,21 @@
 ---
-id: ios
-title: iOS SDK
-sidebar_label: iOS
+id: ios-legacy
+title: iOS SDK (Legacy)
+sidebar_label: iOS Legacy
+description: Legacy iOS SDK page - redirected to comprehensive documentation
 ---
 
 # iOS SDK
 
-The Passkeyme iOS SDK is currently under development.
+**📍 This page has moved!**
 
-## Coming Soon
+The iOS SDK documentation has been reorganized for better developer experience. 
 
-We're working on providing a comprehensive iOS SDK for seamless passkey integration in iOS applications.
+**[→ Visit the complete iOS SDK guide](/docs/sdks/ios/)**
 
-For updates and early access, please contact our team or check back soon.
-
-## Contact
-
-If you need iOS passkey integration immediately, please reach out to us for assistance and custom solutions.
+The new structure includes:
+- **[iOS SDK Overview](/docs/sdks/ios/)** - Quick start and introduction
+- **[Configuration Guide](/docs/sdks/ios/configuration)** - apple-app-site-association & Associated Domains setup
+- **[Integration Guide](/docs/sdks/ios/integration)** - Complete SwiftUI and UIKit examples
+- **[Security Best Practices](/docs/sdks/ios/security)** - Production security guidelines
+- **[API Reference](/docs/sdks/ios/api-reference)** - Complete API documentation

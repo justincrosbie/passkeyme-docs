@@ -1,0 +1,40 @@
+{
+  "id": "sdks/android/configuration",
+  "title": "Configuration & Setup",
+  "description": "Complete guide to configuring Android apps for passkey authentication with Digital Asset Links and app signing",
+  "source": "@site/docs/sdks/android/configuration.md",
+  "sourceDirName": "sdks/android",
+  "slug": "/sdks/android/configuration",
+  "permalink": "/docs/sdks/android/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/android/configuration.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "configuration",
+    "title": "Configuration & Setup",
+    "sidebar_label": "Configuration",
+    "description": "Complete guide to configuring Android apps for passkey authentication with Digital Asset Links and app signing",
+    "keywords": [
+      "android",
+      "passkey",
+      "configuration",
+      "assetlinks",
+      "sha256",
+      "digital asset links",
+      "app signing"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/android/"
+  },
+  "next": {
+    "title": "Integration",
+    "permalink": "/docs/sdks/android/integration"
+  }
+}

@@ -18,14 +18,5 @@
     "title": "iOS SDK",
     "sidebar_label": "iOS SDK",
     "description": "Native iOS SDK for passkey authentication in Swift and Objective-C apps"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "Web SDK",
-    "permalink": "/docs/sdks/web-sdk"
-  },
-  "next": {
-    "title": "Android SDK",
-    "permalink": "/docs/sdks/android-sdk"
   }
 }

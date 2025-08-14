@@ -17,5 +17,14 @@
     "id": "android",
     "title": "Android SDK",
     "sidebar_label": "Android"
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "iOS SDK",
+    "permalink": "/docs/sdks/ios-sdk"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/sdks/android/configuration"
   }
 }

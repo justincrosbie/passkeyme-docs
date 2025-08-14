@@ -1,11 +1,11 @@
 {
-  "id": "sdks/ios",
-  "title": "iOS SDK",
-  "description": "The Passkeyme iOS SDK is currently under development.",
+  "id": "sdks/ios-legacy",
+  "title": "iOS SDK (Legacy)",
+  "description": "Legacy iOS SDK page - redirected to comprehensive documentation",
   "source": "@site/docs/sdks/ios.md",
   "sourceDirName": "sdks",
-  "slug": "/sdks/ios",
-  "permalink": "/docs/sdks/ios",
+  "slug": "/sdks/ios-legacy",
+  "permalink": "/docs/sdks/ios-legacy",
   "draft": false,
   "unlisted": false,
   "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ios.md",
@@ -14,8 +14,9 @@
   "lastUpdatedBy": "Justin Crosbie",
   "lastUpdatedAt": 1753005644000,
   "frontMatter": {
-    "id": "ios",
-    "title": "iOS SDK",
-    "sidebar_label": "iOS"
+    "id": "ios-legacy",
+    "title": "iOS SDK (Legacy)",
+    "sidebar_label": "iOS Legacy",
+    "description": "Legacy iOS SDK page - redirected to comprehensive documentation"
   }
 }

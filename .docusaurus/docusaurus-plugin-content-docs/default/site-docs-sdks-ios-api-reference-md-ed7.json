@@ -1,0 +1,40 @@
+{
+  "id": "sdks/ios/api-reference",
+  "title": "API Reference",
+  "description": "Complete API reference for iOS PasskeymeSDK",
+  "source": "@site/docs/sdks/ios/api-reference.md",
+  "sourceDirName": "sdks/ios",
+  "slug": "/sdks/ios/api-reference",
+  "permalink": "/docs/sdks/ios/api-reference",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ios/api-reference.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "api-reference",
+    "title": "API Reference",
+    "sidebar_label": "API Reference",
+    "description": "Complete API reference for iOS PasskeymeSDK",
+    "keywords": [
+      "ios",
+      "api",
+      "reference",
+      "passkey",
+      "webauthn",
+      "methods",
+      "properties"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/sdks/ios/security"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/android/"
+  }
+}

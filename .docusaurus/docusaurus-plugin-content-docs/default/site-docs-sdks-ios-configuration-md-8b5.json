@@ -1,0 +1,39 @@
+{
+  "id": "sdks/ios/configuration",
+  "title": "Configuration and Setup",
+  "description": "Complete iOS configuration including apple-app-site-association and Associated Domains setup",
+  "source": "@site/docs/sdks/ios/configuration.md",
+  "sourceDirName": "sdks/ios",
+  "slug": "/sdks/ios/configuration",
+  "permalink": "/docs/sdks/ios/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ios/configuration.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "configuration",
+    "title": "Configuration and Setup",
+    "sidebar_label": "Configuration",
+    "description": "Complete iOS configuration including apple-app-site-association and Associated Domains setup",
+    "keywords": [
+      "ios",
+      "configuration",
+      "apple-app-site-association",
+      "associated domains",
+      "xcode",
+      "team id"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/ios/"
+  },
+  "next": {
+    "title": "Integration",
+    "permalink": "/docs/sdks/ios/integration"
+  }
+}

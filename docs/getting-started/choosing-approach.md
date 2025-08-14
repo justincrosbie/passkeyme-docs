@@ -32,7 +32,7 @@ flowchart TD
 | **[React SDK](/docs/sdks/react)** | React apps | ⚡ Fast | 🎨 High | ✅ Full | ✅ Full |
 | **[JavaScript SDK](/docs/sdks/javascript)** | Other frameworks | ⚡ Fast | 🎨 Medium | ✅ Full | ✅ Full |
 | **[Web SDK](/docs/sdks/web-sdk)** | Custom implementations | 🔧 Medium | 🎨 Total | ❌ None | ✅ Full |
-| **[iOS SDK](/docs/sdks/ios-sdk)** | Native iOS apps | 🔧 Medium | 🎨 Total | ❌ None | ✅ Full |
+| **[iOS SDK](/docs/sdks/ios/)** | Native iOS apps | 🔧 Medium | 🎨 Total | ❌ None | ✅ Full |
 | **[Android SDK](/docs/sdks/android-sdk)** | Native Android apps | 🔧 Medium | 🎨 Total | ❌ None | ✅ Full |
 | **[Ionic Plugin](/docs/sdks/ionic-plugin)** | Ionic/Capacitor apps | 🔧 Medium | 🎨 High | ❌ None | ✅ Full |
 | **[Direct API](/docs/api/api-overview)** | Custom backends | 🛠️ Complex | 🎨 Total | ✅ Full | ✅ Full |
@@ -122,7 +122,7 @@ async function handleLogin() {
 
 **Available Platforms:**
 - **[Web SDK](/docs/sdks/web-sdk)** - Browser WebAuthn
-- **[iOS SDK](/docs/sdks/ios-sdk)** - Native Swift/Objective-C
+- **[iOS SDK](/docs/sdks/ios/)** - Native Swift/Objective-C
 - **[Android SDK](/docs/sdks/android-sdk)** - Native Kotlin/Java
 - **[Ionic Plugin](/docs/sdks/ionic-plugin)** - Capacitor integration
 
@@ -169,7 +169,7 @@ await yourBackend.verifyRegistration(credential);
 
 #### **📱 Mobile Applications**
 - **React Native**: Use **React Native SDK** (coming soon) or **Web SDK** in WebView
-- **Native iOS**: Use **[iOS SDK](/docs/sdks/ios-sdk)** for native integration
+- **Native iOS**: Use **[iOS SDK](/docs/sdks/ios/)** for native integration
 - **Native Android**: Use **[Android SDK](/docs/sdks/android-sdk)** for native integration
 - **Ionic/Capacitor**: Use **[Ionic Plugin](/docs/sdks/ionic-plugin)** for cross-platform
 

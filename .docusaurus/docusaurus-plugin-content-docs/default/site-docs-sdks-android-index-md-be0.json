@@ -1,0 +1,40 @@
+{
+  "id": "sdks/android/android",
+  "title": "Android SDK",
+  "description": "Native Android SDK for passkey authentication in Kotlin and Java apps",
+  "source": "@site/docs/sdks/android/index.md",
+  "sourceDirName": "sdks/android",
+  "slug": "/sdks/android/",
+  "permalink": "/docs/sdks/android/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/android/index.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "android",
+    "title": "Android SDK",
+    "sidebar_label": "Overview",
+    "description": "Native Android SDK for passkey authentication in Kotlin and Java apps",
+    "keywords": [
+      "android",
+      "passkey",
+      "webauthn",
+      "sdk",
+      "kotlin",
+      "java",
+      "credentials api"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "API Reference",
+    "permalink": "/docs/sdks/ios/api-reference"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/sdks/android/configuration"
+  }
+}

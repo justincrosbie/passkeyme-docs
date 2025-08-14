@@ -21,8 +21,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Android SDK",
-    "permalink": "/docs/sdks/android-sdk"
+    "title": "API Reference",
+    "permalink": "/docs/sdks/android/api-reference"
   },
   "next": {
     "title": "API Documentation Overview",

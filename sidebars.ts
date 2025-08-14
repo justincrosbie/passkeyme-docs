@@ -107,8 +107,28 @@ const sidebars: SidebarsConfig = {
       items: [
         'sdks/low-level-overview',
         'sdks/web-sdk',
-        'sdks/ios-sdk',
-        'sdks/android-sdk',
+        {
+          type: 'category',
+          label: '🍎 iOS SDK',
+          items: [
+            'sdks/ios/ios',
+            'sdks/ios/configuration',
+            'sdks/ios/integration',
+            'sdks/ios/security',
+            'sdks/ios/api-reference',
+          ],
+        },
+        {
+          type: 'category',
+          label: '📱 Android SDK',
+          items: [
+            'sdks/android/android',
+            'sdks/android/configuration',
+            'sdks/android/integration',
+            'sdks/android/security',
+            'sdks/android/api-reference',
+          ],
+        },
         'sdks/ionic-plugin',
       ],
     },

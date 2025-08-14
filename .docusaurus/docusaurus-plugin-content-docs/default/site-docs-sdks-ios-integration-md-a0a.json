@@ -1,0 +1,41 @@
+{
+  "id": "sdks/ios/integration",
+  "title": "SDK Integration",
+  "description": "Complete iOS SDK integration guide with SwiftUI and UIKit examples",
+  "source": "@site/docs/sdks/ios/integration.md",
+  "sourceDirName": "sdks/ios",
+  "slug": "/sdks/ios/integration",
+  "permalink": "/docs/sdks/ios/integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ios/integration.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "integration",
+    "title": "SDK Integration",
+    "sidebar_label": "Integration",
+    "description": "Complete iOS SDK integration guide with SwiftUI and UIKit examples",
+    "keywords": [
+      "ios",
+      "sdk",
+      "integration",
+      "swift",
+      "swiftui",
+      "uikit",
+      "passkey",
+      "authentication"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/sdks/ios/configuration"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/docs/sdks/ios/security"
+  }
+}

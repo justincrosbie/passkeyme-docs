@@ -1,0 +1,40 @@
+{
+  "id": "sdks/android/api-reference",
+  "title": "API Reference",
+  "description": "Complete Android SDK API documentation with methods, classes, and examples",
+  "source": "@site/docs/sdks/android/api-reference.md",
+  "sourceDirName": "sdks/android",
+  "slug": "/sdks/android/api-reference",
+  "permalink": "/docs/sdks/android/api-reference",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/android/api-reference.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "api-reference",
+    "title": "API Reference",
+    "sidebar_label": "API Reference",
+    "description": "Complete Android SDK API documentation with methods, classes, and examples",
+    "keywords": [
+      "android",
+      "api",
+      "reference",
+      "passkey",
+      "webauthn",
+      "sdk",
+      "methods"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/sdks/android/security"
+  },
+  "next": {
+    "title": "Ionic Plugin",
+    "permalink": "/docs/sdks/ionic-plugin"
+  }
+}

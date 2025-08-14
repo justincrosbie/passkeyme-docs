@@ -1,25 +1,58 @@
 ---
 id: android-sdk
 title: Android SDK
-sidebar_label: Android SDK
-description: Native Android SDK for passkey authentication in Kotlin and Java apps
+sidebar_label: Android SDK (Redirect)
+description: Native Android SDK for passkey authentication - redirected to new location
 ---
 
 # 🤖 Android SDK
 
-The `passkeyme-android-sdk` provides native Android passkey authentication using the AndroidX Credentials API and FIDO2 libraries. This SDK handles **only WebAuthn/FIDO2 operations** and requires backend integration for complete authentication flows.
+:::info Documentation Moved
+The Android SDK documentation has been restructured and moved to a new location with comprehensive guides:
 
-:::info SDK Purpose
-This is a **low-level SDK** for native Android apps. For React Native apps, consider:
-- **[React Native SDK](/docs/getting-started/framework-comparison)** (coming Q1 2025) for React Native apps
-- **[Ionic Plugin](/docs/sdks/ionic-plugin)** for Ionic/Capacitor apps
+**👉 [View Android SDK Documentation](/docs/sdks/android/)**
+
+The new documentation includes:
+- **[Overview & Quick Start](/docs/sdks/android/)** - Get started quickly
+- **[Configuration & Setup](/docs/sdks/android/configuration)** - Digital Asset Links, SHA certificates, and Android setup
+- **[SDK Integration](/docs/sdks/android/integration)** - Complete implementation guide with code examples
+- **[Security Best Practices](/docs/sdks/android/security)** - Production security guidelines
+- **[API Reference](/docs/sdks/android/api-reference)** - Complete SDK documentation
 :::
 
-## 📦 Installation
+## 🚀 Quick Links
 
-### Gradle
+<div style={{display: 'grid', gridTemplateColumns: 'repeat(auto-fit, minmax(250px, 1fr))', gap: '1rem', marginTop: '2rem'}}>
 
-Add to your app-level `build.gradle`:
+<div style={{border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', padding: '1rem'}}>
+  <h3>📋 Configuration Guide</h3>
+  <p>Essential setup including Digital Asset Links and SHA certificates</p>
+  <a href="/docs/sdks/android/configuration" className="button button--primary">Setup Guide →</a>
+</div>
+
+<div style={{border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', padding: '1rem'}}>
+  <h3>🔧 Integration</h3>
+  <p>Complete SDK integration with Jetpack Compose and View examples</p>
+  <a href="/docs/sdks/android/integration" className="button button--primary">Integration →</a>
+</div>
+
+<div style={{border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', padding: '1rem'}}>
+  <h3>🔒 Security</h3>
+  <p>Production security best practices and implementation patterns</p>
+  <a href="/docs/sdks/android/security" className="button button--primary">Security →</a>
+</div>
+
+<div style={{border: '1px solid var(--ifm-color-emphasis-300)', borderRadius: '8px', padding: '1rem'}}>
+  <h3>📚 API Reference</h3>
+  <p>Complete SDK API documentation with examples and data structures</p>
+  <a href="/docs/sdks/android/api-reference" className="button button--primary">API Docs →</a>
+</div>
+
+</div>
+
+---
+
+**🔄 This page will redirect automatically. Please update your bookmarks to point to the new Android SDK documentation at `/docs/sdks/android/`**
 
 ```gradle
 dependencies {
@@ -899,7 +932,7 @@ class PasskeymeIntegrationTest {
 
 ## 📖 Next Steps
 
-- **[iOS SDK](/docs/sdks/ios-sdk)** - Native iOS implementation
+- **[iOS SDK](/docs/sdks/ios/)** - Native iOS implementation
 - **[Web SDK](/docs/sdks/web-sdk)** - Browser implementation
 - **[Ionic Plugin](/docs/sdks/ionic-plugin)** - Cross-platform mobile
 - **[API Reference](/docs/api/api-overview)** - Direct API integration

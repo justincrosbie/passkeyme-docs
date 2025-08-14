@@ -159,15 +159,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '008'),
+    component: ComponentCreator('/docs', '9f8'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '46e'),
+        component: ComponentCreator('/docs', '80e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'd4e'),
+            component: ComponentCreator('/docs', 'b9b'),
             routes: [
               {
                 path: '/docs/',
@@ -273,31 +273,31 @@ export default [
               },
               {
                 path: '/docs/hosted-auth/',
-                component: ComponentCreator('/docs/hosted-auth/', '1b3'),
+                component: ComponentCreator('/docs/hosted-auth/', 'cae'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/hosted-auth/configuration',
-                component: ComponentCreator('/docs/hosted-auth/configuration', '5e0'),
+                component: ComponentCreator('/docs/hosted-auth/configuration', 'ea7'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/hosted-auth/customization',
-                component: ComponentCreator('/docs/hosted-auth/customization', '5e1'),
+                component: ComponentCreator('/docs/hosted-auth/customization', 'fe4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/hosted-auth/implementation',
-                component: ComponentCreator('/docs/hosted-auth/implementation', '7b6'),
+                component: ComponentCreator('/docs/hosted-auth/implementation', '0f1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/hosted-auth/security',
-                component: ComponentCreator('/docs/hosted-auth/security', 'bbc'),
+                component: ComponentCreator('/docs/hosted-auth/security', 'fb5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -307,13 +307,37 @@ export default [
                 exact: true
               },
               {
-                path: '/docs/sdks/android',
-                component: ComponentCreator('/docs/sdks/android', '727'),
+                path: '/docs/sdks/android-sdk',
+                component: ComponentCreator('/docs/sdks/android-sdk', '6f1'),
                 exact: true
               },
               {
-                path: '/docs/sdks/android-sdk',
-                component: ComponentCreator('/docs/sdks/android-sdk', 'e39'),
+                path: '/docs/sdks/android/',
+                component: ComponentCreator('/docs/sdks/android/', '0e5'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/android/api-reference',
+                component: ComponentCreator('/docs/sdks/android/api-reference', 'fbb'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/android/configuration',
+                component: ComponentCreator('/docs/sdks/android/configuration', '1df'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/android/integration',
+                component: ComponentCreator('/docs/sdks/android/integration', 'a7e'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/android/security',
+                component: ComponentCreator('/docs/sdks/android/security', 'a14'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -329,13 +353,42 @@ export default [
                 sidebar: "tutorialSidebar"
               },
               {
-                path: '/docs/sdks/ios',
-                component: ComponentCreator('/docs/sdks/ios', '74f'),
+                path: '/docs/sdks/ios-legacy',
+                component: ComponentCreator('/docs/sdks/ios-legacy', 'd55'),
                 exact: true
               },
               {
                 path: '/docs/sdks/ios-sdk',
-                component: ComponentCreator('/docs/sdks/ios-sdk', '419'),
+                component: ComponentCreator('/docs/sdks/ios-sdk', 'd51'),
+                exact: true
+              },
+              {
+                path: '/docs/sdks/ios/',
+                component: ComponentCreator('/docs/sdks/ios/', '3e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/ios/api-reference',
+                component: ComponentCreator('/docs/sdks/ios/api-reference', '29a'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/ios/configuration',
+                component: ComponentCreator('/docs/sdks/ios/configuration', 'cb3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/ios/integration',
+                component: ComponentCreator('/docs/sdks/ios/integration', 'e86'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/sdks/ios/security',
+                component: ComponentCreator('/docs/sdks/ios/security', '8d8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },

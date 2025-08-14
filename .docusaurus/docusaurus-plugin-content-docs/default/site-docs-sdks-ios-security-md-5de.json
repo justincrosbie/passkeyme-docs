@@ -1,0 +1,40 @@
+{
+  "id": "sdks/ios/security",
+  "title": "Security Best Practices",
+  "description": "Essential security best practices for iOS passkey implementation",
+  "source": "@site/docs/sdks/ios/security.md",
+  "sourceDirName": "sdks/ios",
+  "slug": "/sdks/ios/security",
+  "permalink": "/docs/sdks/ios/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/ios/security.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "security",
+    "title": "Security Best Practices",
+    "sidebar_label": "Security",
+    "description": "Essential security best practices for iOS passkey implementation",
+    "keywords": [
+      "ios",
+      "security",
+      "passkey",
+      "webauthn",
+      "best practices",
+      "apple-app-site-association",
+      "keychain"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integration",
+    "permalink": "/docs/sdks/ios/integration"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/docs/sdks/ios/api-reference"
+  }
+}

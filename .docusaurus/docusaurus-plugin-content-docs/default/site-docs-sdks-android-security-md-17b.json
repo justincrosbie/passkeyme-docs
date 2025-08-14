@@ -1,0 +1,40 @@
+{
+  "id": "sdks/android/security",
+  "title": "Security Best Practices",
+  "description": "Essential security best practices for Android passkey implementation",
+  "source": "@site/docs/sdks/android/security.md",
+  "sourceDirName": "sdks/android",
+  "slug": "/sdks/android/security",
+  "permalink": "/docs/sdks/android/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/android/security.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "security",
+    "title": "Security Best Practices",
+    "sidebar_label": "Security",
+    "description": "Essential security best practices for Android passkey implementation",
+    "keywords": [
+      "android",
+      "security",
+      "passkey",
+      "webauthn",
+      "best practices",
+      "biometric",
+      "credentials"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Integration",
+    "permalink": "/docs/sdks/android/integration"
+  },
+  "next": {
+    "title": "API Reference",
+    "permalink": "/docs/sdks/android/api-reference"
+  }
+}

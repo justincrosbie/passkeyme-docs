@@ -32,7 +32,7 @@ Use these for platform-specific or custom implementations:
 | Platform | SDK | Use Cases |
 |----------|-----|-----------|
 | **Web Browsers** | [`passkeyme-web-sdk`](/docs/sdks/web-sdk) | Custom web auth flows |
-| **iOS Native** | [`PasskeymeSDK`](/docs/sdks/ios-sdk) | Swift/Objective-C apps |
+| **iOS Native** | [`PasskeymeSDK`](/docs/sdks/ios/) | Swift/Objective-C apps |
 | **Android Native** | [`passkeyme-android-sdk`](/docs/sdks/android-sdk) | Kotlin/Java apps |
 | **Ionic/Capacitor** | [`passkeyme-ionic-cap-plugin`](/docs/sdks/ionic-plugin) | Cross-platform mobile |
 
@@ -101,7 +101,7 @@ if (Date.now() - challenge.timestamp > 300000) {
 - Best for: Custom authentication UIs, progressive web apps
 
 ### **iOS Applications**
-- **[iOS SDK](/docs/sdks/ios-sdk)** - Native iOS passkey implementation
+- **[iOS SDK](/docs/sdks/ios/)** - Native iOS passkey implementation
 - Best for: Swift/Objective-C apps, iOS-specific features
 
 ### **Android Applications**
@@ -136,7 +136,7 @@ Choose your platform to get started:
   <a href="/docs/sdks/web-sdk" className="button button--primary">
     🌐 Web SDK
   </a>
-  <a href="/docs/sdks/ios-sdk" className="button button--primary">
+  <a href="/docs/sdks/ios/" className="button button--primary">
     📱 iOS SDK
   </a>
   <a href="/docs/sdks/android-sdk" className="button button--primary">

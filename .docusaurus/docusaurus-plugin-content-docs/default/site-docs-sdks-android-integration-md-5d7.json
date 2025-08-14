@@ -1,0 +1,40 @@
+{
+  "id": "sdks/android/integration",
+  "title": "SDK Integration",
+  "description": "Step-by-step Android SDK integration with code examples for passkey authentication",
+  "source": "@site/docs/sdks/android/integration.md",
+  "sourceDirName": "sdks/android",
+  "slug": "/sdks/android/integration",
+  "permalink": "/docs/sdks/android/integration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/android/integration.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "integration",
+    "title": "SDK Integration",
+    "sidebar_label": "Integration",
+    "description": "Step-by-step Android SDK integration with code examples for passkey authentication",
+    "keywords": [
+      "android",
+      "sdk",
+      "integration",
+      "passkey",
+      "webauthn",
+      "kotlin",
+      "jetpack compose"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/sdks/android/configuration"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/docs/sdks/android/security"
+  }
+}

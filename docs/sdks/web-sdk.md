@@ -626,7 +626,7 @@ try {
 
 ## 📖 Next Steps
 
-- **[iOS SDK](/docs/sdks/ios-sdk)** - Native iOS implementation
+- **[iOS SDK](/docs/sdks/ios/)** - Native iOS implementation
 - **[Android SDK](/docs/sdks/android-sdk)** - Native Android implementation  
 - **[Ionic Plugin](/docs/sdks/ionic-plugin)** - Cross-platform mobile
 - **[API Reference](/docs/api/api-overview)** - Direct API integration

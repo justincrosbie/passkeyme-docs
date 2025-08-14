@@ -967,7 +967,7 @@ If you have separate native iOS/Android apps:
 
 - **[Web SDK](/docs/sdks/web-sdk)** - Browser implementation
 - **[Android SDK](/docs/sdks/android-sdk)** - Native Android implementation  
-- **[iOS SDK](/docs/sdks/ios-sdk)** - Native iOS implementation
+- **[iOS SDK](/docs/sdks/ios/)** - Native iOS implementation
 - **[API Reference](/docs/api/api-overview)** - Direct API integration
 
 ---

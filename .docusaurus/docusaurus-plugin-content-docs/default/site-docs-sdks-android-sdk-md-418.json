@@ -1,7 +1,7 @@
 {
   "id": "sdks/android-sdk",
   "title": "Android SDK",
-  "description": "Native Android SDK for passkey authentication in Kotlin and Java apps",
+  "description": "Native Android SDK for passkey authentication - redirected to new location",
   "source": "@site/docs/sdks/android-sdk.md",
   "sourceDirName": "sdks",
   "slug": "/sdks/android-sdk",
@@ -16,16 +16,7 @@
   "frontMatter": {
     "id": "android-sdk",
     "title": "Android SDK",
-    "sidebar_label": "Android SDK",
-    "description": "Native Android SDK for passkey authentication in Kotlin and Java apps"
-  },
-  "sidebar": "tutorialSidebar",
-  "previous": {
-    "title": "iOS SDK",
-    "permalink": "/docs/sdks/ios-sdk"
-  },
-  "next": {
-    "title": "Ionic Plugin",
-    "permalink": "/docs/sdks/ionic-plugin"
+    "sidebar_label": "Android SDK (Redirect)",
+    "description": "Native Android SDK for passkey authentication - redirected to new location"
   }
 }

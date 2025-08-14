@@ -35,7 +35,7 @@ For frameworks without dedicated SDKs, use the **JavaScript SDK**:
 | Platform | SDK Package | Language | OAuth Support | Passkey Support | Integration | Setup Time | Docs |
 |----------|-------------|----------|---------------|-----------------|-------------|------------|------|
 | **Web Browser** | `passkeyme-web-sdk` | JavaScript/TypeScript | ❌ Manual | ✅ Full | 🔧 Custom | 🛠️ 30 min | **[Docs](/docs/sdks/web-sdk)** |
-| **iOS Native** | `PasskeymeSDK` | Swift/Objective-C | ❌ Manual | ✅ Full | 🔧 Custom | 🛠️ 45 min | **[Docs](/docs/sdks/ios-sdk)** |
+| **iOS Native** | `PasskeymeSDK` | Swift/Objective-C | ❌ Manual | ✅ Full | 🔧 Custom | 🛠️ 45 min | **[Docs](/docs/sdks/ios/)** |
 | **Android Native** | `passkeyme-android-sdk` | Kotlin/Java | ❌ Manual | ✅ Full | 🔧 Custom | 🛠️ 45 min | **[Docs](/docs/sdks/android-sdk)** |
 | **Ionic/Capacitor** | `@passkeyme/ionic-cap-plugin` | TypeScript | ❌ Manual | ✅ Full | 🔧 Medium | 🛠️ 30 min | **[Docs](/docs/sdks/ionic-plugin)** |
 
