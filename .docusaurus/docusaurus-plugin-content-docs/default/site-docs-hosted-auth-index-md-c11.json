@@ -1,0 +1,39 @@
+{
+  "id": "hosted-auth/hosted-auth",
+  "title": "Hosted Authentication Pages",
+  "description": "Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security",
+  "source": "@site/docs/hosted-auth/index.md",
+  "sourceDirName": "hosted-auth",
+  "slug": "/hosted-auth/",
+  "permalink": "/docs/hosted-auth/",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/hosted-auth/index.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "hosted-auth",
+    "title": "Hosted Authentication Pages",
+    "sidebar_label": "Overview",
+    "description": "Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "authentication pages",
+      "oauth",
+      "passkeys",
+      "zero maintenance"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Architecture Overview",
+    "permalink": "/docs/getting-started/architecture"
+  },
+  "next": {
+    "title": "Configuration",
+    "permalink": "/docs/hosted-auth/configuration"
+  }
+}

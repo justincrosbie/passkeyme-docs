@@ -33,11 +33,24 @@ const sidebars: SidebarsConfig = {
       items: [
         'getting-started/quick-start',
         'getting-started/choosing-approach',
-        'getting-started/hosted-auth',
         'getting-started/framework-comparison',
         'getting-started/installation',
         'getting-started/concepts',
         'getting-started/architecture',
+      ],
+    },
+
+    // 🌐 Hosted Authentication Pages
+    {
+      type: 'category',
+      label: '🌐 Hosted Authentication ✨ POPULAR',
+      collapsed: false,
+      items: [
+        'hosted-auth/hosted-auth',
+        'hosted-auth/configuration',
+        'hosted-auth/implementation',
+        'hosted-auth/security',
+        'hosted-auth/customization',
       ],
     },
 

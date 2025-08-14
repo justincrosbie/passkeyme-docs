@@ -1,0 +1,39 @@
+{
+  "id": "sdks/hosted-auth",
+  "title": "Hosted Authentication Pages",
+  "description": "Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security",
+  "source": "@site/docs/sdks/hosted-auth.md",
+  "sourceDirName": "sdks",
+  "slug": "/sdks/hosted-auth",
+  "permalink": "/docs/sdks/hosted-auth",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/sdks/hosted-auth.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "hosted-auth",
+    "title": "Hosted Authentication Pages",
+    "sidebar_label": "Hosted Auth Pages",
+    "description": "Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "authentication pages",
+      "oauth",
+      "passkeys",
+      "configuration"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/overview"
+  },
+  "next": {
+    "title": "React SDK",
+    "permalink": "/docs/sdks/react"
+  }
+}

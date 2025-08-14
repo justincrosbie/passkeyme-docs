@@ -3,41 +3,6 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
-    path: '/__docusaurus/debug',
-    component: ComponentCreator('/__docusaurus/debug', '5ff'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/config',
-    component: ComponentCreator('/__docusaurus/debug/config', '5ba'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/content',
-    component: ComponentCreator('/__docusaurus/debug/content', 'a2b'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/globalData',
-    component: ComponentCreator('/__docusaurus/debug/globalData', 'c3c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/metadata',
-    component: ComponentCreator('/__docusaurus/debug/metadata', '156'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/registry',
-    component: ComponentCreator('/__docusaurus/debug/registry', '88c'),
-    exact: true
-  },
-  {
-    path: '/__docusaurus/debug/routes',
-    component: ComponentCreator('/__docusaurus/debug/routes', '000'),
-    exact: true
-  },
-  {
     path: '/blog',
     component: ComponentCreator('/blog', '240'),
     exact: true
@@ -194,286 +159,315 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', 'ae9'),
+    component: ComponentCreator('/docs', '008'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '26e'),
+        component: ComponentCreator('/docs', '46e'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', '8dd'),
+            component: ComponentCreator('/docs', 'd4e'),
             routes: [
               {
                 path: '/docs/',
-                component: ComponentCreator('/docs/', 'acb'),
+                component: ComponentCreator('/docs/', '12a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/api-overview',
-                component: ComponentCreator('/docs/api/api-overview', '10a'),
+                component: ComponentCreator('/docs/api/api-overview', '886'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/authentication',
-                component: ComponentCreator('/docs/api/authentication', '833'),
+                component: ComponentCreator('/docs/api/authentication', 'c45'),
                 exact: true
               },
               {
                 path: '/docs/api/authentication-flows',
-                component: ComponentCreator('/docs/api/authentication-flows', '04a'),
+                component: ComponentCreator('/docs/api/authentication-flows', 'd67'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/registration',
-                component: ComponentCreator('/docs/api/registration', '5b9'),
+                component: ComponentCreator('/docs/api/registration', '4a9'),
                 exact: true
               },
               {
                 path: '/docs/api/token-management',
-                component: ComponentCreator('/docs/api/token-management', '8e8'),
+                component: ComponentCreator('/docs/api/token-management', 'b1b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/api/user-management',
-                component: ComponentCreator('/docs/api/user-management', '200'),
+                component: ComponentCreator('/docs/api/user-management', '097'),
                 exact: true
               },
               {
                 path: '/docs/configuration/authentication-methods',
-                component: ComponentCreator('/docs/configuration/authentication-methods', '0f5'),
+                component: ComponentCreator('/docs/configuration/authentication-methods', '2ef'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/faq',
-                component: ComponentCreator('/docs/faq', '7c9'),
+                component: ComponentCreator('/docs/faq', 'a89'),
                 exact: true
               },
               {
                 path: '/docs/getting-started/architecture',
-                component: ComponentCreator('/docs/getting-started/architecture', 'f1c'),
+                component: ComponentCreator('/docs/getting-started/architecture', '04b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/getting-started/choosing-approach',
-                component: ComponentCreator('/docs/getting-started/choosing-approach', '2cf'),
+                component: ComponentCreator('/docs/getting-started/choosing-approach', '960'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/getting-started/concepts',
-                component: ComponentCreator('/docs/getting-started/concepts', '0d7'),
+                component: ComponentCreator('/docs/getting-started/concepts', '1dd'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/getting-started/framework-comparison',
-                component: ComponentCreator('/docs/getting-started/framework-comparison', '4c3'),
+                component: ComponentCreator('/docs/getting-started/framework-comparison', '89b'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/getting-started/hosted-auth',
-                component: ComponentCreator('/docs/getting-started/hosted-auth', '9a2'),
-                exact: true,
-                sidebar: "tutorialSidebar"
+                component: ComponentCreator('/docs/getting-started/hosted-auth', '3bd'),
+                exact: true
               },
               {
                 path: '/docs/getting-started/installation',
-                component: ComponentCreator('/docs/getting-started/installation', '7cb'),
+                component: ComponentCreator('/docs/getting-started/installation', 'ef0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/getting-started/quick-start',
-                component: ComponentCreator('/docs/getting-started/quick-start', '713'),
+                component: ComponentCreator('/docs/getting-started/quick-start', '551'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/getting-started/setup',
-                component: ComponentCreator('/docs/getting-started/setup', '6b0'),
+                component: ComponentCreator('/docs/getting-started/setup', '734'),
                 exact: true
               },
               {
                 path: '/docs/glossary',
-                component: ComponentCreator('/docs/glossary', 'b39'),
+                component: ComponentCreator('/docs/glossary', '356'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/hosted-auth/',
+                component: ComponentCreator('/docs/hosted-auth/', '1b3'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/hosted-auth/configuration',
+                component: ComponentCreator('/docs/hosted-auth/configuration', '5e0'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/hosted-auth/customization',
+                component: ComponentCreator('/docs/hosted-auth/customization', '5e1'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/hosted-auth/implementation',
+                component: ComponentCreator('/docs/hosted-auth/implementation', '7b6'),
+                exact: true,
+                sidebar: "tutorialSidebar"
+              },
+              {
+                path: '/docs/hosted-auth/security',
+                component: ComponentCreator('/docs/hosted-auth/security', 'bbc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/SDKs/1.5 - sdk-installation-guide',
-                component: ComponentCreator('/docs/SDKs/1.5 - sdk-installation-guide', 'f60'),
+                component: ComponentCreator('/docs/SDKs/1.5 - sdk-installation-guide', 'ea9'),
                 exact: true
               },
               {
                 path: '/docs/sdks/android',
-                component: ComponentCreator('/docs/sdks/android', 'c6a'),
+                component: ComponentCreator('/docs/sdks/android', '727'),
                 exact: true
               },
               {
                 path: '/docs/sdks/android-sdk',
-                component: ComponentCreator('/docs/sdks/android-sdk', '8fd'),
+                component: ComponentCreator('/docs/sdks/android-sdk', 'e39'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ionic',
-                component: ComponentCreator('/docs/sdks/ionic', '85c'),
+                component: ComponentCreator('/docs/sdks/ionic', 'b24'),
                 exact: true
               },
               {
                 path: '/docs/sdks/ionic-plugin',
-                component: ComponentCreator('/docs/sdks/ionic-plugin', '2fc'),
+                component: ComponentCreator('/docs/sdks/ionic-plugin', '415'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ios',
-                component: ComponentCreator('/docs/sdks/ios', '399'),
+                component: ComponentCreator('/docs/sdks/ios', '74f'),
                 exact: true
               },
               {
                 path: '/docs/sdks/ios-sdk',
-                component: ComponentCreator('/docs/sdks/ios-sdk', 'f44'),
+                component: ComponentCreator('/docs/sdks/ios-sdk', '419'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript',
-                component: ComponentCreator('/docs/sdks/javascript', 'ee5'),
+                component: ComponentCreator('/docs/sdks/javascript', '13d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript-complex',
-                component: ComponentCreator('/docs/sdks/javascript-complex', '105'),
+                component: ComponentCreator('/docs/sdks/javascript-complex', 'd18'),
                 exact: true
               },
               {
                 path: '/docs/SDKs/javascript-sdk',
-                component: ComponentCreator('/docs/SDKs/javascript-sdk', '88f'),
+                component: ComponentCreator('/docs/SDKs/javascript-sdk', 'fa2'),
                 exact: true
               },
               {
                 path: '/docs/sdks/javascript-simple',
-                component: ComponentCreator('/docs/sdks/javascript-simple', '987'),
+                component: ComponentCreator('/docs/sdks/javascript-simple', '788'),
                 exact: true
               },
               {
                 path: '/docs/sdks/javascript/advanced-usage',
-                component: ComponentCreator('/docs/sdks/javascript/advanced-usage', '97f'),
+                component: ComponentCreator('/docs/sdks/javascript/advanced-usage', '82f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript/handle-auth-callback',
-                component: ComponentCreator('/docs/sdks/javascript/handle-auth-callback', 'ffa'),
+                component: ComponentCreator('/docs/sdks/javascript/handle-auth-callback', '84f'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript/redirect-to-login',
-                component: ComponentCreator('/docs/sdks/javascript/redirect-to-login', 'f1e'),
+                component: ComponentCreator('/docs/sdks/javascript/redirect-to-login', '5ce'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/javascript/smart-login',
-                component: ComponentCreator('/docs/sdks/javascript/smart-login', 'e4e'),
+                component: ComponentCreator('/docs/sdks/javascript/smart-login', '8d2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/low-level-overview',
-                component: ComponentCreator('/docs/sdks/low-level-overview', '359'),
+                component: ComponentCreator('/docs/sdks/low-level-overview', '67d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/overview',
-                component: ComponentCreator('/docs/sdks/overview', '50c'),
+                component: ComponentCreator('/docs/sdks/overview', '9fe'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/react',
-                component: ComponentCreator('/docs/sdks/react', 'bc7'),
+                component: ComponentCreator('/docs/sdks/react', 'c50'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/SDKs/react-sdk',
-                component: ComponentCreator('/docs/SDKs/react-sdk', 'c2a'),
+                component: ComponentCreator('/docs/SDKs/react-sdk', '2c8'),
                 exact: true
               },
               {
                 path: '/docs/SDKs/react-sdk-fixed',
-                component: ComponentCreator('/docs/SDKs/react-sdk-fixed', '915'),
+                component: ComponentCreator('/docs/SDKs/react-sdk-fixed', 'b17'),
                 exact: true
               },
               {
                 path: '/docs/sdks/react/auth-panel',
-                component: ComponentCreator('/docs/sdks/react/auth-panel', '8f1'),
+                component: ComponentCreator('/docs/sdks/react/auth-panel', 'ba1'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/react/oauth-button',
-                component: ComponentCreator('/docs/sdks/react/oauth-button', '68e'),
+                component: ComponentCreator('/docs/sdks/react/oauth-button', 'ea2'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/react/passkey-button',
-                component: ComponentCreator('/docs/sdks/react/passkey-button', '758'),
+                component: ComponentCreator('/docs/sdks/react/passkey-button', 'af3'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/react/use-passkeyme',
-                component: ComponentCreator('/docs/sdks/react/use-passkeyme', '94e'),
+                component: ComponentCreator('/docs/sdks/react/use-passkeyme', 'ae0'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/SDKs/sdk-intro',
-                component: ComponentCreator('/docs/SDKs/sdk-intro', '6c2'),
+                component: ComponentCreator('/docs/SDKs/sdk-intro', '916'),
                 exact: true
               },
               {
                 path: '/docs/sdks/web-sdk',
-                component: ComponentCreator('/docs/sdks/web-sdk', '041'),
+                component: ComponentCreator('/docs/sdks/web-sdk', '1be'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/troubleshooting/common-issues',
-                component: ComponentCreator('/docs/troubleshooting/common-issues', 'bf9'),
+                component: ComponentCreator('/docs/troubleshooting/common-issues', 'dd4'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/whats-new',
-                component: ComponentCreator('/docs/whats-new', 'b8c'),
+                component: ComponentCreator('/docs/whats-new', '290'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/why-passkeyme',
-                component: ComponentCreator('/docs/why-passkeyme', '9a3'),
+                component: ComponentCreator('/docs/why-passkeyme', '775'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/why-passkeys',
-                component: ComponentCreator('/docs/why-passkeys', '1fb'),
+                component: ComponentCreator('/docs/why-passkeys', '233'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               }

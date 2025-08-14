@@ -1,0 +1,40 @@
+{
+  "id": "hosted-auth/configuration",
+  "title": "Configuration Guide",
+  "description": "Complete configuration guide for PasskeyMe hosted authentication pages in the Admin Console",
+  "source": "@site/docs/hosted-auth/configuration.md",
+  "sourceDirName": "hosted-auth",
+  "slug": "/hosted-auth/configuration",
+  "permalink": "/docs/hosted-auth/configuration",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/hosted-auth/configuration.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "configuration",
+    "title": "Configuration Guide",
+    "sidebar_label": "Configuration",
+    "description": "Complete configuration guide for PasskeyMe hosted authentication pages in the Admin Console",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "configuration",
+      "admin console",
+      "setup",
+      "oauth",
+      "branding"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/hosted-auth/"
+  },
+  "next": {
+    "title": "Implementation",
+    "permalink": "/docs/hosted-auth/implementation"
+  }
+}

@@ -68,8 +68,7 @@
             },
             {
               "id": "getting-started/hosted-auth",
-              "path": "/docs/getting-started/hosted-auth",
-              "sidebar": "tutorialSidebar"
+              "path": "/docs/getting-started/hosted-auth"
             },
             {
               "id": "getting-started/installation",
@@ -88,6 +87,31 @@
             {
               "id": "glossary",
               "path": "/docs/glossary",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosted-auth/configuration",
+              "path": "/docs/hosted-auth/configuration",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosted-auth/customization",
+              "path": "/docs/hosted-auth/customization",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosted-auth/hosted-auth",
+              "path": "/docs/hosted-auth/",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosted-auth/implementation",
+              "path": "/docs/hosted-auth/implementation",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "hosted-auth/security",
+              "path": "/docs/hosted-auth/security",
               "sidebar": "tutorialSidebar"
             },
             {

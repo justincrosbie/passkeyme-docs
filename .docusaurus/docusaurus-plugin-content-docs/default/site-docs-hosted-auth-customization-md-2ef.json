@@ -1,0 +1,41 @@
+{
+  "id": "hosted-auth/customization",
+  "title": "Customization Guide",
+  "description": "Advanced branding and styling options for PasskeyMe hosted authentication pages",
+  "source": "@site/docs/hosted-auth/customization.md",
+  "sourceDirName": "hosted-auth",
+  "slug": "/hosted-auth/customization",
+  "permalink": "/docs/hosted-auth/customization",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/hosted-auth/customization.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "customization",
+    "title": "Customization Guide",
+    "sidebar_label": "Customization",
+    "description": "Advanced branding and styling options for PasskeyMe hosted authentication pages",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "customization",
+      "branding",
+      "css",
+      "styling",
+      "themes",
+      "responsive"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Security",
+    "permalink": "/docs/hosted-auth/security"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/sdks/overview"
+  }
+}

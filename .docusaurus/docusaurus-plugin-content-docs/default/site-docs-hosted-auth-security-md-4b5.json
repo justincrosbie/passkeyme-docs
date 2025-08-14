@@ -1,0 +1,41 @@
+{
+  "id": "hosted-auth/security",
+  "title": "Security & Best Practices",
+  "description": "Essential security considerations and best practices for PasskeyMe hosted authentication pages",
+  "source": "@site/docs/hosted-auth/security.md",
+  "sourceDirName": "hosted-auth",
+  "slug": "/hosted-auth/security",
+  "permalink": "/docs/hosted-auth/security",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/hosted-auth/security.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "security",
+    "title": "Security & Best Practices",
+    "sidebar_label": "Security",
+    "description": "Essential security considerations and best practices for PasskeyMe hosted authentication pages",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "security",
+      "best practices",
+      "csrf",
+      "https",
+      "tokens",
+      "validation"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Implementation",
+    "permalink": "/docs/hosted-auth/implementation"
+  },
+  "next": {
+    "title": "Customization",
+    "permalink": "/docs/hosted-auth/customization"
+  }
+}

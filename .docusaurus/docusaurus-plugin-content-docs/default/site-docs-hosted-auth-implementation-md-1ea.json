@@ -1,0 +1,40 @@
+{
+  "id": "hosted-auth/implementation",
+  "title": "Implementation Guide",
+  "description": "Step-by-step guide to implementing PasskeyMe hosted authentication pages in your application",
+  "source": "@site/docs/hosted-auth/implementation.md",
+  "sourceDirName": "hosted-auth",
+  "slug": "/hosted-auth/implementation",
+  "permalink": "/docs/hosted-auth/implementation",
+  "draft": false,
+  "unlisted": false,
+  "editUrl": "https://github.com/passkeyme/passkeyme/tree/main/docs/docs/hosted-auth/implementation.md",
+  "tags": [],
+  "version": "current",
+  "lastUpdatedBy": null,
+  "lastUpdatedAt": null,
+  "frontMatter": {
+    "id": "implementation",
+    "title": "Implementation Guide",
+    "sidebar_label": "Implementation",
+    "description": "Step-by-step guide to implementing PasskeyMe hosted authentication pages in your application",
+    "keywords": [
+      "passkeyme",
+      "hosted auth",
+      "implementation",
+      "integration",
+      "redirect",
+      "callback",
+      "code examples"
+    ]
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Configuration",
+    "permalink": "/docs/hosted-auth/configuration"
+  },
+  "next": {
+    "title": "Security",
+    "permalink": "/docs/hosted-auth/security"
+  }
+}
