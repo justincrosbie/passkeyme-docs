@@ -159,15 +159,15 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs', '9f8'),
+    component: ComponentCreator('/docs', 'e6a'),
     routes: [
       {
         path: '/docs',
-        component: ComponentCreator('/docs', '80e'),
+        component: ComponentCreator('/docs', 'c52'),
         routes: [
           {
             path: '/docs',
-            component: ComponentCreator('/docs', 'b9b'),
+            component: ComponentCreator('/docs', '857'),
             routes: [
               {
                 path: '/docs/',
@@ -227,7 +227,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/choosing-approach',
-                component: ComponentCreator('/docs/getting-started/choosing-approach', '960'),
+                component: ComponentCreator('/docs/getting-started/choosing-approach', 'ccc'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -239,7 +239,7 @@ export default [
               },
               {
                 path: '/docs/getting-started/framework-comparison',
-                component: ComponentCreator('/docs/getting-started/framework-comparison', '89b'),
+                component: ComponentCreator('/docs/getting-started/framework-comparison', '909'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -308,36 +308,36 @@ export default [
               },
               {
                 path: '/docs/sdks/android-sdk',
-                component: ComponentCreator('/docs/sdks/android-sdk', '6f1'),
+                component: ComponentCreator('/docs/sdks/android-sdk', '8dd'),
                 exact: true
               },
               {
                 path: '/docs/sdks/android/',
-                component: ComponentCreator('/docs/sdks/android/', '0e5'),
+                component: ComponentCreator('/docs/sdks/android/', '2d5'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/android/api-reference',
-                component: ComponentCreator('/docs/sdks/android/api-reference', 'fbb'),
+                component: ComponentCreator('/docs/sdks/android/api-reference', '11a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/android/configuration',
-                component: ComponentCreator('/docs/sdks/android/configuration', '1df'),
+                component: ComponentCreator('/docs/sdks/android/configuration', 'c61'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/android/integration',
-                component: ComponentCreator('/docs/sdks/android/integration', 'a7e'),
+                component: ComponentCreator('/docs/sdks/android/integration', '7ca'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/android/security',
-                component: ComponentCreator('/docs/sdks/android/security', 'a14'),
+                component: ComponentCreator('/docs/sdks/android/security', 'f32'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -348,13 +348,13 @@ export default [
               },
               {
                 path: '/docs/sdks/ionic-plugin',
-                component: ComponentCreator('/docs/sdks/ionic-plugin', '415'),
+                component: ComponentCreator('/docs/sdks/ionic-plugin', '0c6'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ios-legacy',
-                component: ComponentCreator('/docs/sdks/ios-legacy', 'd55'),
+                component: ComponentCreator('/docs/sdks/ios-legacy', '06f'),
                 exact: true
               },
               {
@@ -364,31 +364,31 @@ export default [
               },
               {
                 path: '/docs/sdks/ios/',
-                component: ComponentCreator('/docs/sdks/ios/', '3e0'),
+                component: ComponentCreator('/docs/sdks/ios/', '96c'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ios/api-reference',
-                component: ComponentCreator('/docs/sdks/ios/api-reference', '29a'),
+                component: ComponentCreator('/docs/sdks/ios/api-reference', '1e8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ios/configuration',
-                component: ComponentCreator('/docs/sdks/ios/configuration', 'cb3'),
+                component: ComponentCreator('/docs/sdks/ios/configuration', '39d'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ios/integration',
-                component: ComponentCreator('/docs/sdks/ios/integration', 'e86'),
+                component: ComponentCreator('/docs/sdks/ios/integration', 'b92'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
               {
                 path: '/docs/sdks/ios/security',
-                component: ComponentCreator('/docs/sdks/ios/security', '8d8'),
+                component: ComponentCreator('/docs/sdks/ios/security', '3b8'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -439,7 +439,7 @@ export default [
               },
               {
                 path: '/docs/sdks/low-level-overview',
-                component: ComponentCreator('/docs/sdks/low-level-overview', '67d'),
+                component: ComponentCreator('/docs/sdks/low-level-overview', '420'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
@@ -496,7 +496,7 @@ export default [
               },
               {
                 path: '/docs/sdks/web-sdk',
-                component: ComponentCreator('/docs/sdks/web-sdk', '1be'),
+                component: ComponentCreator('/docs/sdks/web-sdk', '96a'),
                 exact: true,
                 sidebar: "tutorialSidebar"
               },
