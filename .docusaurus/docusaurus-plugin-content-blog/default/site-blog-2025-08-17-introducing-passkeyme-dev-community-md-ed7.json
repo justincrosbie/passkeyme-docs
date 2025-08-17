@@ -1,0 +1,65 @@
+{
+  "permalink": "/blog/introducing-passkeyme-dev-community",
+  "source": "@site/blog/2025-08-17-introducing-passkeyme-dev-community.md",
+  "title": "Introducing Passkeyme to the Dev Community - The Easiest Way to Add Passkeys and OAuth",
+  "description": "After building apps with various authentication solutions, I kept running into the same challenge: authentication setup takes way longer than it should.",
+  "date": "2025-08-17T00:00:00.000Z",
+  "tags": [
+    {
+      "inline": true,
+      "label": "announcement",
+      "permalink": "/blog/tags/announcement"
+    },
+    {
+      "inline": true,
+      "label": "dev-community",
+      "permalink": "/blog/tags/dev-community"
+    },
+    {
+      "inline": true,
+      "label": "authentication",
+      "permalink": "/blog/tags/authentication"
+    },
+    {
+      "inline": true,
+      "label": "passkeys",
+      "permalink": "/blog/tags/passkeys"
+    },
+    {
+      "inline": true,
+      "label": "oauth",
+      "permalink": "/blog/tags/oauth"
+    },
+    {
+      "inline": true,
+      "label": "react",
+      "permalink": "/blog/tags/react"
+    },
+    {
+      "inline": true,
+      "label": "developer-experience",
+      "permalink": "/blog/tags/developer-experience"
+    }
+  ],
+  "readingTime": 3.52,
+  "hasTruncateMarker": true,
+  "authors": [],
+  "frontMatter": {
+    "slug": "introducing-passkeyme-dev-community",
+    "title": "Introducing Passkeyme to the Dev Community - The Easiest Way to Add Passkeys and OAuth",
+    "tags": [
+      "announcement",
+      "dev-community",
+      "authentication",
+      "passkeys",
+      "oauth",
+      "react",
+      "developer-experience"
+    ]
+  },
+  "unlisted": false,
+  "nextItem": {
+    "title": "Introducing PasskeyMe's New JavaScript and React SDKs - Firebase Auth for the Passkey Era",
+    "permalink": "/blog/new-javascript-react-sdks"
+  }
+}

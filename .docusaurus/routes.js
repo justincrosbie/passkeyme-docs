@@ -4,7 +4,7 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 export default [
   {
     path: '/blog',
-    component: ComponentCreator('/blog', '240'),
+    component: ComponentCreator('/blog', '3f6'),
     exact: true
   },
   {
@@ -20,6 +20,11 @@ export default [
   {
     path: '/blog/dogfood',
     component: ComponentCreator('/blog/dogfood', '7c0'),
+    exact: true
+  },
+  {
+    path: '/blog/introducing-passkeyme-dev-community',
+    component: ComponentCreator('/blog/introducing-passkeyme-dev-community', 'b39'),
     exact: true
   },
   {
@@ -44,12 +49,12 @@ export default [
   },
   {
     path: '/blog/tags/announcement',
-    component: ComponentCreator('/blog/tags/announcement', 'ed8'),
+    component: ComponentCreator('/blog/tags/announcement', 'cf0'),
     exact: true
   },
   {
     path: '/blog/tags/authentication',
-    component: ComponentCreator('/blog/tags/authentication', 'f1a'),
+    component: ComponentCreator('/blog/tags/authentication', '3c6'),
     exact: true
   },
   {
@@ -58,8 +63,13 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/dev-community',
+    component: ComponentCreator('/blog/tags/dev-community', 'b1b'),
+    exact: true
+  },
+  {
     path: '/blog/tags/developer-experience',
-    component: ComponentCreator('/blog/tags/developer-experience', 'f22'),
+    component: ComponentCreator('/blog/tags/developer-experience', '66e'),
     exact: true
   },
   {
@@ -88,18 +98,23 @@ export default [
     exact: true
   },
   {
+    path: '/blog/tags/oauth',
+    component: ComponentCreator('/blog/tags/oauth', '36d'),
+    exact: true
+  },
+  {
     path: '/blog/tags/passkeyme',
     component: ComponentCreator('/blog/tags/passkeyme', 'ce1'),
     exact: true
   },
   {
     path: '/blog/tags/passkeys',
-    component: ComponentCreator('/blog/tags/passkeys', 'dd2'),
+    component: ComponentCreator('/blog/tags/passkeys', '118'),
     exact: true
   },
   {
     path: '/blog/tags/react',
-    component: ComponentCreator('/blog/tags/react', 'd8f'),
+    component: ComponentCreator('/blog/tags/react', 'b8e'),
     exact: true
   },
   {

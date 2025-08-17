@@ -58,6 +58,10 @@
     ]
   },
   "unlisted": false,
+  "prevItem": {
+    "title": "Introducing Passkeyme to the Dev Community - The Easiest Way to Add Passkeys and OAuth",
+    "permalink": "/blog/introducing-passkeyme-dev-community"
+  },
   "nextItem": {
     "title": "Passkeyme supports Discoverable Credentials!!",
     "permalink": "/blog/discoverable"

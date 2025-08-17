@@ -1,7 +1,6 @@
 ---
 slug: introducing-passkeyme-dev-community
 title: Introducing Passkeyme to the Dev Community - The Easiest Way to Add Passkeys and OAuth
-authors: [justin]
 tags: [announcement, dev-community, authentication, passkeys, oauth, react, developer-experience]
 ---
 
