@@ -1,15 +1,15 @@
 ---
 sidebar_position: 1
 id: intro
-title: Welcome to PasskeyMe
-description: Get started with PasskeyMe - the simplest way to add passkey authentication to your applications
+title: Welcome to Passkeyme
+description: Get started with Passkeyme - the simplest way to add passkey authentication to your applications
 keywords: [passkeyme, passkeys, webauthn, authentication, introduction]
 slug: /
 ---
 
-# Welcome to PasskeyMe 🔐
+# Welcome to Passkeyme 🔐
 
-**PasskeyMe** is the easiest way to add modern authentication to your applications. We provide **React components for inline authentication**, JavaScript SDKs for any framework, and hosted authentication pages as an alternative - all with a developer experience similar to Firebase Auth.
+**Passkeyme** is the easiest way to add modern authentication to your applications. We provide **React components for inline authentication**, JavaScript SDKs for any framework, and hosted authentication pages as an alternative - all with a developer experience similar to Firebase Auth.
 
 ## 🆕 **New React SDK - Just Released!** 
 
@@ -35,7 +35,7 @@ function LoginPage() {
 
 ## 📢 **What's New?**
 
-We're constantly improving PasskeyMe with new features and enhancements:
+We're constantly improving Passkeyme with new features and enhancements:
 
 - 🆕 **React SDK with TypeScript** - Complete authentication components
 - 🆕 **JavaScript SDK** - Framework-agnostic authentication
@@ -47,9 +47,9 @@ We're constantly improving PasskeyMe with new features and enhancements:
 
 ---
 
-## What is PasskeyMe?
+## What is Passkeyme?
 
-PasskeyMe offers **inline React components** that handle the complete authentication flow directly within your application. Use our `PasskeymeAuthPanel` component for a complete auth experience, or choose hosted authentication pages for simpler integration.
+Passkeyme offers **inline React components** that handle the complete authentication flow directly within your application. Use our `PasskeymeAuthPanel` component for a complete auth experience, or choose hosted authentication pages for simpler integration.
 
 ```mermaid
 graph LR
@@ -167,9 +167,9 @@ window.location.href = 'https://auth.passkeyme.com/auth?app_id=your-app-id';
 
 ## Choose Your Path
 
-### 🚀 **New to PasskeyMe?**
-Start with understanding why PasskeyMe is the best choice for modern authentication:
-- [Why Choose PasskeyMe?](/docs/why-passkeyme) - **See our advantages**
+### 🚀 **New to Passkeyme?**
+Start with understanding why Passkeyme is the best choice for modern authentication:
+- [Why Choose Passkeyme?](/docs/why-passkeyme) - **See our advantages**
 - [Quick Start Guide](/docs/getting-started/quick-start)
 - [Installation & Setup](/docs/getting-started/installation)
 - [Core Concepts](/docs/getting-started/concepts)
@@ -192,7 +192,7 @@ Use our REST API directly:
 Find solutions to common issues:
 - [Troubleshooting](/docs/troubleshooting/common-issues)
 
-## Why Choose PasskeyMe?
+## Why Choose Passkeyme?
 
 ### **🚀 Faster Development**
 - Ready-to-use React components for inline auth
@@ -217,7 +217,7 @@ Find solutions to common issues:
 
 ## Authentication Methods
 
-PasskeyMe supports multiple authentication methods:
+Passkeyme supports multiple authentication methods:
 
 | Method | Security | Convenience | Use Case |
 |--------|----------|-------------|----------|

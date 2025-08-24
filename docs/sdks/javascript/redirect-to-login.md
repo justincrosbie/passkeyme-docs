@@ -2,18 +2,18 @@
 id: redirect-to-login
 title: redirectToLogin Method
 sidebar_label: redirectToLogin
-description: Direct redirect to PasskeyMe hosted authentication pages
+description: Direct redirect to Passkeyme hosted authentication pages
 ---
 
 # 🌐 redirectToLogin Method
 
-The `redirectToLogin` method provides **direct redirect to PasskeyMe's hosted authentication pages**. This method gives you full control over when and how users are redirected to the hosted authentication experience.
+The `redirectToLogin` method provides **direct redirect to Passkeyme's hosted authentication pages**. This method gives you full control over when and how users are redirected to the hosted authentication experience.
 
 ## ✨ **Why redirectToLogin?**
 
 - **🚀 Instant Redirect** - Immediate navigation to hosted auth pages
-- **🎨 Hosted UI** - PasskeyMe handles all authentication UI and flows
-- **🔒 Secure by Default** - All authentication handled on PasskeyMe's secure infrastructure
+- **🎨 Hosted UI** - Passkeyme handles all authentication UI and flows
+- **🔒 Secure by Default** - All authentication handled on Passkeyme's secure infrastructure
 - **📱 Mobile Optimized** - Responsive design that works on all devices
 - **⚡ Zero Maintenance** - Automatic updates and security patches
 - **🌍 Universal Support** - Works on all browsers and devices

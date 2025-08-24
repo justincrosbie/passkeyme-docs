@@ -2,12 +2,12 @@
 sidebar_position: 2
 id: authentication-flows
 title: Authentication Flows via API
-description: Complete authentication flows using PasskeyMe REST API directly
+description: Complete authentication flows using Passkeyme REST API directly
 ---
 
 # Authentication Flows via API
 
-Learn how to implement complete authentication flows using the PasskeyMe REST API directly, without using our SDKs.
+Learn how to implement complete authentication flows using the Passkeyme REST API directly, without using our SDKs.
 
 ## 🔄 Complete OAuth Flow
 
@@ -161,7 +161,7 @@ async function checkPasskeyAvailability() {
 
 ```javascript
 async function registerPasskey(token) {
-  // Get registration challenge from PasskeyMe API
+  // Get registration challenge from Passkeyme API
   const challengeResponse = await fetch(
     `https://api.passkeyme.com/passkey/register/challenge?token=${token}`
   );
@@ -173,7 +173,7 @@ async function registerPasskey(token) {
     publicKey: challenge.publicKey
   });
   
-  // Send credential back to PasskeyMe
+  // Send credential back to Passkeyme
   const registrationResponse = await fetch(
     `https://api.passkeyme.com/passkey/register/complete`,
     {
@@ -216,7 +216,7 @@ async function authenticateWithPasskey(appId) {
     publicKey: challenge.publicKey
   });
   
-  // Send assertion to PasskeyMe for verification
+  // Send assertion to Passkeyme for verification
   const authResponse = await fetch(
     `https://api.passkeyme.com/passkey/auth/complete`,
     {
@@ -369,7 +369,7 @@ class TokenManager {
 
 ## 📱 Complete Implementation Example
 
-Here's a complete authentication manager using the PasskeyMe API:
+Here's a complete authentication manager using the Passkeyme API:
 
 ```javascript
 class PasskeymeAuth {

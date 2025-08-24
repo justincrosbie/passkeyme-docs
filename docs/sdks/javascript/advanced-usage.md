@@ -7,7 +7,7 @@ description: Advanced patterns and complex authentication scenarios
 
 # 🚀 Advanced JavaScript SDK Usage
 
-This guide covers **advanced authentication patterns, complex scenarios, and power-user features** of the PasskeyMe JavaScript SDK.
+This guide covers **advanced authentication patterns, complex scenarios, and power-user features** of the Passkeyme JavaScript SDK.
 
 ## 🏗️ **Architecture Patterns**
 

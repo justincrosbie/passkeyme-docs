@@ -7,11 +7,11 @@ description: Hosted auth page integration with React components
 
 # 🚀 PasskeymeButton
 
-`PasskeymeButton` provides a **streamlined integration with PasskeyMe's hosted authentication pages**. Perfect when you want the simplicity of hosted auth but with the convenience of React components and proper event handling.
+`PasskeymeButton` provides a **streamlined integration with Passkeyme's hosted authentication pages**. Perfect when you want the simplicity of hosted auth but with the convenience of React components and proper event handling.
 
 ## ✨ **Why PasskeymeButton?**
 
-- **🚀 Hosted Auth Integration** - Redirect to PasskeyMe's optimized auth pages
+- **🚀 Hosted Auth Integration** - Redirect to Passkeyme's optimized auth pages
 - **⚡ Zero Maintenance** - We handle updates, security, and browser compatibility
 - **🎨 React-Native Feel** - Component-based API with proper TypeScript support
 - **🔄 Event Handling** - Proper callbacks for success, error, and loading states
@@ -53,7 +53,7 @@ function LoginPage() {
 
 | Prop | Type | Description |
 |------|------|-------------|
-| `appId` | `string` | Your PasskeyMe application ID |
+| `appId` | `string` | Your Passkeyme application ID |
 | `redirectUri` | `string` | Where users return after authentication |
 
 ### **Event Handlers**
@@ -630,7 +630,7 @@ const authConfig = config[env];
   appId="your-app-id"
   redirectUri="https://yourapp.com/callback"
   text="Sign in to your account"
-  aria-label="Sign in using PasskeyMe authentication"
+  aria-label="Sign in using Passkeyme authentication"
   aria-describedby="auth-help-text"
 />
 <p id="auth-help-text">

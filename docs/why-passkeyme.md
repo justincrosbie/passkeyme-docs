@@ -1,13 +1,13 @@
 ---
 sidebar_position: 2
 id: why-passkeyme
-title: Why PasskeyMe?
-description: Discover why PasskeyMe is the easiest, most secure, and most affordable way to implement passkeys and modern authentication
+title: Why Passkeyme?
+description: Discover why Passkeyme is the easiest, most secure, and most affordable way to implement passkeys and modern authentication
 ---
 
-# 🎯 Why Choose PasskeyMe?
+# 🎯 Why Choose Passkeyme?
 
-PasskeyMe is the **easiest, most secure, and most affordable** way to implement passkeys and modern authentication in your applications. Here's why thousands of developers choose PasskeyMe over other authentication solutions.
+Passkeyme is the **easiest, most secure, and most affordable** way to implement passkeys and modern authentication in your applications. Here's why thousands of developers choose Passkeyme over other authentication solutions.
 
 ---
 
@@ -29,7 +29,7 @@ PasskeyMe is the **easiest, most secure, and most affordable** way to implement 
 - **TypeScript-first** with excellent developer experience
 
 ### **Complete Authentication Lifecycle**
-Unlike other solutions that only handle passkeys, PasskeyMe provides:
+Unlike other solutions that only handle passkeys, Passkeyme provides:
 - ✅ **OAuth registration** (Google, GitHub, Microsoft, Apple, Discord)
 - ✅ **Automatic passkey promotion** after OAuth sign-in
 - ✅ **Seamless returning user flow** with passkey authentication
@@ -42,7 +42,7 @@ Unlike other solutions that only handle passkeys, PasskeyMe provides:
 
 ### **Cryptographic Credential Signing**
 ```javascript
-// Your credentials are cryptographically signed by PasskeyMe
+// Your credentials are cryptographically signed by Passkeyme
 {
   "signature": "MEUCIQDx7...", // Tamper-proof signature
   "credential": {...},         // Verified passkey data
@@ -72,7 +72,7 @@ Unlike other solutions that only handle passkeys, PasskeyMe provides:
 ### **We Handle the Platform Complexity**
 Building passkey support across platforms is incredibly complex:
 
-| Platform | Challenges | PasskeyMe Solution |
+| Platform | Challenges | Passkeyme Solution |
 |----------|------------|-------------------|
 | **Web** | WebAuthn API complexity, browser differences | ✅ **Web SDK** handles all browsers |
 | **iOS** | AuthenticationServices framework, iOS versions | ✅ **iOS SDK** with native Swift support |
@@ -91,7 +91,7 @@ For advanced use cases, access our battle-tested low-level implementations:
 ## 💰 **Most Affordable Solution**
 
 ### **Enterprise Features at Startup Prices**
-| Feature | Enterprise Auth Providers | PasskeyMe |
+| Feature | Enterprise Auth Providers | Passkeyme |
 |---------|---------------------------|-----------|
 | **Passkey Support** | $$$$ Extra enterprise addon | ✅ **Included** |
 | **OAuth Providers** | Limited or expensive | ✅ **5+ providers included** |
@@ -127,7 +127,7 @@ For advanced use cases, access our battle-tested low-level implementations:
 ## 🌟 **Mission-Driven Development**
 
 ### **Bootstrapped, Not Investor-Driven**
-PasskeyMe is **privately bootstrapped** with no external investors demanding profit maximization. This means:
+Passkeyme is **privately bootstrapped** with no external investors demanding profit maximization. This means:
 
 - ✅ **Long-term thinking** over quarterly profits
 - ✅ **Developer-first decisions** rather than shareholder returns
@@ -135,7 +135,7 @@ PasskeyMe is **privately bootstrapped** with no external investors demanding pro
 - ✅ **Genuine mission** to make the internet safer
 
 ### **Making the Internet Safer**
-> *"I'm building PasskeyMe because I genuinely want to make the internet a safer place and get users' personal details and passwords off the internet. We need to say goodbye to passwords!"*
+> *"I'm building Passkeyme because I genuinely want to make the internet a safer place and get users' personal details and passwords off the internet. We need to say goodbye to passwords!"*
 > 
 > — Justin Crosbie, Founder
 
@@ -150,7 +150,7 @@ PasskeyMe is **privately bootstrapped** with no external investors demanding pro
 ## 📊 **Compare the Alternatives**
 
 ### **vs. Building In-House**
-| Aspect | Build Yourself | PasskeyMe |
+| Aspect | Build Yourself | Passkeyme |
 |--------|----------------|-----------|
 | **Development Time** | 6+ months | ✅ **5 minutes** |
 | **Security Expertise** | Hire specialists | ✅ **Included** |
@@ -159,7 +159,7 @@ PasskeyMe is **privately bootstrapped** with no external investors demanding pro
 | **OAuth Integration** | Separate implementation | ✅ **Integrated** |
 
 ### **vs. Enterprise Auth Providers**
-| Feature | Auth0/Firebase | Okta/Cognito | PasskeyMe |
+| Feature | Auth0/Firebase | Okta/Cognito | Passkeyme |
 |---------|----------------|--------------|-----------|
 | **Passkey Support** | Limited/expensive | Recent addition | ✅ **Core feature** |
 | **Framework SDKs** | Generic only | Limited | ✅ **Framework-specific** |
@@ -167,7 +167,7 @@ PasskeyMe is **privately bootstrapped** with no external investors demanding pro
 | **Complexity** | Over-engineered | Enterprise heavy | ✅ **Right-sized** |
 
 ### **vs. Passkey-Only Solutions**
-| Feature | Passkey Specialists | PasskeyMe |
+| Feature | Passkey Specialists | Passkeyme |
 |---------|-------------------|-----------|
 | **OAuth Fallback** | Not included | ✅ **Integrated** |
 | **Framework SDKs** | Generic | ✅ **Framework-specific** |
@@ -204,7 +204,7 @@ function App() {
 
 ## 🎯 **The Bottom Line**
 
-**PasskeyMe is the only authentication solution that:**
+**Passkeyme is the only authentication solution that:**
 - ✅ Makes passkey implementation **actually easy**
 - ✅ Provides **enterprise-grade security** without enterprise complexity
 - ✅ Offers **complete authentication lifecycle** management
@@ -213,7 +213,7 @@ function App() {
 - ✅ Backs you with **outstanding documentation and support**
 - ✅ Is built with a **genuine mission** to improve internet security
 
-**Stop building authentication from scratch. Start with PasskeyMe and get back to building your core product.**
+**Stop building authentication from scratch. Start with Passkeyme and get back to building your core product.**
 
 ---
 

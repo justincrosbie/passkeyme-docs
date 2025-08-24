@@ -7,7 +7,7 @@ description: Add authentication to React applications with PasskeymeAuthPanel co
 
 # 🚀 React SDK
 
-The PasskeyMe React SDK provides **inline authentication components** that embed directly into your React application, eliminating the need for redirects and giving you complete control over the user experience.
+The Passkeyme React SDK provides **inline authentication components** that embed directly into your React application, eliminating the need for redirects and giving you complete control over the user experience.
 
 ## Installation
 

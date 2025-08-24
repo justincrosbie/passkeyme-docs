@@ -63,7 +63,7 @@ init(
 ```
 
 **Parameters:**
-- `apiBaseURL`: Base URL for PasskeyMe API endpoints
+- `apiBaseURL`: Base URL for Passkeyme API endpoints
 - `webViewConfiguration`: Optional WebKit configuration
 - `delegate`: Delegate for authentication events
 
@@ -164,16 +164,16 @@ do {
 }
 ```
 
-#### `triggerPasskeyMeAuth(authId:data:configuration:)`
+#### `triggerPasskeymeAuth(authId:data:configuration:)`
 
-Triggers PasskeyMe hosted authentication flow.
+Triggers Passkeyme hosted authentication flow.
 
 ```swift
-func triggerPasskeyMeAuth(
+func triggerPasskeymeAuth(
     authId: String,
     data: [String: Any]? = nil,
-    configuration: PasskeyMeConfiguration? = nil
-) async throws -> PasskeyMeAuthResult
+    configuration: PasskeymeConfiguration? = nil
+) async throws -> PasskeymeAuthResult
 ```
 
 **Parameters:**
@@ -181,20 +181,20 @@ func triggerPasskeyMeAuth(
 - `data`: Optional additional data for the authentication flow
 - `configuration`: Optional configuration for the hosted flow
 
-**Returns:** `PasskeyMeAuthResult` containing authentication result
+**Returns:** `PasskeymeAuthResult` containing authentication result
 
 **Throws:** `PasskeyError` on failure
 
 **Example:**
 ```swift
-let configuration = PasskeyMeConfiguration(
+let configuration = PasskeymeConfiguration(
     domain: "your-domain.com",
     theme: .light,
     language: "en"
 )
 
 do {
-    let result = try await authenticator.triggerPasskeyMeAuth(
+    let result = try await authenticator.triggerPasskeymeAuth(
         authId: "auth_session_123",
         data: ["custom_field": "value"],
         configuration: configuration
@@ -322,16 +322,16 @@ let options = PasskeyAuthenticationOptions(
 )
 ```
 
-### **PasskeyMeConfiguration**
+### **PasskeymeConfiguration**
 
-Configuration for PasskeyMe hosted authentication.
+Configuration for Passkeyme hosted authentication.
 
 ```swift
-struct PasskeyMeConfiguration {
+struct PasskeymeConfiguration {
     let domain: String
-    let theme: PasskeyMeTheme?
+    let theme: PasskeymeTheme?
     let language: String?
-    let customization: PasskeyMeCustomization?
+    let customization: PasskeymeCustomization?
     let developmentMode: Bool?
 }
 ```
@@ -345,11 +345,11 @@ struct PasskeyMeConfiguration {
 
 **Example:**
 ```swift
-let config = PasskeyMeConfiguration(
+let config = PasskeymeConfiguration(
     domain: "myapp.com",
     theme: .dark,
     language: "en",
-    customization: PasskeyMeCustomization(
+    customization: PasskeymeCustomization(
         primaryColor: "#007AFF",
         logoURL: "https://myapp.com/logo.png"
     ),
@@ -389,12 +389,12 @@ struct PasskeyAuthenticationResult {
 }
 ```
 
-#### `PasskeyMeAuthResult`
+#### `PasskeymeAuthResult`
 
-Result of a successful PasskeyMe hosted authentication.
+Result of a successful Passkeyme hosted authentication.
 
 ```swift
-struct PasskeyMeAuthResult {
+struct PasskeymeAuthResult {
     let token: String
     let userId: String
     let email: String?
@@ -559,12 +559,12 @@ enum PasskeyError: Error, LocalizedError {
 }
 ```
 
-### **PasskeyMeTheme**
+### **PasskeymeTheme**
 
-UI theme options for PasskeyMe hosted authentication.
+UI theme options for Passkeyme hosted authentication.
 
 ```swift
-enum PasskeyMeTheme {
+enum PasskeymeTheme {
     case light
     case dark
     case auto
@@ -656,12 +656,12 @@ enum ProgressStage {
 }
 ```
 
-### **PasskeyMeCustomization**
+### **PasskeymeCustomization**
 
 Customization options for hosted authentication UI.
 
 ```swift
-struct PasskeyMeCustomization {
+struct PasskeymeCustomization {
     let primaryColor: String?
     let logoURL: String?
     let brandName: String?

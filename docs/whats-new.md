@@ -2,13 +2,13 @@
 sidebar_position: 2
 id: whats-new
 title: What's New
-description: Latest features, updates, and improvements to PasskeyMe
+description: Latest features, updates, and improvements to Passkeyme
 keywords: [passkeyme, updates, features, react sdk, javascript sdk, hosted auth]
 ---
 
 # What's New 🎉
 
-Welcome to the latest PasskeyMe features! We're constantly improving the developer experience and adding new capabilities.
+Welcome to the latest Passkeyme features! We're constantly improving the developer experience and adding new capabilities.
 
 ## 🆕 **React SDK** - *Just Released!*
 

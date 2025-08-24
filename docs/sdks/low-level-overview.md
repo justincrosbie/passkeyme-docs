@@ -51,11 +51,11 @@ graph LR
 ### **Backend Integration Required**
 All low-level SDKs require your backend to:
 
-1. **Call PasskeyMe API** to start registration/authentication
-2. **Receive challenge** from PasskeyMe
+1. **Call Passkeyme API** to start registration/authentication
+2. **Receive challenge** from Passkeyme
 3. **Pass challenge** to platform SDK
 4. **Receive credential** from platform SDK
-5. **Complete ceremony** with PasskeyMe API
+5. **Complete ceremony** with Passkeyme API
 
 ```typescript
 // Typical backend integration pattern
@@ -67,11 +67,11 @@ const result = await passkeymeAPI.completeRegistration(credential);
 ## 🛡️ Security Considerations
 
 ### **API Key Management**
-Low-level SDKs require PasskeyMe API keys:
+Low-level SDKs require Passkeyme API keys:
 
 ```typescript
 // ✅ Secure - API key on backend only
-const challenge = await backend.startPasskeyAuth(); // Backend calls PasskeyMe
+const challenge = await backend.startPasskeyAuth(); // Backend calls Passkeyme
 const credential = await platformSDK.authenticate(challenge);
 const result = await backend.completePasskeyAuth(credential);
 

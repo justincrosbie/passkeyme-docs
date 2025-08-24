@@ -36,7 +36,7 @@ const sdk = new PasskeymeWebSDK({
 ### Registration Flow
 
 ```typescript
-// 1. Get challenge from your backend (which calls PasskeyMe API)
+// 1. Get challenge from your backend (which calls Passkeyme API)
 const registrationChallenge = await fetch('/api/start-registration', {
   method: 'POST',
   body: JSON.stringify({ username: 'user@example.com' })
@@ -232,7 +232,7 @@ const algorithms = sdk.getSupportedAlgorithms();
 
 ### Required Backend Endpoints
 
-Your backend needs these endpoints to integrate with PasskeyMe API:
+Your backend needs these endpoints to integrate with Passkeyme API:
 
 ```typescript
 // POST /api/start-registration

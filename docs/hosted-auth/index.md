@@ -2,13 +2,13 @@
 id: hosted-auth
 title: Hosted Authentication Pages
 sidebar_label: Overview
-description: Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security
+description: Complete guide to Passkeyme's hosted authentication pages - zero maintenance, enterprise security
 keywords: [passkeyme, hosted auth, authentication pages, oauth, passkeys, zero maintenance]
 ---
 
 # 🌐 Hosted Authentication Pages
 
-PasskeyMe's **Hosted Authentication Pages** provide a complete, zero-maintenance authentication solution. We handle the UI, security, and updates while you focus on building your application.
+Passkeyme's **Hosted Authentication Pages** provide a complete, zero-maintenance authentication solution. We handle the UI, security, and updates while you focus on building your application.
 
 :::tip Perfect for Any Framework
 Hosted Auth Pages work with **any web framework** - React, Angular, Vue.js, Svelte, vanilla JavaScript, and more. No SDK integration required!
@@ -31,16 +31,16 @@ Hosted Auth Pages are perfect for:
 sequenceDiagram
     participant User
     participant YourApp as Your Application
-    participant PasskeyMe as PasskeyMe Hosted Pages
+    participant Passkeyme as Passkeyme Hosted Pages
     participant Provider as OAuth Provider
 
     User->>YourApp: Click "Sign In"
-    YourApp->>PasskeyMe: Redirect to auth.passkeyme.com
-    PasskeyMe->>User: Show branded auth page
-    User->>PasskeyMe: Choose provider/passkey
-    PasskeyMe->>Provider: OAuth flow (if needed)
-    Provider->>PasskeyMe: User authenticated
-    PasskeyMe->>YourApp: Redirect with auth code
+    YourApp->>Passkeyme: Redirect to auth.passkeyme.com
+    Passkeyme->>User: Show branded auth page
+    User->>Passkeyme: Choose provider/passkey
+    Passkeyme->>Provider: OAuth flow (if needed)
+    Provider->>Passkeyme: User authenticated
+    Passkeyme->>YourApp: Redirect with auth code
     YourApp->>User: User logged in
 ```
 
@@ -49,7 +49,7 @@ sequenceDiagram
 Our Hosted Auth documentation is organized into focused sections:
 
 ### **🔧 [Configuration](/docs/hosted-auth/configuration)**
-Complete guide to setting up hosted authentication in the PasskeyMe Admin Console:
+Complete guide to setting up hosted authentication in the Passkeyme Admin Console:
 - General authentication settings
 - Branding and visual customization
 - OAuth provider configuration

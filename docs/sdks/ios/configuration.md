@@ -18,18 +18,18 @@ iOS passkey authentication **will not work** without proper apple-app-site-assoc
 
 Before implementing the SDK, ensure you have completed these essential setup steps:
 
-- [ ] Create and configure PasskeyMe Application
+- [ ] Create and configure Passkeyme Application
 - [ ] Obtain Apple Team ID and Bundle ID from Apple Developer Portal
 - [ ] Create and host apple-app-site-association file on your domain
 - [ ] Add Associated Domain capability to your Xcode project
-- [ ] Configure PasskeyMe application with correct domain and origin
+- [ ] Configure Passkeyme application with correct domain and origin
 - [ ] Install and configure PasskeymeSDK in your iOS project
 
-## **🏗️ PasskeyMe Application Setup**
+## **🏗️ Passkeyme Application Setup**
 
-### **1. Create PasskeyMe Application**
+### **1. Create Passkeyme Application**
 
-1. **Sign up/Login** to [PasskeyMe Console](https://passkeyme.com)
+1. **Sign up/Login** to [Passkeyme Console](https://passkeyme.com)
 2. **Create New Application** with these settings:
    - **Application Name**: Your iOS app name
    - **Application Type**: Native iOS Application
@@ -53,7 +53,7 @@ The RP ID **must exactly match** the domain where you host your apple-app-site-a
 
 ### **3. Configure Origins**
 
-Add your allowed origins in the PasskeyMe console:
+Add your allowed origins in the Passkeyme console:
 
 ```json
 {
@@ -181,11 +181,11 @@ webcredentials:api.your-domain.com
 webcredentials:auth.your-domain.com
 ```
 
-## **🔧 PasskeyMe Console Configuration**
+## **🔧 Passkeyme Console Configuration**
 
 ### **Configure iOS Application**
 
-In your PasskeyMe application settings:
+In your Passkeyme application settings:
 
 1. **Go to Application Settings** → iOS Configuration
 2. **Set Bundle ID**: `com.yourcompany.yourapp`
@@ -311,7 +311,7 @@ echo "ABC123DEF4.com.yourcompany.yourapp"
 
 Before proceeding to SDK integration, verify:
 
-- [ ] **PasskeyMe Application** created and configured
+- [ ] **Passkeyme Application** created and configured
 - [ ] **Apple Team ID** and Bundle ID obtained
 - [ ] **apple-app-site-association** file created with correct App ID
 - [ ] **Association file** hosted at correct URL and accessible

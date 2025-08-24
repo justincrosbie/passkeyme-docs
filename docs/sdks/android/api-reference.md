@@ -8,7 +8,7 @@ keywords: [android, api, reference, passkey, webauthn, sdk, methods]
 
 # 📚 **API Reference**
 
-Complete reference documentation for the PasskeyMe Android SDK. This guide covers all classes, methods, and data structures available in the SDK.
+Complete reference documentation for the Passkeyme Android SDK. This guide covers all classes, methods, and data structures available in the SDK.
 
 ## **🚀 PasskeymeSDK**
 
@@ -705,7 +705,7 @@ class AuthenticationManager(
 ```
 
 :::tip SDK Updates
-The PasskeyMe Android SDK is regularly updated with new features and improvements. Check the [changelog](https://github.com/passkeyme/android-sdk/releases) for the latest updates and migration guides.
+The Passkeyme Android SDK is regularly updated with new features and improvements. Check the [changelog](https://github.com/passkeyme/android-sdk/releases) for the latest updates and migration guides.
 :::
 
-This API reference provides complete documentation for integrating the PasskeyMe Android SDK into your application. For additional examples and best practices, see the [Integration Guide](/docs/sdks/android/integration) and [Security Best Practices](/docs/sdks/android/security).
+This API reference provides complete documentation for integrating the Passkeyme Android SDK into your application. For additional examples and best practices, see the [Integration Guide](/docs/sdks/android/integration) and [Security Best Practices](/docs/sdks/android/security).

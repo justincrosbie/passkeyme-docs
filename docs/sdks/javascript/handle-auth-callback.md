@@ -13,7 +13,7 @@ The `handleAuthCallback` method processes **authentication returns from hosted a
 
 - **🔄 OAuth Completion** - Processes authorization codes from OAuth providers
 - **🔒 Secure Token Exchange** - Safely exchanges codes for authentication tokens
-- **🌐 Hosted Auth Return** - Handles returns from PasskeyMe hosted pages
+- **🌐 Hosted Auth Return** - Handles returns from Passkeyme hosted pages
 - **📱 Universal Support** - Works with all OAuth providers and authentication methods
 - **⚡ Automatic Processing** - Handles URL parsing and validation automatically
 - **🛡️ Error Handling** - Comprehensive error detection and reporting

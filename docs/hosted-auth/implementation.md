@@ -2,13 +2,13 @@
 id: implementation
 title: Implementation Guide
 sidebar_label: Implementation
-description: Step-by-step guide to implementing PasskeyMe hosted authentication pages in your application
+description: Step-by-step guide to implementing Passkeyme hosted authentication pages in your application
 keywords: [passkeyme, hosted auth, implementation, integration, redirect, callback, code examples]
 ---
 
 # 🚀 **Implementation Guide**
 
-This guide shows you how to integrate PasskeyMe's Hosted Authentication Pages into your application. The implementation involves two main steps: redirecting users to the hosted auth pages and handling the authentication callback.
+This guide shows you how to integrate Passkeyme's Hosted Authentication Pages into your application. The implementation involves two main steps: redirecting users to the hosted auth pages and handling the authentication callback.
 
 :::tip Framework Agnostic
 These examples work with any web framework - React, Angular, Vue.js, Svelte, vanilla JavaScript, and more. Just adapt the code patterns to your framework's conventions.
@@ -55,7 +55,7 @@ redirectToAuth({
 
 | Parameter | Required | Description |
 |-----------|----------|-------------|
-| `app_id` | ✅ | Your PasskeyMe application ID |
+| `app_id` | ✅ | Your Passkeyme application ID |
 | `redirect_uri` | ✅ | Where to send user after authentication |
 | `provider` | ❌ | Skip provider selection (google, github, microsoft, etc.) |
 | `mode` | ❌ | Authentication mode: `login`, `register`, or `both` |
@@ -299,7 +299,7 @@ Here's a complete example of a simple authentication flow:
 <!DOCTYPE html>
 <html>
 <head>
-  <title>PasskeyMe Hosted Auth Example</title>
+  <title>Passkeyme Hosted Auth Example</title>
   <style>
     body {
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
@@ -336,7 +336,7 @@ Here's a complete example of a simple authentication flow:
     <h2>Sign In</h2>
     
     <button class="auth-button" onclick="signIn()">
-      🔐 Sign In with PasskeyMe
+      🔐 Sign In with Passkeyme
     </button>
     
     <button class="auth-button provider-button" onclick="signIn('google')">

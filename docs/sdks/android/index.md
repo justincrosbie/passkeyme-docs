@@ -75,7 +75,7 @@ Before implementing Android passkeys, ensure you have:
 - [ ] **HTTPS Domain** - Required for Digital Asset Links
 - [ ] **App Signing Key** - For SHA-256 fingerprint generation
 - [ ] **Backend Integration** - Server-side passkey verification
-- [ ] **PasskeyMe Account** - Application ID and configuration
+- [ ] **Passkeyme Account** - Application ID and configuration
 
 :::warning Important Setup Requirements
 Android passkeys require proper **Digital Asset Links** configuration and **app signing** setup. Without these, passkey authentication will fail. Follow our [Configuration Guide](/docs/sdks/android/configuration) carefully.
@@ -102,7 +102,7 @@ sequenceDiagram
 
 ## 🔗 **Related Documentation**
 
-- **[PasskeyMe Overview](/docs/getting-started/concepts)** - Understanding PasskeyMe platform
+- **[Passkeyme Overview](/docs/getting-started/concepts)** - Understanding Passkeyme platform
 - **[Getting Started](/docs/getting-started/quick-start)** - Platform setup guide
 - **[Hosted Auth Pages](/docs/getting-started/hosted-auth)** - Alternative no-code solution
 - **[API Documentation](/docs/api/api-overview)** - Server-side integration

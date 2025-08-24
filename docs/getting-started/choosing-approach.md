@@ -2,12 +2,12 @@
 id: choosing-approach
 title: Choosing Your Authentication Approach
 sidebar_label: Choosing Your Approach
-description: Decision guide for selecting the right PasskeyMe integration method for your project
+description: Decision guide for selecting the right Passkeyme integration method for your project
 ---
 
 # 🎯 Choosing Your Authentication Approach
 
-PasskeyMe offers multiple integration approaches to fit different project needs, technical requirements, and developer preferences. This guide helps you choose the right approach for your specific situation.
+Passkeyme offers multiple integration approaches to fit different project needs, technical requirements, and developer preferences. This guide helps you choose the right approach for your specific situation.
 
 ## 🚀 Quick Decision Tree
 

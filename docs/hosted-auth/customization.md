@@ -2,13 +2,13 @@
 id: customization
 title: Customization Guide
 sidebar_label: Customization
-description: Advanced branding and styling options for PasskeyMe hosted authentication pages
+description: Advanced branding and styling options for Passkeyme hosted authentication pages
 keywords: [passkeyme, hosted auth, customization, branding, css, styling, themes, responsive]
 ---
 
 # 🎨 **Customization Guide**
 
-PasskeyMe's Hosted Authentication Pages offer extensive customization options to match your brand perfectly. This guide covers everything from basic branding to advanced CSS customization.
+Passkeyme's Hosted Authentication Pages offer extensive customization options to match your brand perfectly. This guide covers everything from basic branding to advanced CSS customization.
 
 :::tip Live Preview
 All customization changes are applied instantly to your hosted auth pages. Test your changes with a live authentication flow to see how they look in practice.
@@ -16,7 +16,7 @@ All customization changes are applied instantly to your hosted auth pages. Test 
 
 ## **1. Basic Branding Configuration**
 
-Configure basic branding through the PasskeyMe Admin Console:
+Configure basic branding through the Passkeyme Admin Console:
 
 ### **Company Information**
 ```javascript

@@ -2,12 +2,12 @@
 sidebar_position: 99
 id: glossary
 title: Glossary
-description: Comprehensive glossary of PasskeyMe terms and concepts
+description: Comprehensive glossary of Passkeyme terms and concepts
 ---
 
 # 📖 Glossary
 
-A comprehensive reference of PasskeyMe terminology and concepts to ensure consistent understanding across all documentation.
+A comprehensive reference of Passkeyme terminology and concepts to ensure consistent understanding across all documentation.
 
 ## 🔑 Authentication Concepts
 
@@ -15,7 +15,7 @@ A comprehensive reference of PasskeyMe terminology and concepts to ensure consis
 A cryptographic credential that replaces passwords, using public-key cryptography. Passkeys are phishing-resistant, unique per website, and stored securely on user devices.
 
 ### **WebAuthn (Web Authentication)**
-The web standard that enables passkey authentication in browsers. PasskeyMe uses WebAuthn for secure, passwordless authentication.
+The web standard that enables passkey authentication in browsers. Passkeyme uses WebAuthn for secure, passwordless authentication.
 
 ### **Authentication Ceremony**
 The cryptographic process of creating or using a passkey. Includes:
@@ -23,9 +23,9 @@ The cryptographic process of creating or using a passkey. Includes:
 - **Authentication Ceremony**: Using an existing passkey to sign in
 
 ### **Relying Party (RP)**
-Your application or website that relies on PasskeyMe for authentication. In PasskeyMe context, your app is the relying party.
+Your application or website that relies on Passkeyme for authentication. In Passkeyme context, your app is the relying party.
 
-## 🏗️ PasskeyMe Architecture
+## 🏗️ Passkeyme Architecture
 
 ### **Inline Components**
 React components that embed authentication directly into your application UI, providing full control over styling and user experience.
@@ -33,7 +33,7 @@ React components that embed authentication directly into your application UI, pr
 - Examples: `PasskeymeAuthPanel`, `PasskeymeOAuthButton`
 
 ### **Hosted Authentication Pages**
-Pre-built authentication pages hosted by PasskeyMe that handle the complete authentication flow.
+Pre-built authentication pages hosted by Passkeyme that handle the complete authentication flow.
 - **Fallback approach** for frameworks without SDK support
 - Accessed via redirect or popup
 
@@ -66,7 +66,7 @@ Social authentication using providers like Google, GitHub, and Facebook.
 - Automatic passkey registration after OAuth
 
 ### **Smart Login**
-PasskeyMe's intelligent authentication flow that:
+Passkeyme's intelligent authentication flow that:
 1. Checks for existing passkeys
 2. Falls back to OAuth if no passkeys available
 3. Automatically registers passkeys after OAuth sign-in
@@ -90,7 +90,7 @@ Individual OAuth provider buttons for fine-grained control.
 - Used when building custom authentication interfaces
 
 ### **App ID**
-Your unique PasskeyMe application identifier used to configure authentication settings and scope permissions.
+Your unique Passkeyme application identifier used to configure authentication settings and scope permissions.
 
 ### **Redirect URI**
 The URL where users are sent after completing authentication, used for OAuth callback handling.
@@ -98,13 +98,13 @@ The URL where users are sent after completing authentication, used for OAuth cal
 ## 🔒 Security Concepts
 
 ### **Token-Based Authentication**
-PasskeyMe uses JWT tokens for maintaining authentication state:
+Passkeyme uses JWT tokens for maintaining authentication state:
 - **Access tokens**: Short-lived for API requests
 - **Refresh tokens**: Long-lived for token renewal
 - Automatic token management in SDKs
 
 ### **Cross-Origin Authentication**
-PasskeyMe handles authentication across different domains while maintaining security:
+Passkeyme handles authentication across different domains while maintaining security:
 - Secure token exchange
 - Domain validation
 - CORS configuration
@@ -137,7 +137,7 @@ Framework-specific getting started guides designed for immediate integration suc
 - **JavaScript Quick Start**: For other frameworks using hosted pages
 
 ### **Developer Decision Path**
-Guided approach to choosing the right PasskeyMe integration method based on:
+Guided approach to choosing the right Passkeyme integration method based on:
 - Framework availability
 - Control vs simplicity needs
 - Styling requirements
@@ -150,7 +150,7 @@ Documentation approach using real, working code examples from live demo applicat
 
 ## 📊 Status Indicators
 
-Throughout PasskeyMe documentation, you'll see these status indicators:
+Throughout Passkeyme documentation, you'll see these status indicators:
 
 - **✅ Available**: Feature is production-ready and fully supported
 - **🚧 Coming Soon**: Feature is in active development
@@ -167,7 +167,7 @@ Gradually moving from JavaScript SDK + hosted pages to framework-specific SDKs:
 - Maintain existing user sessions during transition
 
 ### **Backward Compatibility**
-All PasskeyMe authentication methods remain supported:
+All Passkeyme authentication methods remain supported:
 - Existing JavaScript SDK integrations continue working
 - Hosted pages remain available as fallback
 - User passkeys work across all integration methods
@@ -178,8 +178,8 @@ All PasskeyMe authentication methods remain supported:
 
 - **[Choosing Your Approach](./getting-started/choosing-approach.md)** - Decision guide for integration methods
 - **[Framework Comparison](./getting-started/framework-comparison.md)** - Detailed feature comparison
-- **[Concepts](./getting-started/concepts.md)** - Core PasskeyMe concepts and architecture
+- **[Concepts](./getting-started/concepts.md)** - Core Passkeyme concepts and architecture
 
 ---
 
-*This glossary is maintained to ensure consistent terminology across all PasskeyMe documentation. If you notice inconsistencies or missing terms, please let us know.*
+*This glossary is maintained to ensure consistent terminology across all Passkeyme documentation. If you notice inconsistencies or missing terms, please let us know.*

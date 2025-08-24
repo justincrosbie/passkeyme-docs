@@ -198,4 +198,4 @@ The React SDK documentation has been thoroughly validated against actual demo im
 
 ---
 
-*This validation ensures our React SDK documentation provides accurate, usable guidance for developers integrating PasskeyMe authentication.*
+*This validation ensures our React SDK documentation provides accurate, usable guidance for developers integrating Passkeyme authentication.*

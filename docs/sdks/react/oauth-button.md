@@ -67,7 +67,7 @@ function CustomLoginForm() {
 | Prop | Type | Description |
 |------|------|-------------|
 | `provider` | `'google' \| 'github' \| 'microsoft' \| 'apple' \| 'discord' \| 'facebook'` | OAuth provider to authenticate with |
-| `appId` | `string` | Your PasskeyMe application ID |
+| `appId` | `string` | Your Passkeyme application ID |
 
 ### **Event Handlers**
 

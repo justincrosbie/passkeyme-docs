@@ -8,7 +8,7 @@ keywords: [android, security, passkey, webauthn, best practices, biometric, cred
 
 # 🔒 **Security Best Practices**
 
-This guide outlines essential security practices for implementing passkey authentication in Android applications using the PasskeyMe SDK.
+This guide outlines essential security practices for implementing passkey authentication in Android applications using the Passkeyme SDK.
 
 :::danger Security First
 Proper security implementation is critical for passkey authentication. Following these practices ensures your users' credentials remain secure and your application meets industry standards.
@@ -170,7 +170,7 @@ class SecurityHeadersInterceptor : Interceptor {
     }
     
     private fun createSecureUserAgent(): String {
-        return "PasskeyMeSDK/${BuildConfig.VERSION_NAME} " +
+        return "PasskeymeSDK/${BuildConfig.VERSION_NAME} " +
                 "(Android ${Build.VERSION.RELEASE}; " +
                 "${Build.MANUFACTURER} ${Build.MODEL})"
     }
@@ -454,7 +454,7 @@ class SSLConfigurationManager {
         return CertificatePinner.Builder()
             // Pin your API server certificate
             .add("api.yourcompany.com", "sha256/YOUR_API_CERT_PIN")
-            // Pin PasskeyMe certificates
+            // Pin Passkeyme certificates
             .add("*.passkeyme.com", "sha256/PASSKEYME_CERT_PIN")
             // Pin root CA as backup
             .add("*.yourcompany.com", "sha256/ROOT_CA_CERT_PIN")

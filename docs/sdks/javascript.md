@@ -7,7 +7,7 @@ description: Complete guide to the @passkeyme/auth SDK for JavaScript and TypeSc
 
 # 📜 JavaScript/TypeScript SDK
 
-The `@passkeyme/auth` SDK provides comprehensive authentication for web applications using PasskeyMe's hosted authentication pages. **This SDK is the recommended solution for Angular, Vue.js, Svelte, vanilla JavaScript, and other frameworks while we develop dedicated framework SDKs.**
+The `@passkeyme/auth` SDK provides comprehensive authentication for web applications using Passkeyme's hosted authentication pages. **This SDK is the recommended solution for Angular, Vue.js, Svelte, vanilla JavaScript, and other frameworks while we develop dedicated framework SDKs.**
 
 :::info Framework Strategy
 - **React developers**: Use the [React SDK](/docs/sdks/react) for inline components and better integration
@@ -15,7 +15,7 @@ The `@passkeyme/auth` SDK provides comprehensive authentication for web applicat
 - **Coming soon**: Dedicated SDKs for Angular, Vue.js, and other popular frameworks
 :::
 
-Perfect for vanilla JavaScript, TypeScript, Vue.js, Angular, Svelte, and any modern web framework that doesn't yet have a dedicated PasskeyMe SDK.
+Perfect for vanilla JavaScript, TypeScript, Vue.js, Angular, Svelte, and any modern web framework that doesn't yet have a dedicated Passkeyme SDK.
 
 ## 🚀 Quick Start
 
@@ -60,7 +60,7 @@ const user = await auth.smartLogin({ preferPasskey: true });
 **[→ Learn more about Smart Login](./javascript/smart-login)**
 
 ### **🔄 [Redirect to Login](./javascript/redirect-to-login)**
-Direct redirect to PasskeyMe hosted authentication pages with full customization:
+Direct redirect to Passkeyme hosted authentication pages with full customization:
 
 ```typescript
 // Basic redirect
@@ -108,13 +108,13 @@ Complex authentication patterns, session management, and power-user features:
 
 ```typescript
 interface PasskeymeConfig {
-  /** Your PasskeyMe application ID (required) */
+  /** Your Passkeyme application ID (required) */
   appId: string;
   
   /** Redirect URI after authentication */
   redirectUri?: string; // Default: current origin + '/auth/callback'
   
-  /** Base URL of your PasskeyMe server */
+  /** Base URL of your Passkeyme server */
   baseUrl?: string; // Default: 'https://api.passkeyme.com'
   
   /** Enable debug logging */

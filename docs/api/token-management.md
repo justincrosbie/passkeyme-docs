@@ -7,11 +7,11 @@ description: JWT token handling, security best practices, and lifecycle manageme
 
 # Token Management & Security
 
-Learn how to properly handle JWT tokens from PasskeyMe API, implement security best practices, and manage token lifecycles in your applications.
+Learn how to properly handle JWT tokens from Passkeyme API, implement security best practices, and manage token lifecycles in your applications.
 
 ## 🔑 JWT Token Structure
 
-PasskeyMe uses standard JWT tokens with the following structure:
+Passkeyme uses standard JWT tokens with the following structure:
 
 ### Token Claims
 
@@ -39,7 +39,7 @@ PasskeyMe uses standard JWT tokens with the following structure:
 | `email` | User's email address | `user@example.com` |
 | `name` | User's display name | `John Doe` |
 | `aud` | Audience (Your App ID) | `your-app-uuid` |
-| `iss` | Issuer (PasskeyMe) | `https://passkeyme.com` |
+| `iss` | Issuer (Passkeyme) | `https://passkeyme.com` |
 | `iat` | Issued At (Unix timestamp) | `1640995200` |
 | `exp` | Expires At (Unix timestamp) | `1640998800` |
 | `user_id` | User ID (same as sub) | `550e8400-e29b-41d4-a716-446655440000` |
@@ -60,7 +60,7 @@ const fetch = require('node-fetch');
 
 async function verifyPasskeymeToken(token, appId) {
   try {
-    // Option 1: Verify with PasskeyMe API (recommended)
+    // Option 1: Verify with Passkeyme API (recommended)
     const response = await fetch(
       `https://api.passkeyme.com/auth/verify-token?token=${token}&app_id=${appId}`
     );
@@ -237,7 +237,7 @@ class SecureTokenStorage {
 
 ### Token Refresh Strategy
 
-Since PasskeyMe uses OAuth-style authentication, implement a refresh strategy:
+Since Passkeyme uses OAuth-style authentication, implement a refresh strategy:
 
 ```javascript
 class TokenManager extends SecureTokenStorage {
@@ -281,7 +281,7 @@ class TokenManager extends SecureTokenStorage {
   }
   
   async performTokenRefresh() {
-    // For PasskeyMe, we need to re-authenticate
+    // For Passkeyme, we need to re-authenticate
     // This could involve silent OAuth or passkey re-authentication
     
     const currentUser = this.getUser();

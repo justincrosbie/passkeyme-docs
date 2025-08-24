@@ -2,12 +2,12 @@
 id: overview
 title: SDK Overview
 sidebar_label: Overview
-description: Choose the right PasskeyMe SDK for your application
+description: Choose the right Passkeyme SDK for your application
 ---
 
 # 🛠️ SDK Overview
 
-PasskeyMe provides modern, framework-specific SDKs with **inline authentication components** for React and hosted authentication pages for other frameworks. Choose the approach that best fits your application.
+Passkeyme provides modern, framework-specific SDKs with **inline authentication components** for React and hosted authentication pages for other frameworks. Choose the approach that best fits your application.
 
 ## 🎯 Two Integration Approaches
 
@@ -19,7 +19,7 @@ Embed authentication directly in your React application with the `PasskeymeAuthP
 - **� Responsive** - Adapts to your application's design
 
 ### Hosted Authentication Pages (All Frameworks)
-Redirect users to PasskeyMe's hosted authentication pages:
+Redirect users to Passkeyme's hosted authentication pages:
 - **🚀 Zero maintenance** - We handle UI updates and security patches
 - **� Enhanced security** - OAuth secrets never exposed to clients
 - **🌍 Multi-language support** - Localized authentication pages
@@ -136,7 +136,7 @@ auth.redirectToLogin();
 All SDKs follow the same secure authentication pattern:
 
 1. **Initiate Login** - User clicks login in your app
-2. **Redirect to PasskeyMe** - SDK redirects to hosted auth page
+2. **Redirect to Passkeyme** - SDK redirects to hosted auth page
 3. **User Authenticates** - User completes authentication (passkeys, OAuth, password)
 4. **Return with Tokens** - User redirected back with secure JWT tokens
 5. **Authenticated State** - SDK manages tokens and provides user state
@@ -356,7 +356,7 @@ const auth = new PasskeymeAuth({
 // Before (Firebase)
 import { signInWithPopup, GoogleAuthProvider } from 'firebase/auth';
 
-// After (PasskeyMe)
+// After (Passkeyme)
 import { usePasskeyme } from '@passkeyme/react-auth';
 const { redirectToOAuth } = usePasskeyme();
 redirectToOAuth('google');
@@ -368,7 +368,7 @@ redirectToOAuth('google');
 import { useAuth0 } from '@auth0/auth0-react';
 const { loginWithRedirect } = useAuth0();
 
-// After (PasskeyMe)
+// After (Passkeyme)
 import { usePasskeyme } from '@passkeyme/react-auth';
 const { redirectToLogin } = usePasskeyme();
 ```
@@ -379,7 +379,7 @@ const { redirectToLogin } = usePasskeyme();
 import { supabase } from './supabase';
 await supabase.auth.signInWithOAuth({ provider: 'google' });
 
-// After (PasskeyMe)
+// After (Passkeyme)
 import { usePasskeyme } from '@passkeyme/react-auth';
 const { redirectToOAuth } = usePasskeyme();
 redirectToOAuth('google');
@@ -410,7 +410,7 @@ redirectToOAuth('google');
 ## 💬 Community & Support
 
 - **📖 Documentation** - Comprehensive guides and API reference
-- **💬 Discord Community** - Join other developers using PasskeyMe
+- **💬 Discord Community** - Join other developers using Passkeyme
 - **📧 Email Support** - Direct support from our team
 - **🐛 GitHub Issues** - Report bugs and request features
 - **📺 Video Tutorials** - Step-by-step integration guides

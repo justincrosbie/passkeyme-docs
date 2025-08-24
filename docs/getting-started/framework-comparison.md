@@ -2,12 +2,12 @@
 id: framework-comparison
 title: Framework Comparison Matrix
 sidebar_label: Framework Comparison
-description: Comprehensive comparison of PasskeyMe SDKs across different frameworks and platforms
+description: Comprehensive comparison of Passkeyme SDKs across different frameworks and platforms
 ---
 
 # 📊 Framework Comparison Matrix
 
-This comprehensive comparison helps you understand the capabilities, integration complexity, and current availability of PasskeyMe SDKs across different frameworks and platforms.
+This comprehensive comparison helps you understand the capabilities, integration complexity, and current availability of Passkeyme SDKs across different frameworks and platforms.
 
 ## 🎯 High-Level SDK Comparison
 
@@ -293,7 +293,7 @@ await smartLogin({
 
 ```mermaid
 timeline
-    title PasskeyMe SDK Evolution
+    title Passkeyme SDK Evolution
     
     section Now Available
         React SDK        : Production Ready

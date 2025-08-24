@@ -2,12 +2,12 @@
 sidebar_position: 8
 id: architecture
 title: Architecture Overview
-description: Detailed PasskeyMe architecture diagrams and integration patterns
+description: Detailed Passkeyme architecture diagrams and integration patterns
 ---
 
 # 🏗️ Architecture Overview
 
-Visual guide to PasskeyMe's architecture, integration patterns, and decision flows.
+Visual guide to Passkeyme's architecture, integration patterns, and decision flows.
 
 ## 🔄 SDK Hierarchy
 
@@ -33,7 +33,7 @@ graph TB
         I[Ionic Plugin] --> IA[Capacitor Bridge]
     end
     
-    subgraph "PasskeyMe Backend"
+    subgraph "Passkeyme Backend"
         J[Authentication API] --> JA[OAuth Providers]
         J --> JB[Passkey Registry]
         J --> JC[Token Management]
@@ -105,10 +105,10 @@ graph TB
     subgraph "Your Application"
         APP[Your App]
         COMPONENT[PasskeymeAuthPanel]
-        SDK[PasskeyMe SDK]
+        SDK[Passkeyme SDK]
     end
     
-    subgraph "PasskeyMe Platform"
+    subgraph "Passkeyme Platform"
         AUTH[Authentication API]
         OAUTH[OAuth Providers]
         REGISTRY[Passkey Registry]
@@ -152,7 +152,7 @@ sequenceDiagram
     participant U as User
     participant A as Your App
     participant P as PasskeymeAuthPanel
-    participant PM as PasskeyMe API
+    participant PM as Passkeyme API
     participant OP as OAuth Provider
     participant D as Device
 
@@ -195,7 +195,7 @@ graph LR
         PANEL --> HOME[Home Page]
     end
     
-    subgraph "PasskeyMe"
+    subgraph "Passkeyme"
         PANEL --> API[Authentication API]
     end
     
@@ -223,10 +223,10 @@ graph LR
 ```mermaid
 graph LR
     subgraph "Your App"
-        BTN[Login Button] --> REDIRECT[Redirect to PasskeyMe]
+        BTN[Login Button] --> REDIRECT[Redirect to Passkeyme]
     end
     
-    subgraph "PasskeyMe"
+    subgraph "Passkeyme"
         REDIRECT --> HOSTED[Hosted Auth Page]
         HOSTED --> CALLBACK[Callback to Your App]
     end
@@ -243,11 +243,11 @@ graph LR
 graph TB
     subgraph "Client Side"
         C1[Your Application]
-        C2[PasskeyMe SDK]
+        C2[Passkeyme SDK]
         C3[Device Authenticator]
     end
     
-    subgraph "PasskeyMe Platform"
+    subgraph "Passkeyme Platform"
         P1[API Gateway]
         P2[Authentication Service]
         P3[Passkey Registry]
@@ -323,11 +323,11 @@ graph TB
 
 ## 🔗 Related Documentation
 
-- **[Concepts](./concepts.md)** - Core PasskeyMe concepts
+- **[Concepts](./concepts.md)** - Core Passkeyme concepts
 - **[Choosing Your Approach](./choosing-approach.md)** - Integration decision guide
 - **[Framework Comparison](./framework-comparison.md)** - Feature comparison matrix
 - **[Glossary](../glossary.md)** - Terminology reference
 
 ---
 
-*These diagrams provide a visual overview of PasskeyMe's architecture and integration patterns. For implementation details, see the framework-specific documentation.*
+*These diagrams provide a visual overview of Passkeyme's architecture and integration patterns. For implementation details, see the framework-specific documentation.*

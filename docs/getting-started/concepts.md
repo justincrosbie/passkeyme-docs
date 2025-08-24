@@ -2,18 +2,18 @@
 id: concepts
 title: Core Concepts
 sidebar_label: Core Concepts
-description: Understand PasskeyMe's architecture and authentication flow
+description: Understand Passkeyme's architecture and authentication flow
 ---
 
 # 🧠 Core Concepts
 
-Understanding these fundamental concepts will help you make the most of PasskeyMe and implement authentication effectively.
+Understanding these fundamental concepts will help you make the most of Passkeyme and implement authentication effectively.
 
 ## Authentication Architecture
 
 ### Inline Components vs Hosted Pages
 
-PasskeyMe offers **two primary integration approaches** to fit different application needs:
+Passkeyme offers **two primary integration approaches** to fit different application needs:
 
 #### Inline Components (Recommended for React)
 - **`PasskeymeAuthPanel`** React component for embedded authentication
@@ -65,7 +65,7 @@ graph TB
 
 #### Hosted Pages Flow  
 1. **Initiation**: User clicks login in your app
-2. **Redirect**: User is redirected to PasskeyMe hosted page
+2. **Redirect**: User is redirected to Passkeyme hosted page
 3. **Authentication**: User completes authentication using their preferred method
 4. **Callback**: User is redirected back to your app with secure tokens
 5. **Session**: Your app uses JWT tokens for authenticated requests
@@ -98,7 +98,7 @@ graph TB
 
 **Configuration:**
 - Set up OAuth apps in provider dashboards
-- Configure redirect URIs in PasskeyMe dashboard
+- Configure redirect URIs in Passkeyme dashboard
 - OAuth secrets stored securely server-side (never exposed to clients)
 
 ### 🔑 Username/Password (Fallback)
@@ -194,7 +194,7 @@ interface User {
 ### OAuth Security
 
 **Server-side implementation:**
-- OAuth client secrets stored on PasskeyMe servers
+- OAuth client secrets stored on Passkeyme servers
 - Authorization code flow with PKCE
 - State parameter for CSRF protection
 - Nonce handling for OpenID Connect
@@ -261,9 +261,9 @@ interface User {
 
 ### From Password-Only Systems
 
-1. **Parallel authentication**: Keep existing login alongside PasskeyMe
+1. **Parallel authentication**: Keep existing login alongside Passkeyme
 2. **Gradual migration**: Encourage users to add passkeys
-3. **Account linking**: Connect existing accounts to PasskeyMe users
+3. **Account linking**: Connect existing accounts to Passkeyme users
 4. **Data migration**: Transfer user profiles and preferences
 
 ### From Other Auth Providers

@@ -2,13 +2,13 @@
 sidebar_position: 4
 id: hosted-auth
 title: Hosted Auth Pages
-description: Complete guide to PasskeyMe's hosted authentication pages - zero maintenance, enterprise security
+description: Complete guide to Passkeyme's hosted authentication pages - zero maintenance, enterprise security
 keywords: [passkeyme, hosted auth, authentication pages, oauth, passkeys]
 ---
 
 # Hosted Auth Pages 🚀
 
-PasskeyMe's **Hosted Auth Pages** provide a complete, zero-maintenance authentication solution. We handle the UI, security, and updates while you focus on building your application.
+Passkeyme's **Hosted Auth Pages** provide a complete, zero-maintenance authentication solution. We handle the UI, security, and updates while you focus on building your application.
 
 ## 🎯 **When to Use Hosted Auth**
 
@@ -26,16 +26,16 @@ Hosted Auth Pages are perfect for:
 sequenceDiagram
     participant User
     participant YourApp as Your Application
-    participant PasskeyMe as PasskeyMe Hosted Pages
+    participant Passkeyme as Passkeyme Hosted Pages
     participant Provider as OAuth Provider
 
     User->>YourApp: Click "Sign In"
-    YourApp->>PasskeyMe: Redirect to auth.passkeyme.com
-    PasskeyMe->>User: Show auth options
-    User->>PasskeyMe: Choose provider/passkey
-    PasskeyMe->>Provider: OAuth flow (if needed)
-    Provider->>PasskeyMe: User authenticated
-    PasskeyMe->>YourApp: Redirect with token
+    YourApp->>Passkeyme: Redirect to auth.passkeyme.com
+    Passkeyme->>User: Show auth options
+    User->>Passkeyme: Choose provider/passkey
+    Passkeyme->>Provider: OAuth flow (if needed)
+    Provider->>Passkeyme: User authenticated
+    Passkeyme->>YourApp: Redirect with token
     YourApp->>User: User logged in
 ```
 
@@ -43,7 +43,7 @@ sequenceDiagram
 
 ### 1. **Configure Your Application**
 
-First, set up your application in the PasskeyMe console:
+First, set up your application in the Passkeyme console:
 
 ```javascript
 // Application configuration
@@ -123,7 +123,7 @@ async function getUserInfo(token) {
 Customize the hosted pages to match your brand:
 
 ```javascript
-// Configure branding in PasskeyMe console
+// Configure branding in Passkeyme console
 const brandingConfig = {
   // Company branding
   companyName: 'Your Company',
@@ -468,7 +468,7 @@ Ready to implement Hosted Auth Pages? Here's your checklist:
 
 ### **✅ Setup Checklist**
 
-1. **Create PasskeyMe Account** - [Sign up at console.passkeyme.com](https://console.passkeyme.com)
+1. **Create Passkeyme Account** - [Sign up at console.passkeyme.com](https://console.passkeyme.com)
 2. **Configure Application** - Set up app ID, redirect URIs, and OAuth providers
 3. **Implement Redirect** - Add sign-in button that redirects to hosted auth
 4. **Handle Callback** - Process the authentication result
@@ -482,10 +482,10 @@ Ready to implement Hosted Auth Pages? Here's your checklist:
 <!DOCTYPE html>
 <html>
 <head>
-    <title>PasskeyMe Hosted Auth Example</title>
+    <title>Passkeyme Hosted Auth Example</title>
 </head>
 <body>
-    <button onclick="signIn()">Sign In with PasskeyMe</button>
+    <button onclick="signIn()">Sign In with Passkeyme</button>
     
     <script>
         function signIn() {

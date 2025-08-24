@@ -2,13 +2,13 @@
 id: configuration
 title: Configuration Guide
 sidebar_label: Configuration
-description: Complete configuration guide for PasskeyMe hosted authentication pages in the Admin Console
+description: Complete configuration guide for Passkeyme hosted authentication pages in the Admin Console
 keywords: [passkeyme, hosted auth, configuration, admin console, setup, oauth, branding]
 ---
 
 # ⚙️ **Configuration Setup**
 
-This guide walks you through configuring PasskeyMe's Hosted Authentication Pages in the Admin Console. All configuration is done through the web interface - no code changes required.
+This guide walks you through configuring Passkeyme's Hosted Authentication Pages in the Admin Console. All configuration is done through the web interface - no code changes required.
 
 :::warning Required First Step
 **The "Enable Hosted Authentication" toggle must be enabled** for hosted auth pages to work. Without this, authentication requests will be rejected.
@@ -16,9 +16,9 @@ This guide walks you through configuring PasskeyMe's Hosted Authentication Pages
 
 ## **1. Enable Hosted Authentication**
 
-Before using hosted auth pages, you must enable them in the PasskeyMe Admin Console:
+Before using hosted auth pages, you must enable them in the Passkeyme Admin Console:
 
-1. **Navigate to Application Settings**: Go to [Application Edit](https://passkeyme.com/application/edit) in your PasskeyMe console
+1. **Navigate to Application Settings**: Go to [Application Edit](https://passkeyme.com/application/edit) in your Passkeyme console
 2. **Enable Hosted Authentication**: Find the **"Enable Hosted Authentication"** toggle and turn it **ON**
 
 ![Enable Hosted Authentication Toggle](/img/hosted_config/hosted_auth_config_general.png)

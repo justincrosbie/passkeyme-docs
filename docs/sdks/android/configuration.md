@@ -22,7 +22,7 @@ Both must be configured correctly for passkeys to function.
 
 Before implementing Android passkeys, complete these steps:
 
-- [ ] Create PasskeyMe Application with proper configuration
+- [ ] Create Passkeyme Application with proper configuration
 - [ ] Install passkeyme-android-sdk into your Android app
 - [ ] Configure passkeyme-android-sdk with APP_ID and API-KEY
 - [ ] Sign your app and update build config with signingConfig
@@ -30,9 +30,9 @@ Before implementing Android passkeys, complete these steps:
 - [ ] Create Allowed Origin URL from SHA-256 fingerprint
 - [ ] Create and upload assetlinks.json to your website
 - [ ] Update AndroidManifest.xml to reference your domain
-- [ ] Update PasskeyMe Application with Android Allowed Origin
+- [ ] Update Passkeyme Application with Android Allowed Origin
 
-## **🏗️ Step 1: Create PasskeyMe Application**
+## **🏗️ Step 1: Create Passkeyme Application**
 
 ### **Application Configuration**
 Create an Application at [https://passkeyme.com](https://passkeyme.com/), making sure to populate the Relying Party and Origin info correctly:
@@ -42,7 +42,7 @@ Create an Application at [https://passkeyme.com](https://passkeyme.com/), making
 - **Additional Allowed Origin**: Android origin (see Step 4 below)
 
 :::info Why This Matters
-The PasskeyMe server needs to know which origins (domains and Android apps) are authorized to create and use passkeys for your application.
+The Passkeyme server needs to know which origins (domains and Android apps) are authorized to create and use passkeys for your application.
 :::
 
 ## **🔑 Step 2: Generate App Signing Key**
@@ -246,10 +246,10 @@ In `res/values/strings.xml`:
 
 This tells Android where to find your assetlinks.json file.
 
-## **⚙️ Step 7: Update PasskeyMe Application Configuration**
+## **⚙️ Step 7: Update Passkeyme Application Configuration**
 
 ### **Add Android Allowed Origin**
-1. Go to your [PasskeyMe Application settings](https://passkeyme.com/application/edit)
+1. Go to your [Passkeyme Application settings](https://passkeyme.com/application/edit)
 2. Find **"Additional Allowed Origins"** section
 3. Add your Android origin URL:
    ```
@@ -257,7 +257,7 @@ This tells Android where to find your assetlinks.json file.
    ```
 
 ### **Complete Configuration Example**
-Your PasskeyMe Application should have:
+Your Passkeyme Application should have:
 - **Relying Party ID**: `yourdomain.com`
 - **Origin**: `https://yourdomain.com`
 - **Additional Allowed Origins**: 
@@ -269,7 +269,7 @@ Your PasskeyMe Application should have:
 - [ ] **assetlinks.json** is accessible at `https://yourdomain.com/.well-known/assetlinks.json`
 - [ ] **SHA-256 fingerprint** matches between assetlinks.json and keystore
 - [ ] **Package name** matches in assetlinks.json and AndroidManifest.xml
-- [ ] **Android origin** is correctly formatted and added to PasskeyMe
+- [ ] **Android origin** is correctly formatted and added to Passkeyme
 - [ ] **App is signed** with the correct keystore
 - [ ] **Deep link intent filter** is properly configured
 
@@ -305,7 +305,7 @@ adb shell pm get-app-links com.example.yourapp
 **❌ "Invalid origin in authentication request"**
 - Verify Android origin URL is correctly formatted
 - Check Base64URL encoding (not regular Base64)
-- Ensure origin is added to PasskeyMe Application
+- Ensure origin is added to Passkeyme Application
 
 **❌ "Passkey creation failed"**
 - Verify app is signed with the correct keystore

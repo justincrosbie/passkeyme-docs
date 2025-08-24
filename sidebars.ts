@@ -1,7 +1,7 @@
 import type {SidebarsConfig} from '@docusaurus/plugin-content-docs';
 
 /**
- * PasskeyMe Documentation Sidebar
+ * Passkeyme Documentation Sidebar
  * 
  * Organized for optimal developer experience:
  * - Progressive disclosure from welcome to advanced topics

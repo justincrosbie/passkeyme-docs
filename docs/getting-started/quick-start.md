@@ -1,6 +1,6 @@
 # 🚀 Quick Start Guide
 
-Get PasskeyMe integrated into your React application in under 10 minutes with our inline authentication components.
+Get Passkeyme integrated into your React application in under 10 minutes with our inline authentication components.
 
 ## Choose Your Framework
 
@@ -62,7 +62,7 @@ npm install @passkeyme/react-auth @passkeyme/auth
 
 ### Step 2: Get Your App ID
 
-1. Sign up at [PasskeyMe Dashboard](https://dashboard.passkeyme.com)
+1. Sign up at [Passkeyme Dashboard](https://dashboard.passkeyme.com)
 2. Create a new application
 3. Copy your **App ID** from the dashboard
 4. Configure your **redirect URIs** (e.g., `http://localhost:3000`)

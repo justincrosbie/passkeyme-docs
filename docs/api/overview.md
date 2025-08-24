@@ -2,12 +2,12 @@
 sidebar_position: 1
 id: api-overview
 title: API Documentation Overview
-description: PasskeyMe REST API integration guide and when to use direct API vs SDKs
+description: Passkeyme REST API integration guide and when to use direct API vs SDKs
 ---
 
 # API Documentation Overview
 
-PasskeyMe provides a comprehensive REST API alongside our framework-specific SDKs. This section helps you understand when to use the API directly versus using our SDKs, and provides integration examples for direct API usage.
+Passkeyme provides a comprehensive REST API alongside our framework-specific SDKs. This section helps you understand when to use the API directly versus using our SDKs, and provides integration examples for direct API usage.
 
 ## 🔗 Complete API Reference
 
@@ -52,7 +52,7 @@ Redirect users to OAuth provider (Google, GitHub, Facebook) for authentication.
 
 ### 3. Token Verification
 ```http
-GET /api/auth/verify-token?token={jwt_token}&app_id={app_id}
+GET /auth/verify-token?token={jwt_token}&app_id={app_id}
 ```
 
 Verify JWT tokens received from authentication callbacks.
@@ -89,7 +89,7 @@ class PasskeymeApi {
 
   async verifyToken(token) {
     const response = await fetch(
-      `${this.baseUrl}/api/auth/verify-token?token=${token}&app_id=${this.appId}`
+      `${this.baseUrl}/auth/verify-token?token=${token}&app_id=${this.appId}`
     );
     return response.json();
   }
@@ -111,7 +111,7 @@ const jwt = require('jsonwebtoken');
 
 const app = express();
 
-// Middleware to verify PasskeyMe tokens
+// Middleware to verify Passkeyme tokens
 const verifyPasskeymeToken = async (req, res, next) => {
   const token = req.headers.authorization?.replace('Bearer ', '');
   
@@ -120,7 +120,7 @@ const verifyPasskeymeToken = async (req, res, next) => {
   }
 
   try {
-    // Verify with PasskeyMe API
+    // Verify with Passkeyme API
     const response = await fetch(
       `https://api.passkeyme.com/auth/verify-token?token=${token}&app_id=${process.env.PASSKEYME_APP_ID}`
     );
@@ -163,7 +163,7 @@ class PasskeymeClient:
     
     def verify_token(self, token):
         response = requests.get(
-            f"{self.base_url}/api/auth/verify-token",
+            f"{self.base_url}/auth/verify-token",
             params={"token": token, "app_id": self.app_id}
         )
         return response.json()
@@ -205,7 +205,7 @@ def protected():
 ## 🔑 Token Management
 
 ### JWT Token Structure
-PasskeyMe returns standard JWT tokens with the following claims:
+Passkeyme returns standard JWT tokens with the following claims:
 
 ```json
 {

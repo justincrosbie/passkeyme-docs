@@ -2,13 +2,13 @@
 id: security
 title: Security & Best Practices
 sidebar_label: Security
-description: Essential security considerations and best practices for PasskeyMe hosted authentication pages
+description: Essential security considerations and best practices for Passkeyme hosted authentication pages
 keywords: [passkeyme, hosted auth, security, best practices, csrf, https, tokens, validation]
 ---
 
 # 🔒 **Security & Best Practices**
 
-Security is paramount when implementing authentication. This guide covers essential security considerations and best practices for PasskeyMe's Hosted Authentication Pages.
+Security is paramount when implementing authentication. This guide covers essential security considerations and best practices for Passkeyme's Hosted Authentication Pages.
 
 :::warning Production Requirements
 All the security practices outlined here are **mandatory for production environments**. Skipping these can expose your application to serious security vulnerabilities.
@@ -25,7 +25,7 @@ Always whitelist your redirect URIs in the Advanced configuration to prevent red
 
 ### **Configuration Requirements**
 ```javascript
-// In PasskeyMe Admin Console - Advanced Configuration
+// In Passkeyme Admin Console - Advanced Configuration
 const secureRedirectConfig = {
   allowedRedirectUris: [
     'https://yourapp.com/auth/callback',     // Production
@@ -366,7 +366,7 @@ Before deploying to production, verify:
 :::tip Security Resources
 - [OWASP Authentication Cheat Sheet](https://cheatsheetseries.owasp.org/cheatsheets/Authentication_Cheat_Sheet.html)
 - [OAuth 2.0 Security Best Practices](https://datatracker.ietf.org/doc/html/draft-ietf-oauth-security-topics)
-- PasskeyMe Security Documentation
+- Passkeyme Security Documentation
 :::
 
 ## **9. Common Security Vulnerabilities**

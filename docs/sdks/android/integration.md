@@ -8,7 +8,7 @@ keywords: [android, sdk, integration, passkey, webauthn, kotlin, jetpack compose
 
 # 📱 **SDK Integration**
 
-This guide shows you how to integrate the PasskeyMe Android SDK into your application with complete code examples for both Jetpack Compose and traditional View systems.
+This guide shows you how to integrate the Passkeyme Android SDK into your application with complete code examples for both Jetpack Compose and traditional View systems.
 
 :::tip Prerequisites
 Before integrating the SDK, ensure you have completed the [Configuration & Setup](/docs/sdks/android/configuration) guide. Proper Digital Asset Links configuration is required for passkeys to work.
@@ -51,7 +51,7 @@ Add to your `AndroidManifest.xml`:
 Add to your `proguard-rules.pro`:
 
 ```proguard
-# PasskeyMe SDK
+# Passkeyme SDK
 -keep class com.passkeyme.android.** { *; }
 
 # AndroidX Credentials

@@ -45,7 +45,7 @@ function LoginPage() {
         enablePasskeys={true}
         layout="vertical"
         spacing="normal"
-        title="Welcome to PasskeyMe"
+        title="Welcome to Passkeyme"
         subtitle="Experience seamless authentication"
         passkeyButtonText="🚀 Sign in with Passkey"
         dividerText="or choose your provider"
@@ -72,7 +72,7 @@ function LoginPage() {
 
 | Prop | Type | Description |
 |------|------|-------------|
-| `appId` | `string` | Your PasskeyMe application ID |
+| `appId` | `string` | Your Passkeyme application ID |
 
 ### **Event Handlers**
 
@@ -109,7 +109,7 @@ function LoginPage() {
 
 | Prop | Type | Default | Description |
 |------|------|---------|-------------|
-| `title` | `string` | `'Welcome to PasskeyMe'` | Panel title |
+| `title` | `string` | `'Welcome to Passkeyme'` | Panel title |
 | `subtitle` | `string` | `'Experience seamless authentication'` | Panel subtitle |
 | `passkeyButtonText` | `string` | `'🚀 Sign in with Passkey'` | Passkey button text |
 | `dividerText` | `string` | `'or choose your provider'` | Divider text between auth methods |

@@ -239,13 +239,13 @@ export default function FrameworkSelector(): JSX.Element {
   return (
     <Layout
       title="Choose Your Framework"
-      description="Select the best PasskeyMe SDK for your framework and get started quickly"
+      description="Select the best Passkeyme SDK for your framework and get started quickly"
     >
       <div className={styles.container}>
         <header className={styles.header}>
           <h1>🎯 Choose Your Framework</h1>
           <p className={styles.subtitle}>
-            Select the best PasskeyMe integration for your project and start building 
+            Select the best Passkeyme integration for your project and start building 
             passwordless authentication in minutes.
           </p>
         </header>
